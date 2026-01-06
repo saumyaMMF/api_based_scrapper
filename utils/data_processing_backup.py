@@ -24,7 +24,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 
 # Add your email configuration import here
-# import mail_cfg
+import mail_cfg
 
 # Google Drive scopes
 SCOPES = ['https://www.googleapis.com/auth/drive.file']
@@ -669,10 +669,10 @@ class DataProcessor:
         
         try:
             # Replace with your actual mail config
-            # self.sender_user = mail_cfg.user
-            # self.sender_pw = mail_cfg.pw
+            self.sender_user = mail_cfg.user
+            self.sender_pw = mail_cfg.pw
             sender_email = self.sender_user
-            # receiver = mail_cfg.receiver if mail_to_prod else mail_cfg.receiver_test
+            receiver = mail_cfg.receiver if mail_to_prod else mail_cfg.receiver_test
             subject = "Rhize Cannabis Company - Change"
             body = f"Hi<br><br>Please find below the changes to the product for Rhize Cannabis Company:<br>{html}<br><br>Menu Scraping Team"
         except Exception as e:
@@ -681,7 +681,7 @@ class DataProcessor:
         
         self.message = EmailMessage()
         self.message["From"] = f"{self.sender_name}<{sender_email}>"
-        # self.message["To"] = receiver
+        self.message["To"] = receiver
         self.message["Subject"] = subject
         self.message.set_content(body, 'html')
 
@@ -749,10 +749,10 @@ class DataProcessor:
         print("\n-->Start sending log email notification")
         
         try:
-            # self.sender_user = mail_cfg.user
-            # self.sender_pw = mail_cfg.pw
+            self.sender_user = mail_cfg.user
+            self.sender_pw = mail_cfg.pw
             sender_email = self.sender_user
-            # receiver = mail_cfg.receiver if mail_to_prod else mail_cfg.receiver_test
+            receiver = mail_cfg.receiver if mail_to_prod else mail_cfg.receiver_test
             subject = "Rhize Cannabis Company - Scraping Log"
             body = f"Hi<br><br>Please find attached the scraping log for Rhize Cannabis Company.<br><br>Menu Scraping Team"
         except Exception as e:

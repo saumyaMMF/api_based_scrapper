@@ -25,12 +25,16 @@ from google.auth.transport.requests import Request
 from glob import glob
 import re
 from decimal import Decimal, getcontext, ROUND_HALF_UP
+from utils.df_to_db_upload import upload_dataframe,align_to_rhize_main_schema
+# import sys
+# from pathlib import Path
+# # Add project root (parent folder of utils/) to import path
+# ROOT_DIR = Path(__file__).resolve().parent.parent
+# sys.path.append(str(ROOT_DIR))
+
 # Add your email configuration import here
 import mail_cfg
-from utils.df_to_db_upload import upload_dataframe
-from dotenv import load_dotenv
-
-load_dotenv()
+print(f"mail_cfg loaded: {mail_cfg.user}")
 
 # Google Drive scopes
 SCOPES = ['https://www.googleapis.com/auth/drive.file']
@@ -174,6 +178,8 @@ class DataProcessor:
                                 "Internal Product Name": item.get("Internal Product Name", ""),
                                 "Internal Product Type": item.get("Internal Product Type", "")
                             }
+                else:
+                    continue
 
                 for sku in today_products:
                     if sku in yesterday_products:
@@ -188,7 +194,7 @@ class DataProcessor:
 
                 with open(json_file, 'w', encoding='utf-8') as f:
                     json.dump(data, f, indent=2, ensure_ascii=False)
-                print(f"✅ Updated 'Days on Shelf' values saved back to: {json_file}")
+                print(f" Updated 'Days on Shelf' values saved back to: {json_file}")
                 logging.info(f"Updated JSON file with new Days on Shelf values: {json_file}")
 
                 added_products = []
@@ -276,28 +282,30 @@ class DataProcessor:
                             "Quantity History": quantity_history.get("Per Unit", {})
                         })
                     else:
-                        quantity_history = self.get_recent_quantity_snapshots(data, sku, today)
-                        excel_data.append({
-                            "Company Name": company_name,
-                            "SKU": sku,
-                            "Product name": today_products[sku]['Product name'],
-                            "THC": today_products[sku]["THC"],
-                            "Details": today_products[sku],
-                            "Price": today_products[sku]["Price"],
-                            "Discount Price": today_products[sku].get("Discount Price", {}),
-                            "Quantity Available": today_products[sku]["Quantity Available"],
-                            "Quantity Per Option": today_products[sku]["Quantity Per Option"],
-                            "1d": quantity_history["1d"],                 # NEW
-                            "3 Days": quantity_history["3 Days"],
-                            "7 Days": quantity_history["7 Days"],
-                            "14+": quantity_history["14+"],
-                            "Prev": quantity_history["Prev"],   # 👈 NEW
-                            "Internal Product Name": today_products[sku]["Internal Product Name"],
-                            "Internal Product Type": today_products[sku]["Internal Product Type"],
-                            "Days on Shelf": today_products[sku]["Days on Shelf"],
-                            "Flag": "No Change",
-                            "Quantity History": quantity_history.get("Per Unit", {})
-                        })
+                        # Only add "No Change" row if price hasn't changed
+                        if sku not in yesterday_products or yesterday_products[sku]["Price"] == today_products[sku]["Price"]:
+                            quantity_history = self.get_recent_quantity_snapshots(data, sku, today)
+                            excel_data.append({
+                                "Company Name": company_name,
+                                "SKU": sku,
+                                "Product name": today_products[sku]['Product name'],
+                                "THC": today_products[sku]["THC"],
+                                "Details": today_products[sku],
+                                "Price": today_products[sku]["Price"],
+                                "Discount Price": today_products[sku].get("Discount Price", {}),
+                                "Quantity Available": today_products[sku]["Quantity Available"],
+                                "Quantity Per Option": today_products[sku]["Quantity Per Option"],
+                                "1d": quantity_history["1d"],                 # NEW
+                                "3 Days": quantity_history["3 Days"],
+                                "7 Days": quantity_history["7 Days"],
+                                "14+": quantity_history["14+"],
+                                "Prev": quantity_history["Prev"],   # 👈 NEW
+                                "Internal Product Name": today_products[sku]["Internal Product Name"],
+                                "Internal Product Type": today_products[sku]["Internal Product Type"],
+                                "Days on Shelf": today_products[sku]["Days on Shelf"],
+                                "Flag": "No Change",
+                                "Quantity History": quantity_history.get("Per Unit", {})
+                            })
 
                 # UPDATED
                 for sku in yesterday_products:
@@ -315,6 +323,7 @@ class DataProcessor:
                                 "changes": diff
                             })
 
+                            quantity_history = self.get_recent_quantity_snapshots(data, sku, today)
                             excel_data.append({
                                 "Company Name": company_name,
                                 "SKU": sku,
@@ -322,8 +331,19 @@ class DataProcessor:
                                 "THC": today_products[sku]["THC"],
                                 "Details": diff,
                                 "Price": today_products[sku]["Price"],
+                                "Discount Price": today_products[sku].get("Discount Price", {}),
+                                "Quantity Available": today_products[sku]["Quantity Available"],
+                                "Quantity Per Option": today_products[sku]["Quantity Per Option"],
+                                "1d": quantity_history["1d"],
+                                "3 Days": quantity_history["3 Days"],
+                                "7 Days": quantity_history["7 Days"],
+                                "14+": quantity_history["14+"],
+                                "Prev": quantity_history["Prev"],
+                                "Internal Product Name": today_products[sku]["Internal Product Name"],
+                                "Internal Product Type": today_products[sku]["Internal Product Type"],
                                 "Days on Shelf": today_products[sku]["Days on Shelf"],
-                                "Flag": "Updated"
+                                "Flag": "Updated",
+                                "Quantity History": quantity_history.get("Per Unit", {})
                             })
 
                 if excel_data:
@@ -751,21 +771,21 @@ class DataProcessor:
 
         return u
 
-    def generate_flagged_xlsx(self, folder_path: str, today_date: str):
+    def generate_flagged_xlsx(self, folder_path: str, today_date: str, mail_to_prod: bool = True):
         """Generate comprehensive Excel file using data from previously generated Excel files in notification_excel/"""
         try:
             project_root = Path(__file__).resolve().parent.parent  # go up TWO levels
             comparison_dir = (Path(folder_path) if Path(folder_path).is_absolute() else project_root / folder_path).resolve()
-
+ 
             all_files = list(comparison_dir.glob("*.*"))
             excel_files = [f for f in all_files if f.name.startswith("db_") and f.name.endswith("_product_comparison.xlsx")]
             print(f"Excel files being processed............")
             if not excel_files:
                 print("No .xlsx files found.")
                 return None
-
+ 
             expanded_rows = []
-
+ 
             for file in excel_files:
                 try:
                     df = pd.read_excel(file)
@@ -835,7 +855,7 @@ class DataProcessor:
                         for entry in filtered_entries:
                             unit = entry['Unit']
                             quantity_for_unit = quantity_lookup.get(unit, product.get("Quantity Available", 0))
-
+ 
                             # --- keep this helper near the top of the loop (or define once above) ---
                             def _to_int_safe(x, default=0):
                                 try:
@@ -847,13 +867,13 @@ class DataProcessor:
                                     return int(float(x))
                                 except Exception:
                                     return default
-
+ 
                         # unit-specific values with fallback to numeric/scalar if the cell wasn't a dict
                             def _pick(v_map, fallback):
                                 # make fallback a number if it's a dict like {'each': 23}
                                 if isinstance(fallback, dict):
                                     fallback = next(iter(fallback.values()), 0)
-
+ 
                                 if isinstance(v_map, dict):
                                     # prefer the row's unit; else fall back to 'each' or first value
                                     val = v_map.get(unit)
@@ -866,30 +886,30 @@ class DataProcessor:
                                             return int(float(val))
                                         except Exception:
                                             return fallback if isinstance(fallback, (int, float)) else 0
-
+ 
                                 # if not a dict, return numeric fallback or 0
                                 return fallback if isinstance(fallback, (int, float)) else 0
-                            
+                           
                             quantity_history = {
                                 "1d":   _pick(d1_map,  quantity_for_unit),  # NEW
                                 "3 Days": _pick(d3_map,    product.get("3 Days", 0)),
                                 "7 Days": _pick(d7_map,    product.get("7 Days", 0)),
                                 "14+":   _pick(d14_map,    product.get("14+", 0)),
-                                
+                               
                             }
                             prev_for_unit = _pick(prev_map, product.get("Quantity Available", 0))
                             # then do safe math (with deli/bulk rule + revenue logic)
                             current_qty = _to_int_safe(quantity_history["1d"], 0)
                             prev_qty    = _to_int_safe(prev_for_unit, 0)
-
+ 
                             # raw change (today - yesterday)
                             change_qty = float(current_qty - prev_qty)
-
+ 
                             # deli/bulk normalization: look at product name (fallback to Product Name)
                             name_col_val = (product.get("Product name") or product.get("Product Name") or "")
                             if re.search(r"(deli|bulk)", str(name_col_val), flags=re.IGNORECASE):
                                 change_qty = change_qty / 3.5
-
+ 
                             # price may be a string like "$35"; coerce safely
                             def _to_number(x, default=0.0):
                                 if isinstance(x, (int, float, np.number)):
@@ -901,21 +921,21 @@ class DataProcessor:
                                     except Exception:
                                         return default
                                 return default
-
+ 
                             unit_price = _to_number(entry.get('Price Value', 0), 0.0)
-
+ 
                             # Revenue: if Change < 0 -> units sold -> -Change * Price
                             #          else (restock/positive change) -> -Change * Price * 0.40
                             revenue = (-change_qty * unit_price) if (change_qty < 0) else (-change_qty * unit_price * 0.40)
-
+ 
                             # rounding
                             change_qty = round(change_qty, 3)   # keep 3 dp for 1/8 conversions
                             revenue    = round(revenue, 2)
-
+ 
                             # treat Flower Jar / Flower Bulk as total-based items OR when QPO is empty
                             ptype = str(product.get("Internal Product Type", "")).strip().lower()
                             is_flower_total = ptype in ("flower jar", "flower bulk")
-
+ 
                             if (not quantity_lookup) or is_flower_total:
                                 try:
                                     total_qty_all_units = int(product.get("Quantity Available", 0) or 0)
@@ -934,7 +954,7 @@ class DataProcessor:
                                         except Exception:
                                             return 0
                                 total_qty_all_units = _sum_qty(quantity_lookup)
-
+ 
                             new_row = {
                                 'Company Name': product.get("Company Name", ""),
                                 'Product name': product.get("Product name", ""),
@@ -962,46 +982,45 @@ class DataProcessor:
                                 'Price': entry['Price Value'],
                                 'Details': product.get("Details", "")
                             }
-
+ 
                             # Assign fixed naming logic (no json_match used anymore)
                             new_row['Product Name'] = str(product.get("Internal Product Name", "")).strip()
                             new_row['Product name'] = str(product.get("Product name", "")).strip()
                             new_row['Product Type'] = str(product.get("Internal Product Type", "")).strip()
-                            
-
+ 
                             expanded_rows.append(new_row)
-
+ 
                 except Exception as e:
                     logging.warning(f"Skipping file {file.name}: {e}")
-
+ 
             if not expanded_rows:
                 print("No valid rows found")
                 return None
-
+ 
             # Create DataFrame
             final_df = pd.DataFrame(expanded_rows)
-
+ 
             # Insert Category column based on Product Type
             final_df['Category'] = final_df['Product Type'].apply(self.get_category)
-
+ 
             # Reorder columns
             desired_column_order = [
                 'Company Name', 'Product Name', 'Category', 'Product Type',
                 'Days on Shelf', 'Flag', 'Unit', 'Price', 'Discount Price Data', "Today's Quantity Total",'1d', '3d', '7d', '14d',
                 'THC','SKU','Change','Revenue',
             ]
-
+ 
             for col in desired_column_order:
                 if col not in final_df.columns:
                     final_df[col] = ''
-
+ 
             final_df = final_df[desired_column_order]
             # final_df['Unit'] = final_df['Unit'].replace('each', '1g')
             final_df['Unit'] = final_df['Unit'].apply(self.normalize_unit_string)
-
+ 
             # Group by product name and company
             grouped_df = self.product_name_and_company_grouping(final_df)
-
+ 
             # Replace product type names
             final_df['Product Type'] = final_df['Product Type'].replace({
                 'Rosin Jar': 'Jar',
@@ -1009,7 +1028,7 @@ class DataProcessor:
                 'Flower Bulk': 'Bulk',
                 'Flower Bulk(Shake)': 'Bulk Shake'
             })
-
+ 
             # Rename columns
             final_df.rename(columns={
                 'Product Type': 'Type',
@@ -1018,27 +1037,27 @@ class DataProcessor:
                 # 'Price': 'Price Value'
                 'Price': 'Price'
             }, inplace=True)
-
+ 
             if 'Normalized Product Type' in final_df.columns:
                 final_df.drop(columns=['Normalized Product Type'], inplace=True)
             # Remove Details and Price Value
             cols_to_drop = ['Details', 'Price Data']
             final_df.drop(columns=[c for c in cols_to_drop if c in final_df.columns], inplace=True)
-
+ 
             # ---- Row sorting (Type alphabetical) ----
             # Ensure data types & null-safe strings
             final_df['Days'] = pd.to_numeric(final_df.get('Days'), errors='coerce').fillna(0).astype(int)
             for col in ['Company Name', 'Category', 'Type', 'Product Name', 'SKU']:
                 if col in final_df.columns:
                     final_df[col] = final_df[col].fillna('')
-
+ 
             # Sheet1 sort: Company, Category, Type (alphabetical), Days (desc), ties by Product Name, SKU
             final_df = final_df.sort_values(
                 by=['Company Name', 'Category', 'Type', 'Days', 'Product Name', 'SKU'],
                 ascending=[True, True, True, False, True, True],
                 kind='mergesort'  # stable
             )
-
+ 
             # store sheet sort (no Days): Company, Category, Type (alphabetical), Product Name
             for col in ['Company Name', 'Category', 'Type', 'Product Name']:
                 if col in grouped_df.columns:
@@ -1048,7 +1067,7 @@ class DataProcessor:
                 ascending=[True, True, True, True],
                 kind='mergesort'
             )
-
+ 
             # removed sheet sort (same order as Sheet1)
             removed_df = final_df[final_df['Flag'] == 'Removed'].copy()
             removed_df = removed_df.sort_values(
@@ -1056,35 +1075,55 @@ class DataProcessor:
                 ascending=[True, True, True, False, True, True],
                 kind='mergesort'
             )
-
+ 
             # Create current_inventory directory
             project_root = Path(__file__).resolve().parent.parent
             current_inventory_dir = project_root / "current_inventory"
             current_inventory_dir.mkdir(parents=True, exist_ok=True)
-
+ 
             # Save to Excel on disk
             current_inventory_path = current_inventory_dir / f'current_inventory_{today_date}.xlsx'
-
+ 
             # --- Remove raw Product Type column from store sheet ---
             # grouped_df currently has both the raw type (Product Type/Internal Product Type) and the pretty 'Type'
             to_drop = [c for c in ['Product Type', 'Internal Product Type'] if c in grouped_df.columns]
             if to_drop:
                 grouped_df = grouped_df.drop(columns=to_drop)
-
+ 
             # (Optional) reorder columns for a cleaner store sheet
             preferred_order = ['Product Name', 'Category', 'Type', 'Company Name', 'SKU']
             existing_order = [c for c in preferred_order if c in grouped_df.columns]
             remaining = [c for c in grouped_df.columns if c not in existing_order]
             grouped_df = grouped_df[existing_order + remaining]
-
+ 
             # keep Revenue numeric for proper Excel currency formatting
             final_df['Revenue'] = pd.to_numeric(final_df['Revenue'], errors='coerce').fillna(0.0)
-
-            print(final_df.head(15))
-            # insert to the DB
-            table_name = os.getenv('db_table_name')
-            upload_dataframe(df=final_df, table_name=table_name)
-
+           
+            # ============================
+            # SANITIZE final_df FOR MYSQL
+            # ============================
+            final_df = final_df.astype(object)  # force all columns to object so NA becomes real Python None
+ 
+            final_df = final_df.replace({
+                pd.NA: None,
+                np.nan: None,
+                "<NA>": None,
+                "nan": None,
+                "NaN": None,
+                "None": None
+            })
+ 
+            # Convert any leftover bad numeric strings
+            for col in final_df.columns:
+                final_df[col] = final_df[col].apply(
+                    lambda x: None if (isinstance(x, str) and x.strip() in ["<NA>", "NaN", "nan", "None"]) else x
+                )
+ 
+            # Replace remaining NaN
+            final_df = final_df.where(pd.notnull(final_df), None)
+ 
+            print(f"final_df.columns :{final_df.columns}")
+ 
             with pd.ExcelWriter(current_inventory_path, engine='openpyxl') as writer:
                 final_df.to_excel(writer, sheet_name='Sheet1', index=False)
                 ws = writer.sheets['Sheet1']
@@ -1094,7 +1133,7 @@ class DataProcessor:
                 grouped_df.to_excel(writer, sheet_name='store', index=False)
                 if not removed_df.empty:
                     removed_df.to_excel(writer, sheet_name='Removed', index=False)
-
+ 
             # and mirror the same for the in-memory buffer:
             self.excel_buffer = BytesIO()
             with pd.ExcelWriter(self.excel_buffer, engine='openpyxl') as writer:
@@ -1108,20 +1147,48 @@ class DataProcessor:
                     removed_df.to_excel(writer, sheet_name='Removed', index=False)
             self.excel_buffer.seek(0)
 
-            # Upload to Google Drive
-            try:
-                drive_resp = self.upload_to_drive(current_inventory_path, '1DutUCylz5t_Fx0vK63wJaAegfq61s-Af')
-                print(f"Uploaded to Google Drive: {drive_resp}")
-                logging.info(f"Uploaded to Google Drive: {drive_resp}")
-            except Exception as e:
-                logging.error(f"Failed to upload to Google Drive: {e}")
+           
+            # Upload final_df (Sheet1)
+            if mail_to_prod:
+                print('DB insert begin')
+                table_name = os.getenv('db_table_name')
+                main_table = f"{table_name}_main"
+                print(f"table name :{main_table}")
+                final_df['date'] = today_date
+                df_upload = align_to_rhize_main_schema(final_df)
+                upload_dataframe(df=df_upload, table_name=main_table)
 
+                # Upload grouped_df (store)
+                store_table = f"{table_name}_store"
+                print(f"table name :{store_table}")
+                grouped_df['date'] = today_date
+                upload_dataframe(df=grouped_df, table_name=store_table)
+                 
+           
+                # Upload removed_table_df (only removed sheet)
+                removed_table = f"{table_name}_removed"
+                print(f"table name :{removed_table}")
+                print(removed_df.head())
+                df_upload = align_to_rhize_main_schema(removed_df)
+                upload_dataframe(df=df_upload, table_name=removed_table)
+
+                print("db insert end")
+ 
+                # Upload to Google Drive
+                try:
+                    drive_resp = self.upload_to_drive(current_inventory_path, '1DutUCylz5t_Fx0vK63wJaAegfq61s-Af')
+                    print(f"Uploaded to Google Drive: {drive_resp}")
+                    logging.info(f"Uploaded to Google Drive: {drive_resp}")
+                except Exception as e:
+                    logging.error(f"Failed to upload to Google Drive: {e}")
+ 
             return current_inventory_path
-
+ 
         except Exception as e:
             logging.error(f"Error generating flagged XLSX: {e}")
             return None
-        
+     
+ 
     def get_google_drive_credentials(self):
         """Get valid user credentials from storage"""
         creds = None
@@ -1280,6 +1347,7 @@ class DataProcessor:
             self.sender_user = mail_cfg.user
             self.sender_pw = mail_cfg.pw
             sender_email = self.sender_user
+            print(mail_cfg.receiver)
             receiver = mail_cfg.receiver if mail_to_prod else mail_cfg.receiver_test
             subject = "Rhize Cannabis Company - Scraping Log"
             body = f"Hi<br><br>Please find attached the scraping log for Rhize Cannabis Company.<br><br>Menu Scraping Team"
@@ -1330,6 +1398,7 @@ class DataProcessor:
         # Send the email
         print("-->Sending Log Notification ...")
         try:
+            print(f"Sender: {sender_email}, Receiver: {receiver}")
             with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=self.context) as smtp:
                 smtp.login(sender_email, self.sender_pw)
                 smtp.sendmail(sender_email, receiver, self.message.as_string())
@@ -1351,21 +1420,6 @@ def get_latest_products(data_dir: str = "data_base") -> Dict[str, List[Dict]]:
 def compare_with_yesterday(data_dir: str = "data_base") -> Dict[str, Any]:
     processor = DataProcessor()
     return processor.compare_with_yesterday(data_dir)
-
-def generate_combined_excel(data_dir: str = "data_base", output_dir: str = "reports"):
-    """Generate single comprehensive Excel file for all stores with multiple sheets"""
-    processor = DataProcessor()
-    today = datetime.now().strftime('%Y-%m-%d')
-    
-    # Use the new generate_flagged_xlsx method instead
-    excel_file = processor.generate_flagged_xlsx("notification_excel", today)
-    
-    if excel_file:
-        logging.info(f"Generated comprehensive Excel file: {excel_file}")
-        return excel_file
-    else:
-        logging.warning("Failed to generate Excel file")
-        return None
 
 def generate_comparison_excel(comparison_data: Dict[str, Any], output_dir: str = "reports"):
     """Generate comparison Excel report with SKU-based changes"""
@@ -1458,7 +1512,3 @@ def generate_comparison_excel(comparison_data: Dict[str, Any], output_dir: str =
         logging.error(f"Error generating comparison Excel: {e}")
         return None
 
-def update_main_excel_with_flags(comparison_data: Dict[str, Any], output_dir: str = "reports"):
-    """Update the main Excel file with flags and removed products sheet"""
-    # This is handled within generate_flagged_xlsx now
-    return None

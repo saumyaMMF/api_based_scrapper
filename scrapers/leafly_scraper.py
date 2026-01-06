@@ -189,11 +189,11 @@ def _extract_leafly_variants(product_data: Dict) -> tuple[Dict[str, str], Dict[s
             if display_qty and price is not None:
                 qty_key = str(display_qty).strip()
                 # Convert Leafly's cents → dollars
-                price_value = float(price) / 100 if price > 100 else float(price)
+                price_value = float(price)
                 discounted_value = None
 
                 if discounted_price_raw:  # direct discounted price in cents
-                    discounted_value = float(discounted_price_raw) / 100 if discounted_price_raw > 100 else float(discounted_price_raw)
+                    discounted_value = float(discounted_price_raw)
                 elif discount_amount:  # fallback if only discount amount available
                     if discount_type == "cent":
                         discounted_value = price_value - (float(discount_amount) / 100)

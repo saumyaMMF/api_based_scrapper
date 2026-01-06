@@ -56,7 +56,7 @@ def backfill_removed_products(start_date_str="2024-07-01", end_date_str=None):
                 all_backfilled.append(row)
 
     if all_backfilled:
-        print(f"✅ Found {len(all_backfilled)} backfill rows. Appending...")
+        print(f" Found {len(all_backfilled)} backfill rows. Appending...")
         processor.append_removed_products_log(all_backfilled, "__BACKFILL__")
     else:
         print("No backfill rows found.")

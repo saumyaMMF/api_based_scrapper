@@ -76,6 +76,7 @@ PRODUCT_NAME_PATTERNS = {
     "melted strawberries": "Melted Strawberries",
     "melted strawberry": "Melted Strawberries", 
     "melted strawberrys": "Melted Strawberries",
+    "melted stawberries": "Melted Strawberries",
     "black maple": "Black Maple",
     "honey banana": "Honey Banana",
     "strawberry guava": "Strawberry Guava",
@@ -124,11 +125,15 @@ PRODUCT_NAME_PATTERNS = {
     "raspberry": "Raspberry",
 
     "candied oranges": "Candied Oranges",
+    "candied orange": "Candied Oranges",
+
+    "lavender piff": "Lavender Piff",
+    "the hive": "The Hive",
 }
 
 # Additional aliases for common products (easy to add new ones)
 PRODUCT_ALIASES = {
-    "Melted Strawberries": ["melted strawberry", "melted strawberrys","melted straberries"],
+    "Melted Strawberries": ["melted strawberry", "melted strawberrys","melted straberries", "melted stawberries"],
     "Sherb Cream Pie": ["sherbet cream pie"],
     "Dulce de Uva": ["duce de uva"],  # typos
     "Eastside OG": ["eastsise og"],  # typos
@@ -174,6 +179,7 @@ BASE_PRODUCT_TYPES = {
     "Berry Fizz": "Flower Bulk",
     "G13 Skunk": "Flower Bulk",
     "Sour Diesel": "Flower Bulk",
+    "The Hive": "Flower Jar",
 }
 
 # Weight-based type overrides (weight -> {product_name: type})
@@ -659,7 +665,7 @@ def enhance_product_with_mapping(product: Dict[str, Any], company_name: str) -> 
     #     product["Internal Product Name"] = "Donkey Butter"
     #     product["Internal Product Type"] = "Preroll Multipack"
     #     product["SKU"] = "donkeybutter-flower-preroll-multipack"
-    #     return product  # ✅ prevents later mappings from overwriting
+    #     return product  #  prevents later mappings from overwriting
 
     product_name_lower = product.get("Product name", "").lower()
     category = product.get("Category", "").lower()
@@ -902,7 +908,7 @@ def enhance_product_with_mapping(product: Dict[str, Any], company_name: str) -> 
         product["Internal Product Name"] = "Deathstar"
         product["Internal Product Type"] = "Preroll Multipack"
         product["SKU"] = "deathstar-flower-preroll-multipack"
-        return product  # ✅ stop here so nothing overwrites it
+        return product  #  stop here so nothing overwrites it
 
     # Generate SKU
     sku = generate_sku(internal_name, internal_type, unit)
@@ -1112,3 +1118,29 @@ def load_config(config_file: str) -> List[Dict[str, Any]]:
     except json.JSONDecodeError as e:
         logging.error(f"Invalid JSON in configuration file: {e}")
         return []
+    
+# ----------------------
+# OZ → GRAMS converter
+# ----------------------
+OZ_TO_GRAM = 28.3495
+
+def convert_oz_to_grams(unit: str):
+    if not unit:
+        return None
+    u = unit.lower().replace(" ", "")
+    if not u.endswith("oz"):
+        return None
+
+    value = u.replace("oz", "")  # remove oz
+
+    try:
+        if "/" in value:
+            n, d = value.split("/")
+            oz_val = float(n) / float(d)
+        else:
+            oz_val = float(value)
+    except:
+        return None
+
+    grams = round(oz_val * OZ_TO_GRAM, 2)
+    return f"{grams}g"

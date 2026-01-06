@@ -220,6 +220,21 @@ def main():
         logger.info("Generating reports and sending notifications using your old functions...")
         
         try:
+            # Step 0: Clean up old comparison files before generating new ones
+            print(" Cleaning up old comparison files...")
+            comparison_dir = Path("notification_excel")
+            if comparison_dir.exists():
+                old_files = list(comparison_dir.glob("*_product_comparison.xlsx"))
+                for file in old_files:
+                    try:
+                        file.unlink()
+                        logger.info(f"Deleted old comparison file: {file.name}")
+                    except Exception as e:
+                        logger.error(f"Failed to delete {file.name}: {e}")
+                if old_files:
+                    print(f"   Cleaned up {len(old_files)} old comparison file(s)")
+                    logger.info(f"Cleaned up {len(old_files)} old comparison files")
+            
             # Step 1: Run comparison logic using your old function
             print(" Starting comparison_with_yesterday()...")
             note, comparison_data, removed_rows = data_processor.compare_with_yesterday("data_base")
@@ -240,7 +255,7 @@ def main():
             
             # Step 2: Generate the main Excel file using your old generate_flagged_xlsx function
             today_date = datetime.now().strftime('%Y-%m-%d')
-            excel_file = data_processor.generate_flagged_xlsx("notification_excel", today_date)
+            excel_file = data_processor.generate_flagged_xlsx("notification_excel", today_date, mail_to_prod=MAIL_TO_PROD)
             
             if excel_file:
                 print(f" Generated Excel using your old generate_flagged_xlsx function: {excel_file}")
