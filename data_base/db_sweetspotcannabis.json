@@ -1,0 +1,54 @@
+{
+  "2025-10-22": [
+    {
+      "Product name": "Moroccan Peaches [1g]",
+      "Category": "pre-roll",
+      "Brand": "Rhize Cannabis",
+      "Price": {
+        "each": "$18.00"
+      },
+      "Discount Price": {},
+      "THC": "22.8%",
+      "Quantity Available": 11,
+      "Quantity Per Option": {},
+      "Internal Product Name": "Moroccan Peaches",
+      "Internal Product Type": "Preroll",
+      "SKU": "moroccanpeaches-flower-preroll",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Sherb Cream Pie [1g]",
+      "Category": "pre-roll",
+      "Brand": "Rhize Cannabis",
+      "Price": {
+        "each": "$18.00"
+      },
+      "Discount Price": {},
+      "THC": "20.8%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {},
+      "Internal Product Name": "Sherb Cream Pie",
+      "Internal Product Type": "Preroll",
+      "SKU": "sherbcreampie-flower-preroll",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Black Maple",
+      "Category": "extract",
+      "Brand": "Rhize Cannabis",
+      "Price": {
+        "1g": "$96.00"
+      },
+      "Discount Price": {},
+      "THC": "60%",
+      "Quantity Available": 1,
+      "Quantity Per Option": {
+        "1g": 1
+      },
+      "Internal Product Name": "Black Maple",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "blackmaple-rosin-jar-1",
+      "Days on Shelf": 0
+    }
+  ]
+}
