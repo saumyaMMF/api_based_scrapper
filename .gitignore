@@ -11,6 +11,7 @@ token.pickle
 *.7z
 *.zip
 notification_excel/
+notification_excel_old/
 current_inventory
 vevn
 venv
@@ -19,3 +20,4 @@ reports/
 website_list_test.json
 current_inventory/
 removed_logs/
+data_base/
