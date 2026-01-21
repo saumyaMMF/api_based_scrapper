@@ -136,6 +136,10 @@ class DataProcessor:
                 with open(json_file, 'r', encoding='utf-8') as f:
                     data = json.load(f)
 
+                # Create composite keys (SKU + Product name) to handle duplicate SKUs
+                def get_composite_key(product):
+                    return f"{product.get('SKU', '')}|{product.get('Product name', '')}"
+                
                 yesterday_products = {}
                 today_products = {}
                 excel_data = []
@@ -147,15 +151,15 @@ class DataProcessor:
                     y_date = keys[-2]
                     if y_date in data:
                         for item in data[y_date]:
-                            sku = item.get("SKU", "")
-                            if sku:
-                                yesterday_products[sku] = {
+                            composite_key = get_composite_key(item)
+                            if composite_key:
+                                yesterday_products[composite_key] = {
                                     "Product name": item["Product name"],
                                     "Price": item["Price"],
                                     "Discount Price": item.get("Discount Price", {}),
                                     "Days on Shelf": item.get("Days on Shelf", 0),
                                     "THC": item.get("THC", "N/A"),
-                                    "SKU": sku,
+                                    "SKU": item.get("SKU", ""),
                                     "Quantity Available": item.get("Quantity Available", 0),
                                     "Quantity Per Option": item.get("Quantity Per Option", {}),
                                     "Internal Product Name": item.get("Internal Product Name", ""),
@@ -164,15 +168,15 @@ class DataProcessor:
 
                 if today in data:
                     for item in data[today]:
-                        sku = item.get("SKU", "")
-                        if sku:
-                            today_products[sku] = {
+                        composite_key = get_composite_key(item)
+                        if composite_key:
+                            today_products[composite_key] = {
                                 "Product name": item["Product name"],
                                 "Price": item["Price"],
                                 "Discount Price": item.get("Discount Price", {}),
                                 "Days on Shelf": item.get("Days on Shelf", 0),
                                 "THC": item.get("THC", "N/A"),
-                                "SKU": sku,
+                                "SKU": item.get("SKU", ""),
                                 "Quantity Available": item.get("Quantity Available", 0),
                                 "Quantity Per Option": item.get("Quantity Per Option", {}),
                                 "Internal Product Name": item.get("Internal Product Name", ""),
@@ -181,15 +185,15 @@ class DataProcessor:
                 else:
                     continue
 
-                for sku in today_products:
-                    if sku in yesterday_products:
+                for composite_key in today_products:
+                    if composite_key in yesterday_products:
                         shelf_life_days = (today_date - datetime.strptime(y_date, '%Y-%m-%d')).days
-                        today_products[sku]["Days on Shelf"] = shelf_life_days + yesterday_products[sku]["Days on Shelf"]
+                        today_products[composite_key]["Days on Shelf"] = shelf_life_days + yesterday_products[composite_key]["Days on Shelf"]
 
-                for sku in today_products:
+                for composite_key in today_products:
                     for entry in data[today]:
-                        if entry.get("SKU", "") == sku:
-                            entry["Days on Shelf"] = today_products[sku]["Days on Shelf"]
+                        if get_composite_key(entry) == composite_key:
+                            entry["Days on Shelf"] = today_products[composite_key]["Days on Shelf"]
                             break
 
                 with open(json_file, 'w', encoding='utf-8') as f:
@@ -205,26 +209,26 @@ class DataProcessor:
                 removed_keys = set(yesterday_products.keys()) - set(today_products.keys())
 
                 # REMOVED
-                for sku in yesterday_products:
-                    if sku not in today_products:
-                        print(f"-->Removed SKU: {sku}, Product: {yesterday_products[sku]['Product name']}, Details: {yesterday_products[sku]}")
-                        company_logs.append(f"--><b>Removed</b> SKU: {sku}, Product: {yesterday_products[sku]['Product name']}, <b>Details</b>: {yesterday_products[sku]}")
-                        product = yesterday_products[sku]
+                for composite_key in yesterday_products:
+                    if composite_key not in today_products:
+                        product = yesterday_products[composite_key]
+                        print(f"-->Removed SKU: {product['SKU']}, Product: {product['Product name']}, Details: {product}")
+                        company_logs.append(f"--><b>Removed</b> SKU: {product['SKU']}, Product: {product['Product name']}, <b>Details</b>: {product}")
                         removed_products.append({
-                            "key": sku,
-                            "sku": sku,
+                            "key": composite_key,
+                            "sku": product["SKU"],
                             "product_name": product.get("Product name", ""),
                             "price": product.get("Price", {}),
                             "quantity": product.get("Quantity Available", 0)
                         })
-                        quantity_history = self.get_recent_quantity_snapshots(data, sku, today)  # unchanged
+                        quantity_history = self.get_recent_quantity_snapshots(data, product["SKU"], today)  # unchanged
                         product["Company Name"] = company_name
                         product["Removed Date"] = today
                         removed_products_all.append(product)
 
                         excel_data.append({
                             "Company Name": company_name,
-                            "SKU": sku,
+                            "SKU": product["SKU"],
                             "Product name": product['Product name'],
                             "THC": product["THC"],
                             "Details": product,
@@ -245,24 +249,24 @@ class DataProcessor:
                         })
 
                 # ADDED
-                for sku in today_products:
-                    if sku not in yesterday_products:
-                        print(f"-->Added SKU: {sku}, Product: {today_products[sku]['Product name']}, Details: {today_products[sku]}")
-                        company_logs.append(f"--><b>Added</b> SKU: {sku}, Product: {today_products[sku]['Product name']}, <b>Details</b>: {today_products[sku]}")
-                        product = today_products[sku]
+                for composite_key in today_products:
+                    if composite_key not in yesterday_products:
+                        product = today_products[composite_key]
+                        print(f"-->Added SKU: {product['SKU']}, Product: {product['Product name']}, Details: {product}")
+                        company_logs.append(f"--><b>Added</b> SKU: {product['SKU']}, Product: {product['Product name']}, <b>Details</b>: {product}")
                         added_products.append({
-                            "key": sku,
-                            "sku": sku,
+                            "key": composite_key,
+                            "sku": product["SKU"],
                             "product_name": product.get("Product name", ""),
                             "price": product.get("Price", {}),
                             "quantity": product.get("Quantity Available", 0)
                         })
                         # NEW: clip history at 'yesterday' for brand-new SKUs so 3d/7d/14+ are 0
-                        quantity_history = self.get_recent_quantity_snapshots(data, sku, today, since_date=yesterday)
+                        quantity_history = self.get_recent_quantity_snapshots(data, product["SKU"], today, since_date=yesterday)
 
                         excel_data.append({
                             "Company Name": company_name,
-                            "SKU": sku,
+                            "SKU": product["SKU"],
                             "Product name": product['Product name'],
                             "THC": product["THC"],
                             "Details": product,
@@ -283,65 +287,66 @@ class DataProcessor:
                         })
                     else:
                         # Only add "No Change" row if price hasn't changed
-                        if sku not in yesterday_products or yesterday_products[sku]["Price"] == today_products[sku]["Price"]:
-                            quantity_history = self.get_recent_quantity_snapshots(data, sku, today)
+                        if composite_key not in yesterday_products or yesterday_products[composite_key]["Price"] == today_products[composite_key]["Price"]:
+                            product = today_products[composite_key]
+                            quantity_history = self.get_recent_quantity_snapshots(data, product["SKU"], today)
                             excel_data.append({
                                 "Company Name": company_name,
-                                "SKU": sku,
-                                "Product name": today_products[sku]['Product name'],
-                                "THC": today_products[sku]["THC"],
-                                "Details": today_products[sku],
-                                "Price": today_products[sku]["Price"],
-                                "Discount Price": today_products[sku].get("Discount Price", {}),
-                                "Quantity Available": today_products[sku]["Quantity Available"],
-                                "Quantity Per Option": today_products[sku]["Quantity Per Option"],
+                                "SKU": product["SKU"],
+                                "Product name": product['Product name'],
+                                "THC": product["THC"],
+                                "Details": product,
+                                "Price": product["Price"],
+                                "Discount Price": product.get("Discount Price", {}),
+                                "Quantity Available": product["Quantity Available"],
+                                "Quantity Per Option": product["Quantity Per Option"],
                                 "1d": quantity_history["1d"],                 # NEW
                                 "3 Days": quantity_history["3 Days"],
                                 "7 Days": quantity_history["7 Days"],
                                 "14+": quantity_history["14+"],
                                 "Prev": quantity_history["Prev"],   # 👈 NEW
-                                "Internal Product Name": today_products[sku]["Internal Product Name"],
-                                "Internal Product Type": today_products[sku]["Internal Product Type"],
-                                "Days on Shelf": today_products[sku]["Days on Shelf"],
+                                "Internal Product Name": product["Internal Product Name"],
+                                "Internal Product Type": product["Internal Product Type"],
+                                "Days on Shelf": product["Days on Shelf"],
                                 "Flag": "No Change",
                                 "Quantity History": quantity_history.get("Per Unit", {})
                             })
 
                 # UPDATED
-                for sku in yesterday_products:
-                    if sku in today_products:
-                        if yesterday_products[sku]["Price"] != today_products[sku]["Price"]:
-                            dict1 = yesterday_products[sku]
-                            dict2 = today_products[sku]
+                for composite_key in yesterday_products:
+                    if composite_key in today_products:
+                        if yesterday_products[composite_key]["Price"] != today_products[composite_key]["Price"]:
+                            dict1 = yesterday_products[composite_key]
+                            dict2 = today_products[composite_key]
                             diff = {key: (dict1.get(key), dict2.get(key)) for key in set(dict1.keys()) | set(dict2.keys()) if dict1.get(key) != dict2.get(key)}
-                            print(f"-->Updated SKU: {sku}, Product: {today_products[sku]['Product name']}, <b>Details</b>: {diff}")
-                            company_logs.append(f"--><b>Updated</b> SKU: {sku}, Product: {today_products[sku]['Product name']}, <b>Details</b>: {diff}")
+                            print(f"-->Updated SKU: {dict2['SKU']}, Product: {dict2['Product name']}, <b>Details</b>: {diff}")
+                            company_logs.append(f"--><b>Updated</b> SKU: {dict2['SKU']}, Product: {dict2['Product name']}, <b>Details</b>: {diff}")
                             updated_products.append({
-                                "key": sku,
-                                "sku": sku,
+                                "key": composite_key,
+                                "sku": dict2["SKU"],
                                 "product_name": dict2.get("Product name", ""),
                                 "changes": diff
                             })
 
-                            quantity_history = self.get_recent_quantity_snapshots(data, sku, today)
+                            quantity_history = self.get_recent_quantity_snapshots(data, dict2["SKU"], today)
                             excel_data.append({
                                 "Company Name": company_name,
-                                "SKU": sku,
-                                "Product name": today_products[sku]['Product name'],
-                                "THC": today_products[sku]["THC"],
+                                "SKU": dict2["SKU"],
+                                "Product name": dict2['Product name'],
+                                "THC": dict2["THC"],
                                 "Details": diff,
-                                "Price": today_products[sku]["Price"],
-                                "Discount Price": today_products[sku].get("Discount Price", {}),
-                                "Quantity Available": today_products[sku]["Quantity Available"],
-                                "Quantity Per Option": today_products[sku]["Quantity Per Option"],
+                                "Price": dict2["Price"],
+                                "Discount Price": dict2.get("Discount Price", {}),
+                                "Quantity Available": dict2["Quantity Available"],
+                                "Quantity Per Option": dict2["Quantity Per Option"],
                                 "1d": quantity_history["1d"],
                                 "3 Days": quantity_history["3 Days"],
                                 "7 Days": quantity_history["7 Days"],
                                 "14+": quantity_history["14+"],
                                 "Prev": quantity_history["Prev"],
-                                "Internal Product Name": today_products[sku]["Internal Product Name"],
-                                "Internal Product Type": today_products[sku]["Internal Product Type"],
-                                "Days on Shelf": today_products[sku]["Days on Shelf"],
+                                "Internal Product Name": dict2["Internal Product Name"],
+                                "Internal Product Type": dict2["Internal Product Type"],
+                                "Days on Shelf": dict2["Days on Shelf"],
                                 "Flag": "Updated",
                                 "Quantity History": quantity_history.get("Per Unit", {})
                             })
@@ -479,6 +484,23 @@ class DataProcessor:
         
         # Handle Rosin Jar with unit grouping
         if not rosin_jar_df.empty:
+            # Extract unit from price data if Unit column doesn't exist
+            if 'Unit' not in rosin_jar_df.columns:
+                # Try to extract unit from Price column
+                def extract_unit_from_price(price_str):
+                    if isinstance(price_str, str):
+                        try:
+                            import ast
+                            price_dict = ast.literal_eval(price_str)
+                            if isinstance(price_dict, dict) and price_dict:
+                                # Return the first unit found
+                                return list(price_dict.keys())[0]
+                        except:
+                            pass
+                    return 'each'  # fallback
+                
+                rosin_jar_df['Unit'] = rosin_jar_df['Price'].apply(extract_unit_from_price)
+            
             rosin_jar_df['Normalized Unit'] = rosin_jar_df['Unit'].astype(str).str.strip().str.lower().str.replace(" ", "").str.replace("-", "")
             rosin_grouped = rosin_jar_df.groupby([name_column, type_column, 'Normalized Unit'])['Company Name'].unique().reset_index()
             rosin_grouped.columns = [name_column, type_column, 'Unit', 'Company Name']
@@ -549,15 +571,23 @@ class DataProcessor:
 
             grouped_store['SKU'] = skus
             grouped_store['Company Name'] = grouped_store['Company Name'].apply(lambda x: str(x))
+            # Create composite key for grouping to handle same SKUs with different product names
+            grouped_store['CompositeKey'] = grouped_store.apply(
+                lambda row: f"{row['SKU']}|{row[name_column]}", axis=1
+            )
+            
             grouped_store = (
                 grouped_store
-                .groupby('SKU', as_index=False)
+                .groupby('CompositeKey', as_index=False)
                 .agg({
                     name_column: 'first',            # keep first display name
                     type_column: 'first',            # keep first display type
-                    'Company Name': lambda s: ', '.join(sorted(set(sum([v.split(', ') for v in s], []))))
+                    'Company Name': lambda s: ', '.join(sorted(set(sum([v.split(', ') for v in s], [])))),
+                    'SKU': 'first'                   # keep original SKU
                 })
             )
+            # Drop the composite key after grouping
+            grouped_store = grouped_store.drop(columns=['CompositeKey'])
             # grouped_store = grouped_store.drop(columns=['Unit', 'Normalized Product Type'])
             grouped_store = grouped_store.drop(columns=['Unit', 'Normalized Product Type'], errors='ignore')
             grouped_store['Category'] = grouped_store[type_column].apply(self.get_category)

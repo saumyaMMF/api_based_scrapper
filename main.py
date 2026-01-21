@@ -84,7 +84,7 @@ def print_sku_comparison_summary(comparison_data: dict):
     print(f"\n   Per Company:")
     for company, data in comparison_data.items():
         net_change = data["total_today"] - data.get("total_yesterday", 0)
-        change_indicator = "📈" if net_change > 0 else "📉" if net_change < 0 else "➡️"
+        change_indicator = "[+]" if net_change > 0 else "[-]" if net_change < 0 else "[=]"
         print(f"     {company}: {change_indicator} {net_change:+d} SKUs ({data['added']}+/{data['removed']}-/{data['updated']}~)")
 
 def generate_html_summary(comparison_data: dict) -> str:
@@ -276,7 +276,7 @@ def main():
                         logger.error(f"Failed to send email notification: {e}")
                         print(f"  Failed to send email notification: {e}")
                 else:
-                    print("📧 No changes detected - no email notification sent")
+                    print("No changes detected - no email notification sent")
                 
             else:
                 print("  No Excel file generated - check your old generate_flagged_xlsx function")

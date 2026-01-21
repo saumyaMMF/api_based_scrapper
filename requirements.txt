@@ -11,3 +11,4 @@ google-auth-oauthlib>=1.0.0
 pymysql
 python-dotenv
 beautifulsoup4
+anthropic>=0.40.0
