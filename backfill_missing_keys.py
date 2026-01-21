@@ -63,6 +63,7 @@ COMPANY_NAME_MAPPING = {
     "rollingtwenties": "Rolling Twenties",
     "mountaingirlcannabis": "Mountain Girl",
     "higherelevation": "Higher Elevation",
+    "poultneycannabissupplyvt": "Poultney Cannabis Supply"
 }
 
 def get_company_name_from_filename(filename: str) -> str:

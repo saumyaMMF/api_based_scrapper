@@ -6,6 +6,10 @@ import time
 import os
 from datetime import datetime
 from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Import scrapers
 from scrapers.leafly_scraper import scrape_leafly

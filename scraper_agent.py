@@ -30,7 +30,7 @@ load_dotenv()
 # ============================================================================
 
 # Claude API settings (add ANTHROPIC_API_KEY to .env)
-CLAUDE_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
+ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 CLAUDE_MODEL = "claude-sonnet-4-20250514"
 
 # Agent settings
@@ -419,7 +419,7 @@ def fix_missing_package(error: ErrorInfo, pattern_info: Dict, logger: logging.Lo
 
 def call_claude_for_fix(error: ErrorInfo, file_content: str, logger: logging.Logger) -> Optional[str]:
     """Call Claude API to get a fix for an error"""
-    if not CLAUDE_API_KEY:
+    if not ANTHROPIC_API_KEY:
         logger.warning("No ANTHROPIC_API_KEY configured, cannot use Claude for fixes")
         return None
 
@@ -431,7 +431,7 @@ def call_claude_for_fix(error: ErrorInfo, file_content: str, logger: logging.Log
                       capture_output=True, timeout=60)
         import anthropic
 
-    client = anthropic.Anthropic(api_key=CLAUDE_API_KEY)
+    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
     prompt = f"""You are fixing a Python scraper error. Analyze this error and provide the EXACT fix.
 

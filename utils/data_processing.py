@@ -76,6 +76,7 @@ class DataProcessor:
             "rollingtwenties": "Rolling Twenties",
             "mountaingirlcannabis": "Mountain Girl",
             "higherelevation":"Higher Elevation",
+            "poultneycannabissupplyvt":"Poultney Cannabis Supply"
         }
         
     def load_all_company_data(self, data_dir: str = "data_base") -> Dict[str, Dict[str, List[Dict]]]:
@@ -197,7 +198,7 @@ class DataProcessor:
                             break
 
                 with open(json_file, 'w', encoding='utf-8') as f:
-                    json.dump(data, f, indent=2, ensure_ascii=False)
+                    json.dump(data, f, indent=2, ensure_ascii=False, default=str)
                 print(f" Updated 'Days on Shelf' values saved back to: {json_file}")
                 logging.info(f"Updated JSON file with new Days on Shelf values: {json_file}")
 
