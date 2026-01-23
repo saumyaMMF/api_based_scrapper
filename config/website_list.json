@@ -335,5 +335,18 @@
     "has_after_tax": false,
     "tax_rate": 0.20,
     "Note": "The website change domain"
+  },
+  {
+    "Company name": "Poultney Cannabis Supply",
+    "Data_base": "data_base/db_poultneycannabissupplyvt.json",
+    "Domain": "https://poultneycannabissupplyvt.com/",
+    "Scrape": 1,
+    "Store url": "https://dutchie.com/dispensary/poultney-cannabis-supply-retail/brands/rhize-cannabis-co",
+    "Dispensary ID": "68f67280fbb538063ac66f62",
+    "Brand Id": "ad85eef0-2e95-46b6-ba81-d56245ba4b0c",
+    "Brand": "Rhize",
+    "has_after_tax": false,
+    "tax_rate": 0.20,
+    "validate": true
   }
 ]

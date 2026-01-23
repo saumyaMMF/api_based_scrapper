@@ -11,6 +11,8 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
+from utils.internal_name_orchestrator import send_batch_ai_notifications
+
 # Import scrapers
 from scrapers.leafly_scraper import scrape_leafly
 from scrapers.dutchie_scraper import scrape_dutchie
@@ -307,6 +309,13 @@ def main():
         
         # Print final summary with SKU information
         print_summary(successful, failed, total_products, len(all_skus), duration)
+
+        # 📧 Send batch AI notifications at the end
+        try:
+            send_batch_ai_notifications()
+            print("✓ Batch AI notifications sent")
+        except Exception as e:
+            print(f"✗ Failed to send batch AI notifications: {e}")
         
         # Log SKU statistics
         logger.info(f"Scraping completed: {successful} successful, {failed} failed, {total_products} total products, {len(all_skus)} unique SKUs")

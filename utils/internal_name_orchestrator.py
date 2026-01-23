@@ -4,25 +4,73 @@ from utils.ai_agent import ai_extract_internal_name
 import smtplib
 from email.message import EmailMessage
 import mail_cfg
+from datetime import datetime
+from typing import List, Dict, Any
 
 AUTO_PATTERNS = load_auto_mappings()
 
+# Global batch notification storage
+_AI_MAPPINGS_BATCH = []
 
-def send_ai_mapping_notification(raw_name: str, internal_name: str, confidence: float):
-    """Send email notification for new AI-generated mapping"""
+def add_ai_mapping_to_batch(raw_name: str, internal_name: str, confidence: float, quality_score: float = None):
+    """Add AI mapping to batch notification list"""
+    global _AI_MAPPINGS_BATCH
+    _AI_MAPPINGS_BATCH.append({
+        'raw_name': raw_name,
+        'internal_name': internal_name,
+        'confidence': confidence,
+        'quality_score': quality_score,
+        'timestamp': datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    })
+
+def send_batch_ai_notifications():
+    """Send batch email notification for all AI-generated mappings"""
+    global _AI_MAPPINGS_BATCH
+    
+    if not _AI_MAPPINGS_BATCH:
+        return
+    
     try:
         sender_email = mail_cfg.user
         receiver = mail_cfg.receiver_test  # Send to test first
         
-        subject = "New AI Product Mapping Created"
+        # Create HTML table for batch mappings
+        table_rows = ""
+        for mapping in _AI_MAPPINGS_BATCH:
+            quality_info = f"<td>{mapping['quality_score']:.2f}</td>" if mapping['quality_score'] else "<td>-</td>"
+            table_rows += f"""
+            <tr>
+                <td>{mapping['timestamp']}</td>
+                <td>{mapping['raw_name']}</td>
+                <td>{mapping['internal_name']}</td>
+                <td>{mapping['confidence']:.2%}</td>
+                {quality_info}
+            </tr>
+            """
+        
+        subject = f"Batch AI Product Mappings - {len(_AI_MAPPINGS_BATCH)} New Mappings"
         body = f"""
-        <h2>New AI-Generated Product Mapping</h2>
-        <p><strong>Original Product Name:</strong> {raw_name}</p>
-        <p><strong>Generated Internal Name:</strong> {internal_name}</p>
-        <p><strong>Confidence:</strong> {confidence:.2%}</p>
-        <p><strong>Source:</strong> AI Agent</p>
+        <h2>Batch AI-Generated Product Mappings</h2>
+        <p><strong>Total New Mappings:</strong> {len(_AI_MAPPINGS_BATCH)}</p>
+        <p><strong>Generated:</strong> {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}</p>
+        
+        <table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+            <thead>
+                <tr style="background-color: #f2f2f2;">
+                    <th>Timestamp</th>
+                    <th>Original Product Name</th>
+                    <th>Generated Internal Name</th>
+                    <th>Confidence</th>
+                    <th>Quality Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                {table_rows}
+            </tbody>
+        </table>
+        
         <br>
-        <p>This mapping has been automatically added to PRODUCT_NAME_PATTERNS.</p>
+        <p>All mappings have been automatically added to PRODUCT_NAME_PATTERNS.</p>
         <p>Menu Scraping Team</p>
         """
         
@@ -36,10 +84,17 @@ def send_ai_mapping_notification(raw_name: str, internal_name: str, confidence: 
             smtp.login(sender_email, mail_cfg.pw)
             smtp.sendmail(sender_email, receiver, message.as_string())
         
-        print(f"✓ AI mapping notification sent for: {internal_name}")
+        print(f"✓ Batch AI mapping notification sent for {len(_AI_MAPPINGS_BATCH)} mappings")
+        
+        # Clear the batch after sending
+        _AI_MAPPINGS_BATCH.clear()
         
     except Exception as e:
-        print(f"✗ Failed to send AI mapping notification: {e}")
+        print(f"✗ Failed to send batch AI mapping notification: {e}")
+
+def send_ai_mapping_notification(raw_name: str, internal_name: str, confidence: float):
+    """Legacy function - now adds to batch instead of sending immediately"""
+    add_ai_mapping_to_batch(raw_name, internal_name, confidence)
 
 
 def ensure_internal_product_name(product: dict) -> dict:
@@ -67,6 +122,7 @@ def ensure_internal_product_name(product: dict) -> dict:
 
     name = ai_result["internal_product_name"]
     confidence = ai_result["confidence"]
+    quality_score = ai_result.get("quality_score")
     key = name.lower()
 
     # 🔒 HARD STOP: never overwrite existing mappings
@@ -87,7 +143,7 @@ def ensure_internal_product_name(product: dict) -> dict:
     AUTO_PATTERNS[key] = name
     product["Internal Product Name"] = name
     
-    # 📧 Send email notification for new AI mapping
-    send_ai_mapping_notification(raw_name, name, confidence)
+    # 📧 Add to batch notification for new AI mapping
+    add_ai_mapping_to_batch(raw_name, name, confidence, quality_score)
 
     return product
