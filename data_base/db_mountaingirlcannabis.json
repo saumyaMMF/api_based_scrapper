@@ -15,7 +15,8 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll",
-      "Days on Shelf": 0
+      "Days on Shelf": 0,
+      "Discount Price": {}
     },
     {
       "Product name": "Black Maple 1g Preroll",
@@ -32,7 +33,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 0
+      "Days on Shelf": 0,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -49,7 +51,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 0
+      "Days on Shelf": 0,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -66,7 +69,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 0
+      "Days on Shelf": 0,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -83,7 +87,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 0
+      "Days on Shelf": 0,
+      "Discount Price": {}
     }
   ],
   "2025-08-24": [
@@ -102,7 +107,8 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll",
-      "Days on Shelf": 1
+      "Days on Shelf": 1,
+      "Discount Price": {}
     },
     {
       "Product name": "Black Maple 1g Preroll",
@@ -119,7 +125,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 1
+      "Days on Shelf": 1,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -136,7 +143,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 1
+      "Days on Shelf": 1,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -153,7 +161,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 1
+      "Days on Shelf": 1,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -170,7 +179,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 1
+      "Days on Shelf": 1,
+      "Discount Price": {}
     }
   ],
   "2025-08-25": [
@@ -189,7 +199,8 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll",
-      "Days on Shelf": 2
+      "Days on Shelf": 2,
+      "Discount Price": {}
     },
     {
       "Product name": "Black Maple 1g Preroll",
@@ -206,7 +217,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 2
+      "Days on Shelf": 2,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -223,7 +235,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 2
+      "Days on Shelf": 2,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -240,7 +253,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 2
+      "Days on Shelf": 2,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -257,7 +271,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 2
+      "Days on Shelf": 2,
+      "Discount Price": {}
     }
   ],
   "2025-08-26": [
@@ -276,7 +291,8 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll",
-      "Days on Shelf": 3
+      "Days on Shelf": 3,
+      "Discount Price": {}
     },
     {
       "Product name": "Black Maple 1g Preroll",
@@ -293,7 +309,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 3
+      "Days on Shelf": 3,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -310,7 +327,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 3
+      "Days on Shelf": 3,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -327,7 +345,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 3
+      "Days on Shelf": 3,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -344,7 +363,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 3
+      "Days on Shelf": 3,
+      "Discount Price": {}
     }
   ],
   "2025-08-27": [
@@ -363,7 +383,8 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll",
-      "Days on Shelf": 4
+      "Days on Shelf": 4,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -380,7 +401,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 4
+      "Days on Shelf": 4,
+      "Discount Price": {}
     },
     {
       "Product name": "Black Maple 1g Preroll",
@@ -397,7 +419,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 4
+      "Days on Shelf": 4,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -414,7 +437,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 4
+      "Days on Shelf": 4,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -431,7 +455,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 4
+      "Days on Shelf": 4,
+      "Discount Price": {}
     }
   ],
   "2025-08-28": [
@@ -450,7 +475,8 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll",
-      "Days on Shelf": 5
+      "Days on Shelf": 5,
+      "Discount Price": {}
     },
     {
       "Product name": "Black Maple 1g Preroll",
@@ -467,7 +493,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 5
+      "Days on Shelf": 5,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -484,7 +511,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 5
+      "Days on Shelf": 5,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -501,7 +529,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 5
+      "Days on Shelf": 5,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -518,7 +547,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 5
+      "Days on Shelf": 5,
+      "Discount Price": {}
     }
   ],
   "2025-08-29": [
@@ -537,7 +567,8 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll",
-      "Days on Shelf": 6
+      "Days on Shelf": 6,
+      "Discount Price": {}
     },
     {
       "Product name": "Black Maple 1g Preroll",
@@ -554,7 +585,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 6
+      "Days on Shelf": 6,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -571,7 +603,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 6
+      "Days on Shelf": 6,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -588,7 +621,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 6
+      "Days on Shelf": 6,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -605,7 +639,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 6
+      "Days on Shelf": 6,
+      "Discount Price": {}
     }
   ],
   "2025-08-30": [
@@ -624,7 +659,8 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll",
-      "Days on Shelf": 7
+      "Days on Shelf": 7,
+      "Discount Price": {}
     },
     {
       "Product name": "Black Maple 1g Preroll",
@@ -641,7 +677,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 7
+      "Days on Shelf": 7,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -658,7 +695,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 7
+      "Days on Shelf": 7,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -675,7 +713,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 7
+      "Days on Shelf": 7,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -692,7 +731,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 7
+      "Days on Shelf": 7,
+      "Discount Price": {}
     }
   ],
   "2025-08-31": [
@@ -711,7 +751,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 8
+      "Days on Shelf": 8,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -728,7 +769,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 8
+      "Days on Shelf": 8,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -745,7 +787,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 8
+      "Days on Shelf": 8,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -762,7 +805,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 8
+      "Days on Shelf": 8,
+      "Discount Price": {}
     }
   ],
   "2025-09-01": [
@@ -781,7 +825,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 9
+      "Days on Shelf": 9,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -798,7 +843,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 9
+      "Days on Shelf": 9,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -815,7 +861,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 9
+      "Days on Shelf": 9,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -832,7 +879,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 9
+      "Days on Shelf": 9,
+      "Discount Price": {}
     },
     {
       "Product name": ".5g Preroll Multipack | 2 Papaya Juice | 3 Melted Strawberries | 2 Dulce de Uva",
@@ -849,7 +897,8 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll",
-      "Days on Shelf": 0
+      "Days on Shelf": 0,
+      "Discount Price": {}
     }
   ],
   "2025-09-02": [
@@ -868,7 +917,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 10
+      "Days on Shelf": 10,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -885,7 +935,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 10
+      "Days on Shelf": 10,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -902,7 +953,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 10
+      "Days on Shelf": 10,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -919,7 +971,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 10
+      "Days on Shelf": 10,
+      "Discount Price": {}
     },
     {
       "Product name": ".5g Preroll Multipack | 2 Papaya Juice | 3 Melted Strawberries | 2 Dulce de Uva",
@@ -936,7 +989,8 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll",
-      "Days on Shelf": 1
+      "Days on Shelf": 1,
+      "Discount Price": {}
     }
   ],
   "2025-09-03": [
@@ -955,7 +1009,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 11
+      "Days on Shelf": 11,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -972,7 +1027,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 11
+      "Days on Shelf": 11,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -989,7 +1045,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 11
+      "Days on Shelf": 11,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -1006,7 +1063,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 11
+      "Days on Shelf": 11,
+      "Discount Price": {}
     },
     {
       "Product name": ".5g Preroll Multipack | 2 Papaya Juice | 3 Melted Strawberries | 2 Dulce de Uva",
@@ -1023,7 +1081,8 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll",
-      "Days on Shelf": 2
+      "Days on Shelf": 2,
+      "Discount Price": {}
     }
   ],
   "2025-09-04": [
@@ -1042,7 +1101,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 12
+      "Days on Shelf": 12,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -1059,7 +1119,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 12
+      "Days on Shelf": 12,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -1076,7 +1137,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 12
+      "Days on Shelf": 12,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -1093,7 +1155,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 12
+      "Days on Shelf": 12,
+      "Discount Price": {}
     }
   ],
   "2025-09-05": [
@@ -1112,7 +1175,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 13
+      "Days on Shelf": 13,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -1129,7 +1193,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 13
+      "Days on Shelf": 13,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -1146,7 +1211,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 13
+      "Days on Shelf": 13,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -1163,7 +1229,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 13
+      "Days on Shelf": 13,
+      "Discount Price": {}
     }
   ],
   "2025-09-06": [
@@ -1182,7 +1249,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 14
+      "Days on Shelf": 14,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -1199,7 +1267,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 14
+      "Days on Shelf": 14,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -1216,7 +1285,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 14
+      "Days on Shelf": 14,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -1233,7 +1303,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 14
+      "Days on Shelf": 14,
+      "Discount Price": {}
     }
   ],
   "2025-09-07": [
@@ -1252,7 +1323,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 15
+      "Days on Shelf": 15,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -1269,7 +1341,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 15
+      "Days on Shelf": 15,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -1286,7 +1359,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 15
+      "Days on Shelf": 15,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -1303,7 +1377,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 15
+      "Days on Shelf": 15,
+      "Discount Price": {}
     }
   ],
   "2025-09-08": [
@@ -1322,7 +1397,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 16
+      "Days on Shelf": 16,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -1339,7 +1415,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 16
+      "Days on Shelf": 16,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -1356,7 +1433,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 16
+      "Days on Shelf": 16,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -1373,7 +1451,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 16
+      "Days on Shelf": 16,
+      "Discount Price": {}
     }
   ],
   "2025-09-09": [
@@ -1392,7 +1471,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 17
+      "Days on Shelf": 17,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -1409,7 +1489,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 17
+      "Days on Shelf": 17,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -1426,7 +1507,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 17
+      "Days on Shelf": 17,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -1443,7 +1525,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 17
+      "Days on Shelf": 17,
+      "Discount Price": {}
     }
   ],
   "2025-09-10": [
@@ -1462,7 +1545,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 18
+      "Days on Shelf": 18,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -1479,7 +1563,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 18
+      "Days on Shelf": 18,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -1496,7 +1581,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 18
+      "Days on Shelf": 18,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -1513,7 +1599,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 18
+      "Days on Shelf": 18,
+      "Discount Price": {}
     }
   ],
   "2025-09-11": [
@@ -1532,7 +1619,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 19
+      "Days on Shelf": 19,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -1549,7 +1637,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 19
+      "Days on Shelf": 19,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -1566,7 +1655,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 19
+      "Days on Shelf": 19,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -1583,7 +1673,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 19
+      "Days on Shelf": 19,
+      "Discount Price": {}
     }
   ],
   "2025-09-12": [
@@ -1602,7 +1693,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 20
+      "Days on Shelf": 20,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -1619,7 +1711,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 20
+      "Days on Shelf": 20,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -1636,7 +1729,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 20
+      "Days on Shelf": 20,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -1653,7 +1747,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 20
+      "Days on Shelf": 20,
+      "Discount Price": {}
     }
   ],
   "2025-09-13": [
@@ -1672,7 +1767,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 21
+      "Days on Shelf": 21,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -1689,7 +1785,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 21
+      "Days on Shelf": 21,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -1706,7 +1803,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 21
+      "Days on Shelf": 21,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -1723,7 +1821,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 21
+      "Days on Shelf": 21,
+      "Discount Price": {}
     }
   ],
   "2025-09-14": [
@@ -1742,7 +1841,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 22
+      "Days on Shelf": 22,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -1759,7 +1859,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 22
+      "Days on Shelf": 22,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -1776,7 +1877,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 22
+      "Days on Shelf": 22,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -1793,7 +1895,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 22
+      "Days on Shelf": 22,
+      "Discount Price": {}
     }
   ],
   "2025-09-15": [
@@ -1812,7 +1915,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 23
+      "Days on Shelf": 23,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -1829,7 +1933,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 23
+      "Days on Shelf": 23,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -1846,7 +1951,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 23
+      "Days on Shelf": 23,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -1863,7 +1969,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 23
+      "Days on Shelf": 23,
+      "Discount Price": {}
     }
   ],
   "2025-09-16": [
@@ -1882,7 +1989,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 24
+      "Days on Shelf": 24,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -1899,7 +2007,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 24
+      "Days on Shelf": 24,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -1916,7 +2025,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 24
+      "Days on Shelf": 24,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -1933,7 +2043,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 24
+      "Days on Shelf": 24,
+      "Discount Price": {}
     }
   ],
   "2025-09-17": [
@@ -1952,7 +2063,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 25
+      "Days on Shelf": 25,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -1969,7 +2081,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 25
+      "Days on Shelf": 25,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -1986,7 +2099,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 25
+      "Days on Shelf": 25,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -2003,7 +2117,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 25
+      "Days on Shelf": 25,
+      "Discount Price": {}
     }
   ],
   "2025-09-18": [
@@ -2022,7 +2137,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 26
+      "Days on Shelf": 26,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -2039,7 +2155,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 26
+      "Days on Shelf": 26,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -2056,7 +2173,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 26
+      "Days on Shelf": 26,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -2073,7 +2191,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 26
+      "Days on Shelf": 26,
+      "Discount Price": {}
     }
   ],
   "2025-09-19": [
@@ -2092,7 +2211,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 27
+      "Days on Shelf": 27,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -2109,7 +2229,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 27
+      "Days on Shelf": 27,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -2126,7 +2247,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 27
+      "Days on Shelf": 27,
+      "Discount Price": {}
     },
     {
       "Product name": "Deathstar .5g Preroll Pack | 7 count",
@@ -2143,7 +2265,8 @@
       "Internal Product Name": "Deathstar",
       "Internal Product Type": "Preroll",
       "SKU": "deathstar-flower-preroll",
-      "Days on Shelf": 27
+      "Days on Shelf": 27,
+      "Discount Price": {}
     }
   ],
   "2025-09-20": [
@@ -2162,7 +2285,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 28
+      "Days on Shelf": 28,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -2179,7 +2303,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 28
+      "Days on Shelf": 28,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -2196,7 +2321,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 28
+      "Days on Shelf": 28,
+      "Discount Price": {}
     }
   ],
   "2025-09-21": [
@@ -2215,7 +2341,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 29
+      "Days on Shelf": 29,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -2232,7 +2359,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 29
+      "Days on Shelf": 29,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -2249,7 +2377,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 29
+      "Days on Shelf": 29,
+      "Discount Price": {}
     }
   ],
   "2025-09-22": [
@@ -2268,7 +2397,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 30
+      "Days on Shelf": 30,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -2285,7 +2415,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 30
+      "Days on Shelf": 30,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -2302,7 +2433,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 30
+      "Days on Shelf": 30,
+      "Discount Price": {}
     }
   ],
   "2025-09-23": [
@@ -2321,7 +2453,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 31
+      "Days on Shelf": 31,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -2338,7 +2471,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 31
+      "Days on Shelf": 31,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -2355,7 +2489,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 31
+      "Days on Shelf": 31,
+      "Discount Price": {}
     }
   ],
   "2025-09-24": [
@@ -2374,7 +2509,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 32
+      "Days on Shelf": 32,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -2391,7 +2527,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 32
+      "Days on Shelf": 32,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -2408,7 +2545,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 32
+      "Days on Shelf": 32,
+      "Discount Price": {}
     }
   ],
   "2025-09-25": [
@@ -2427,7 +2565,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 33
+      "Days on Shelf": 33,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -2444,7 +2583,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 33
+      "Days on Shelf": 33,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -2461,7 +2601,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 33
+      "Days on Shelf": 33,
+      "Discount Price": {}
     }
   ],
   "2025-09-26": [
@@ -2480,7 +2621,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 34
+      "Days on Shelf": 34,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -2497,7 +2639,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 34
+      "Days on Shelf": 34,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -2514,7 +2657,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 34
+      "Days on Shelf": 34,
+      "Discount Price": {}
     }
   ],
   "2025-09-27": [
@@ -2533,7 +2677,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 35
+      "Days on Shelf": 35,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -2550,7 +2695,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 35
+      "Days on Shelf": 35,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -2567,7 +2713,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 35
+      "Days on Shelf": 35,
+      "Discount Price": {}
     }
   ],
   "2025-09-28": [
@@ -2586,7 +2733,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 36
+      "Days on Shelf": 36,
+      "Discount Price": {}
     },
     {
       "Product name": "Donkey Butter .5g Preroll Pack | 7 count",
@@ -2603,7 +2751,8 @@
       "Internal Product Name": "Donkey Butter",
       "Internal Product Type": "Flower Multipack",
       "SKU": "donkeybutter-flower-multipack",
-      "Days on Shelf": 36
+      "Days on Shelf": 36,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -2620,7 +2769,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 36
+      "Days on Shelf": 36,
+      "Discount Price": {}
     }
   ],
   "2025-09-29": [
@@ -2639,7 +2789,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 37
+      "Days on Shelf": 37,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -2656,7 +2807,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 37
+      "Days on Shelf": 37,
+      "Discount Price": {}
     }
   ],
   "2025-09-30": [
@@ -2675,7 +2827,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 38
+      "Days on Shelf": 38,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -2692,7 +2845,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 38
+      "Days on Shelf": 38,
+      "Discount Price": {}
     }
   ],
   "2025-10-01": [
@@ -2711,7 +2865,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 39
+      "Days on Shelf": 39,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -2728,7 +2883,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 39
+      "Days on Shelf": 39,
+      "Discount Price": {}
     }
   ],
   "2025-10-02": [
@@ -2747,7 +2903,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 40
+      "Days on Shelf": 40,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -2764,7 +2921,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 40
+      "Days on Shelf": 40,
+      "Discount Price": {}
     }
   ],
   "2025-10-03": [
@@ -2783,7 +2941,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 41
+      "Days on Shelf": 41,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -2800,7 +2959,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 41
+      "Days on Shelf": 41,
+      "Discount Price": {}
     }
   ],
   "2025-10-04": [
@@ -2819,7 +2979,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 42
+      "Days on Shelf": 42,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -2836,7 +2997,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 42
+      "Days on Shelf": 42,
+      "Discount Price": {}
     }
   ],
   "2025-10-05": [
@@ -2855,7 +3017,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 43
+      "Days on Shelf": 43,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -2872,7 +3035,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 43
+      "Days on Shelf": 43,
+      "Discount Price": {}
     }
   ],
   "2025-10-06": [
@@ -2891,7 +3055,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 44
+      "Days on Shelf": 44,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -2908,7 +3073,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 44
+      "Days on Shelf": 44,
+      "Discount Price": {}
     }
   ],
   "2025-10-07": [
@@ -2927,7 +3093,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 45
+      "Days on Shelf": 45,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -2944,7 +3111,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 45
+      "Days on Shelf": 45,
+      "Discount Price": {}
     }
   ],
   "2025-10-08": [
@@ -2963,7 +3131,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Preroll",
       "SKU": "blackmaple-flower-preroll",
-      "Days on Shelf": 46
+      "Days on Shelf": 46,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -2980,7 +3149,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 46
+      "Days on Shelf": 46,
+      "Discount Price": {}
     }
   ],
   "2025-10-09": [
@@ -2999,7 +3169,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 47
+      "Days on Shelf": 47,
+      "Discount Price": {}
     }
   ],
   "2025-10-10": [
@@ -3018,7 +3189,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 48
+      "Days on Shelf": 48,
+      "Discount Price": {}
     }
   ],
   "2025-10-11": [
@@ -3037,7 +3209,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Flower Jar",
       "SKU": "blackmaple-flower-jar",
-      "Days on Shelf": 0
+      "Days on Shelf": 0,
+      "Discount Price": {}
     },
     {
       "Product name": "Strawberry Guava 3.5g",
@@ -3054,7 +3227,8 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Flower Jar",
       "SKU": "strawberryguava-flower-jar",
-      "Days on Shelf": 0
+      "Days on Shelf": 0,
+      "Discount Price": {}
     },
     {
       "Product name": "Papaya Juice Live Rosin | 1g",
@@ -3071,7 +3245,8 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 0
+      "Days on Shelf": 0,
+      "Discount Price": {}
     },
     {
       "Product name": "Melted Strawberries Live Rosin | 1g",
@@ -3088,7 +3263,8 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Rosin Jar",
       "SKU": "meltedstrawberries-rosin-jar-1",
-      "Days on Shelf": 0
+      "Days on Shelf": 0,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -3105,7 +3281,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 49
+      "Days on Shelf": 49,
+      "Discount Price": {}
     }
   ],
   "2025-10-12": [
@@ -3124,7 +3301,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Flower Jar",
       "SKU": "blackmaple-flower-jar",
-      "Days on Shelf": 1
+      "Days on Shelf": 1,
+      "Discount Price": {}
     },
     {
       "Product name": "Strawberry Guava 3.5g",
@@ -3141,7 +3319,8 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Flower Jar",
       "SKU": "strawberryguava-flower-jar",
-      "Days on Shelf": 1
+      "Days on Shelf": 1,
+      "Discount Price": {}
     },
     {
       "Product name": "Papaya Juice Live Rosin | 1g",
@@ -3158,7 +3337,8 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 1
+      "Days on Shelf": 1,
+      "Discount Price": {}
     },
     {
       "Product name": "Melted Strawberries Live Rosin | 1g",
@@ -3175,7 +3355,8 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Rosin Jar",
       "SKU": "meltedstrawberries-rosin-jar-1",
-      "Days on Shelf": 1
+      "Days on Shelf": 1,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -3192,7 +3373,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 50
+      "Days on Shelf": 50,
+      "Discount Price": {}
     }
   ],
   "2025-10-13": [
@@ -3211,7 +3393,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Flower Jar",
       "SKU": "blackmaple-flower-jar",
-      "Days on Shelf": 2
+      "Days on Shelf": 2,
+      "Discount Price": {}
     },
     {
       "Product name": "Strawberry Guava 3.5g",
@@ -3228,7 +3411,8 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Flower Jar",
       "SKU": "strawberryguava-flower-jar",
-      "Days on Shelf": 2
+      "Days on Shelf": 2,
+      "Discount Price": {}
     },
     {
       "Product name": "Papaya Juice Live Rosin | 1g",
@@ -3245,7 +3429,8 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 2
+      "Days on Shelf": 2,
+      "Discount Price": {}
     },
     {
       "Product name": "Melted Strawberries Live Rosin | 1g",
@@ -3262,7 +3447,8 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Rosin Jar",
       "SKU": "meltedstrawberries-rosin-jar-1",
-      "Days on Shelf": 2
+      "Days on Shelf": 2,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -3279,7 +3465,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 51
+      "Days on Shelf": 51,
+      "Discount Price": {}
     }
   ],
   "2025-10-14": [
@@ -3298,7 +3485,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Flower Jar",
       "SKU": "blackmaple-flower-jar",
-      "Days on Shelf": 3
+      "Days on Shelf": 3,
+      "Discount Price": {}
     },
     {
       "Product name": "Strawberry Guava 3.5g",
@@ -3315,7 +3503,8 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Flower Jar",
       "SKU": "strawberryguava-flower-jar",
-      "Days on Shelf": 3
+      "Days on Shelf": 3,
+      "Discount Price": {}
     },
     {
       "Product name": "Papaya Juice Live Rosin | 1g",
@@ -3332,7 +3521,8 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 3
+      "Days on Shelf": 3,
+      "Discount Price": {}
     },
     {
       "Product name": "Melted Strawberries Live Rosin | 1g",
@@ -3349,7 +3539,8 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Rosin Jar",
       "SKU": "meltedstrawberries-rosin-jar-1",
-      "Days on Shelf": 3
+      "Days on Shelf": 3,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -3366,7 +3557,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 52
+      "Days on Shelf": 52,
+      "Discount Price": {}
     }
   ],
   "2025-10-15": [
@@ -3385,7 +3577,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Flower Jar",
       "SKU": "blackmaple-flower-jar",
-      "Days on Shelf": 4
+      "Days on Shelf": 4,
+      "Discount Price": {}
     },
     {
       "Product name": "Strawberry Guava 3.5g",
@@ -3402,7 +3595,8 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Flower Jar",
       "SKU": "strawberryguava-flower-jar",
-      "Days on Shelf": 4
+      "Days on Shelf": 4,
+      "Discount Price": {}
     },
     {
       "Product name": "Papaya Juice Live Rosin | 1g",
@@ -3419,7 +3613,8 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 4
+      "Days on Shelf": 4,
+      "Discount Price": {}
     },
     {
       "Product name": "Melted Strawberries Live Rosin | 1g",
@@ -3436,7 +3631,8 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Rosin Jar",
       "SKU": "meltedstrawberries-rosin-jar-1",
-      "Days on Shelf": 4
+      "Days on Shelf": 4,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -3453,7 +3649,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 53
+      "Days on Shelf": 53,
+      "Discount Price": {}
     }
   ],
   "2025-10-16": [
@@ -3472,7 +3669,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Flower Jar",
       "SKU": "blackmaple-flower-jar",
-      "Days on Shelf": 5
+      "Days on Shelf": 5,
+      "Discount Price": {}
     },
     {
       "Product name": "Strawberry Guava 3.5g",
@@ -3489,7 +3687,8 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Flower Jar",
       "SKU": "strawberryguava-flower-jar",
-      "Days on Shelf": 5
+      "Days on Shelf": 5,
+      "Discount Price": {}
     },
     {
       "Product name": "Papaya Juice Live Rosin | 1g",
@@ -3506,7 +3705,8 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 5
+      "Days on Shelf": 5,
+      "Discount Price": {}
     },
     {
       "Product name": "Melted Strawberries Live Rosin | 1g",
@@ -3523,7 +3723,8 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Rosin Jar",
       "SKU": "meltedstrawberries-rosin-jar-1",
-      "Days on Shelf": 5
+      "Days on Shelf": 5,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -3540,7 +3741,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 54
+      "Days on Shelf": 54,
+      "Discount Price": {}
     }
   ],
   "2025-10-17": [
@@ -3559,7 +3761,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Flower Jar",
       "SKU": "blackmaple-flower-jar",
-      "Days on Shelf": 6
+      "Days on Shelf": 6,
+      "Discount Price": {}
     },
     {
       "Product name": "Strawberry Guava 3.5g",
@@ -3576,7 +3779,8 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Flower Jar",
       "SKU": "strawberryguava-flower-jar",
-      "Days on Shelf": 6
+      "Days on Shelf": 6,
+      "Discount Price": {}
     },
     {
       "Product name": "Papaya Juice Live Rosin | 1g",
@@ -3593,7 +3797,8 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 6
+      "Days on Shelf": 6,
+      "Discount Price": {}
     },
     {
       "Product name": "Melted Strawberries Live Rosin | 1g",
@@ -3610,7 +3815,8 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Rosin Jar",
       "SKU": "meltedstrawberries-rosin-jar-1",
-      "Days on Shelf": 6
+      "Days on Shelf": 6,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -3627,7 +3833,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 55
+      "Days on Shelf": 55,
+      "Discount Price": {}
     }
   ],
   "2025-10-18": [
@@ -3646,7 +3853,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Flower Jar",
       "SKU": "blackmaple-flower-jar",
-      "Days on Shelf": 7
+      "Days on Shelf": 7,
+      "Discount Price": {}
     },
     {
       "Product name": "Strawberry Guava 3.5g",
@@ -3663,7 +3871,8 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Flower Jar",
       "SKU": "strawberryguava-flower-jar",
-      "Days on Shelf": 7
+      "Days on Shelf": 7,
+      "Discount Price": {}
     },
     {
       "Product name": "Papaya Juice Live Rosin | 1g",
@@ -3680,7 +3889,8 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 7
+      "Days on Shelf": 7,
+      "Discount Price": {}
     },
     {
       "Product name": "Melted Strawberries Live Rosin | 1g",
@@ -3697,7 +3907,8 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Rosin Jar",
       "SKU": "meltedstrawberries-rosin-jar-1",
-      "Days on Shelf": 7
+      "Days on Shelf": 7,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -3714,7 +3925,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 56
+      "Days on Shelf": 56,
+      "Discount Price": {}
     }
   ],
   "2025-10-19": [
@@ -3733,7 +3945,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Flower Jar",
       "SKU": "blackmaple-flower-jar",
-      "Days on Shelf": 8
+      "Days on Shelf": 8,
+      "Discount Price": {}
     },
     {
       "Product name": "Strawberry Guava 3.5g",
@@ -3750,7 +3963,8 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Flower Jar",
       "SKU": "strawberryguava-flower-jar",
-      "Days on Shelf": 8
+      "Days on Shelf": 8,
+      "Discount Price": {}
     },
     {
       "Product name": "Papaya Juice Live Rosin | 1g",
@@ -3767,7 +3981,8 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 8
+      "Days on Shelf": 8,
+      "Discount Price": {}
     },
     {
       "Product name": "Melted Strawberries Live Rosin | 1g",
@@ -3784,7 +3999,8 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Rosin Jar",
       "SKU": "meltedstrawberries-rosin-jar-1",
-      "Days on Shelf": 8
+      "Days on Shelf": 8,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -3801,7 +4017,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 57
+      "Days on Shelf": 57,
+      "Discount Price": {}
     }
   ],
   "2025-10-20": [
@@ -3820,7 +4037,8 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Flower Jar",
       "SKU": "blackmaple-flower-jar",
-      "Days on Shelf": 9
+      "Days on Shelf": 9,
+      "Discount Price": {}
     },
     {
       "Product name": "Strawberry Guava 3.5g",
@@ -3837,7 +4055,8 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Flower Jar",
       "SKU": "strawberryguava-flower-jar",
-      "Days on Shelf": 9
+      "Days on Shelf": 9,
+      "Discount Price": {}
     },
     {
       "Product name": "Papaya Juice Live Rosin | 1g",
@@ -3854,7 +4073,8 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 9
+      "Days on Shelf": 9,
+      "Discount Price": {}
     },
     {
       "Product name": "Melted Strawberries Live Rosin | 1g",
@@ -3871,7 +4091,8 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Rosin Jar",
       "SKU": "meltedstrawberries-rosin-jar-1",
-      "Days on Shelf": 9
+      "Days on Shelf": 9,
+      "Discount Price": {}
     },
     {
       "Product name": "Dulce de Uva 1g Preroll",
@@ -3888,7 +4109,8 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 58
+      "Days on Shelf": 58,
+      "Discount Price": {}
     }
   ],
   "2025-10-21": [
@@ -6255,6 +6477,2370 @@
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
       "Days on Shelf": 25
+    }
+  ],
+  "2025-12-11": [
+    {
+      "Product name": ".5g Preroll Multipack | 2 Papaya Juice | 3 Melted Strawberries | 2 Dulce de Uva",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "30.0%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "3.5g": 2
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 26
+    },
+    {
+      "Product name": "Papaya Juice 3.5",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "28.6%",
+      "Quantity Available": 5,
+      "Quantity Per Option": {
+        "3.5g": 5
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "papayajuice-flower-jar",
+      "Days on Shelf": 26
+    }
+  ],
+  "2025-12-12": [
+    {
+      "Product name": ".5g Preroll Multipack | 2 Papaya Juice | 3 Melted Strawberries | 2 Dulce de Uva",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "30.0%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "3.5g": 2
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 27
+    },
+    {
+      "Product name": "Papaya Juice 3.5",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "28.6%",
+      "Quantity Available": 5,
+      "Quantity Per Option": {
+        "3.5g": 5
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "papayajuice-flower-jar",
+      "Days on Shelf": 27
+    }
+  ],
+  "2025-12-15": [
+    {
+      "Product name": "Papaya Juice 3.5",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "28.6%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "3.5g": 4
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "papayajuice-flower-jar",
+      "Days on Shelf": 30
+    }
+  ],
+  "2025-12-16": [
+    {
+      "Product name": "Papaya Juice 3.5",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "28.6%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "3.5g": 4
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "papayajuice-flower-jar",
+      "Days on Shelf": 31
+    }
+  ],
+  "2025-12-17": [
+    {
+      "Product name": "Papaya Juice 3.5",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "28.6%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "3.5g": 2
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "papayajuice-flower-jar",
+      "Days on Shelf": 32
+    }
+  ],
+  "2025-12-18": [
+    {
+      "Product name": "Papaya Juice 3.5",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "28.6%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "3.5g": 2
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "papayajuice-flower-jar",
+      "Days on Shelf": 33
+    }
+  ],
+  "2025-12-19": [
+    {
+      "Product name": "Papaya Juice 3.5",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "28.6%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "3.5g": 2
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "papayajuice-flower-jar",
+      "Days on Shelf": 34
+    }
+  ],
+  "2025-12-20": [
+    {
+      "Product name": "Papaya Juice 3.5",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "28.6%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "3.5g": 2
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "papayajuice-flower-jar",
+      "Days on Shelf": 35
+    }
+  ],
+  "2025-12-21": [
+    {
+      "Product name": "Papaya Juice 3.5",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "28.6%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "3.5g": 2
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "papayajuice-flower-jar",
+      "Days on Shelf": 36
+    }
+  ],
+  "2025-12-22": [
+    {
+      "Product name": "Papaya Juice 3.5",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "28.6%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "3.5g": 2
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "papayajuice-flower-jar",
+      "Days on Shelf": 37
+    }
+  ],
+  "2026-01-08": [
+    {
+      "Product name": "G13 Skunk 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "26.46%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "g13skunk-flower-jar",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Melted Strawberries 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "34.7%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "meltedstrawberries-flower-jar",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Sour Diesel Live Rosin | 1g",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {
+        "1g": "$78.00"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "1g": 9
+      },
+      "Internal Product Name": "Sour Diesel",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "sourdiesel-rosin-jar-1",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Berry Fizz 1g Preroll",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$18.00"
+      },
+      "Discount Price": {
+        "1g": "$18.00"
+      },
+      "THC": "27.57%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Preroll",
+      "SKU": "berryfizz-flower-preroll",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 0
+    }
+  ],
+  "2026-01-09": [
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "G13 Skunk 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "26.46%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "g13skunk-flower-jar",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Melted Strawberries 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "34.7%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "meltedstrawberries-flower-jar",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Sour Diesel Live Rosin | 1g",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {
+        "1g": "$78.00"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "1g": 8
+      },
+      "Internal Product Name": "Sour Diesel",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "sourdiesel-rosin-jar-1",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Berry Fizz 1g Preroll",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$18.00"
+      },
+      "Discount Price": {
+        "1g": "$18.00"
+      },
+      "THC": "27.57%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Preroll",
+      "SKU": "berryfizz-flower-preroll",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 1
+    }
+  ],
+  "2026-01-11": [
+    {
+      "Product name": "Melted Strawberries 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "34.7%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "3.5g": 9
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "meltedstrawberries-flower-jar",
+      "Days on Shelf": 3
+    },
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 3
+    },
+    {
+      "Product name": "G13 Skunk 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "26.46%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "3.5g": 9
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "g13skunk-flower-jar",
+      "Days on Shelf": 3
+    },
+    {
+      "Product name": "Sour Diesel Live Rosin | 1g",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {
+        "1g": "$78.00"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "1g": 6
+      },
+      "Internal Product Name": "Sour Diesel",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "sourdiesel-rosin-jar-1",
+      "Days on Shelf": 3
+    },
+    {
+      "Product name": "Berry Fizz 1g Preroll",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$18.00"
+      },
+      "Discount Price": {
+        "1g": "$18.00"
+      },
+      "THC": "27.57%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Preroll",
+      "SKU": "berryfizz-flower-preroll",
+      "Days on Shelf": 3
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 3
+    }
+  ],
+  "2026-01-12": [
+    {
+      "Product name": "Melted Strawberries 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "34.7%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "3.5g": 9
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "meltedstrawberries-flower-jar",
+      "Days on Shelf": 4
+    },
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 4
+    },
+    {
+      "Product name": "G13 Skunk 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "26.46%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "3.5g": 9
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "g13skunk-flower-jar",
+      "Days on Shelf": 4
+    },
+    {
+      "Product name": "Sour Diesel Live Rosin | 1g",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {
+        "1g": "$78.00"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "1g": 6
+      },
+      "Internal Product Name": "Sour Diesel",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "sourdiesel-rosin-jar-1",
+      "Days on Shelf": 4
+    },
+    {
+      "Product name": "Berry Fizz 1g Preroll",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$18.00"
+      },
+      "Discount Price": {
+        "1g": "$18.00"
+      },
+      "THC": "27.57%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Preroll",
+      "SKU": "berryfizz-flower-preroll",
+      "Days on Shelf": 4
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 4
+    }
+  ],
+  "2026-01-13": [
+    {
+      "Product name": "Melted Strawberries 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "34.7%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "3.5g": 9
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "meltedstrawberries-flower-jar",
+      "Days on Shelf": 5
+    },
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 5
+    },
+    {
+      "Product name": "G13 Skunk 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "26.46%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "3.5g": 8
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "g13skunk-flower-jar",
+      "Days on Shelf": 5
+    },
+    {
+      "Product name": "Sour Diesel Live Rosin | 1g",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {
+        "1g": "$78.00"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 5,
+      "Quantity Per Option": {
+        "1g": 5
+      },
+      "Internal Product Name": "Sour Diesel",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "sourdiesel-rosin-jar-1",
+      "Days on Shelf": 5
+    },
+    {
+      "Product name": "Berry Fizz 1g Preroll",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$18.00"
+      },
+      "Discount Price": {
+        "1g": "$18.00"
+      },
+      "THC": "27.57%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Preroll",
+      "SKU": "berryfizz-flower-preroll",
+      "Days on Shelf": 5
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 5
+    }
+  ],
+  "2026-01-14": [
+    {
+      "Product name": "Melted Strawberries 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "34.7%",
+      "Quantity Available": 7,
+      "Quantity Per Option": {
+        "3.5g": 7
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "meltedstrawberries-flower-jar",
+      "Days on Shelf": 6
+    },
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 6
+    },
+    {
+      "Product name": "G13 Skunk 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "26.46%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "3.5g": 8
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "g13skunk-flower-jar",
+      "Days on Shelf": 6
+    },
+    {
+      "Product name": "Sour Diesel Live Rosin | 1g",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {
+        "1g": "$78.00"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 5,
+      "Quantity Per Option": {
+        "1g": 5
+      },
+      "Internal Product Name": "Sour Diesel",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "sourdiesel-rosin-jar-1",
+      "Days on Shelf": 6
+    },
+    {
+      "Product name": "Berry Fizz 1g Preroll",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$18.00"
+      },
+      "Discount Price": {
+        "1g": "$18.00"
+      },
+      "THC": "27.57%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Preroll",
+      "SKU": "berryfizz-flower-preroll",
+      "Days on Shelf": 6
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 6
+    }
+  ],
+  "2026-01-15": [
+    {
+      "Product name": "Melted Strawberries 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "34.7%",
+      "Quantity Available": 5,
+      "Quantity Per Option": {
+        "3.5g": 5
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "meltedstrawberries-flower-jar",
+      "Days on Shelf": 7
+    },
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 7
+    },
+    {
+      "Product name": "G13 Skunk 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "26.46%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "3.5g": 6
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "g13skunk-flower-jar",
+      "Days on Shelf": 7
+    },
+    {
+      "Product name": "Berry Fizz 1g Preroll",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$18.00"
+      },
+      "Discount Price": {
+        "1g": "$18.00"
+      },
+      "THC": "27.57%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Preroll",
+      "SKU": "berryfizz-flower-preroll",
+      "Days on Shelf": 7
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 7
+    }
+  ],
+  "2026-01-16": [
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 8
+    },
+    {
+      "Product name": "G13 Skunk 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "26.46%",
+      "Quantity Available": 5,
+      "Quantity Per Option": {
+        "3.5g": 5
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "g13skunk-flower-jar",
+      "Days on Shelf": 8
+    },
+    {
+      "Product name": "Berry Fizz 1g Preroll",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$18.00"
+      },
+      "Discount Price": {
+        "1g": "$18.00"
+      },
+      "THC": "27.57%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Preroll",
+      "SKU": "berryfizz-flower-preroll",
+      "Days on Shelf": 8
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 8
+    }
+  ],
+  "2026-01-17": [
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "G13 Skunk 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "26.46%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "3.5g": 4
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "g13skunk-flower-jar",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "Berry Fizz 1g Preroll",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$18.00"
+      },
+      "Discount Price": {
+        "1g": "$18.00"
+      },
+      "THC": "27.57%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Preroll",
+      "SKU": "berryfizz-flower-preroll",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 9
+    }
+  ],
+  "2026-01-18": [
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 10
+    },
+    {
+      "Product name": "G13 Skunk 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "26.46%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "3.5g": 4
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "g13skunk-flower-jar",
+      "Days on Shelf": 10
+    },
+    {
+      "Product name": "Berry Fizz 1g Preroll",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$18.00"
+      },
+      "Discount Price": {
+        "1g": "$18.00"
+      },
+      "THC": "27.57%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Preroll",
+      "SKU": "berryfizz-flower-preroll",
+      "Days on Shelf": 10
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 10
+    }
+  ],
+  "2026-01-19": [
+    {
+      "Product name": "G13 Skunk 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "26.46%",
+      "Quantity Available": 3,
+      "Quantity Per Option": {
+        "3.5g": 3
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "g13skunk-flower-jar",
+      "Days on Shelf": 11
+    },
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 11
+    },
+    {
+      "Product name": "Berry Fizz 1g Preroll",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$18.00"
+      },
+      "Discount Price": {
+        "1g": "$18.00"
+      },
+      "THC": "27.57%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Preroll",
+      "SKU": "berryfizz-flower-preroll",
+      "Days on Shelf": 11
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 11
+    }
+  ],
+  "2026-01-20": [
+    {
+      "Product name": "G13 Skunk 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "26.46%",
+      "Quantity Available": 3,
+      "Quantity Per Option": {
+        "3.5g": 3
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "g13skunk-flower-jar",
+      "Days on Shelf": 12
+    },
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 12
+    },
+    {
+      "Product name": "Berry Fizz 1g Preroll",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$18.00"
+      },
+      "Discount Price": {
+        "1g": "$18.00"
+      },
+      "THC": "27.57%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Preroll",
+      "SKU": "berryfizz-flower-preroll",
+      "Days on Shelf": 12
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 12
+    }
+  ],
+  "2026-01-21": [
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 13
+    },
+    {
+      "Product name": "G13 Skunk 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "26.46%",
+      "Quantity Available": 3,
+      "Quantity Per Option": {
+        "3.5g": 3
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "g13skunk-flower-jar",
+      "Days on Shelf": 13
+    },
+    {
+      "Product name": "Berry Fizz 1g Preroll",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$18.00"
+      },
+      "Discount Price": {
+        "1g": "$18.00"
+      },
+      "THC": "27.57%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Preroll",
+      "SKU": "berryfizz-flower-preroll",
+      "Days on Shelf": 13
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 13
+    }
+  ],
+  "2026-01-27": [
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "3.5g": 9
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": ".",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "-rosin-jar",
+      "Days on Shelf": 0
+    }
+  ],
+  "2026-01-28": [
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "3.5g": 8
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 0
+    }
+  ],
+  "2026-01-29": [
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "3.5g": 8
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 2
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 1
+    }
+  ],
+  "2026-01-30": [
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "3.5g": 8
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 3
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "3.5g": 9
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 2
+    }
+  ],
+  "2026-01-31": [
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 7,
+      "Quantity Per Option": {
+        "3.5g": 7
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 4
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 7,
+      "Quantity Per Option": {
+        "3.5g": 7
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 3
+    }
+  ],
+  "2026-02-01": [
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "3.5g": 6
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 5
+    },
+    {
+      "Product name": "Melted Strawberries 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "32.6%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "meltedstrawberries-flower-jar",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Papaya Juice 3.5",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.34%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "papayajuice-flower-jar",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Berry Fizz 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "26.25%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "berryfizz-flower-jar",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "G13 Skunk Live Rosin 1g",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {
+        "1g": "$78.00"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 5,
+      "Quantity Per Option": {
+        "1g": 5
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "g13skunk-rosin-jar-1",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Strawberry Guava 1g Preroll",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$18.00"
+      },
+      "Discount Price": {
+        "1g": "$18.00"
+      },
+      "THC": "26.11%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Preroll",
+      "SKU": "strawberryguava-flower-preroll",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 7,
+      "Quantity Per Option": {
+        "3.5g": 7
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 4
+    }
+  ],
+  "2026-02-02": [
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "3.5g": 6
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 6
+    },
+    {
+      "Product name": "Melted Strawberries 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "32.6%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "meltedstrawberries-flower-jar",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Papaya Juice 3.5",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.34%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "papayajuice-flower-jar",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Berry Fizz 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "26.25%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "berryfizz-flower-jar",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "G13 Skunk Live Rosin 1g",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {
+        "1g": "$78.00"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "1g": 4
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "g13skunk-rosin-jar-1",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Strawberry Guava 1g Preroll",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$18.00"
+      },
+      "Discount Price": {
+        "1g": "$18.00"
+      },
+      "THC": "26.11%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Preroll",
+      "SKU": "strawberryguava-flower-preroll",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 7,
+      "Quantity Per Option": {
+        "3.5g": 7
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 5
+    }
+  ],
+  "2026-02-03": [
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "3.5g": 6
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 7
+    },
+    {
+      "Product name": "Melted Strawberries 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "32.6%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "meltedstrawberries-flower-jar",
+      "Days on Shelf": 2
+    },
+    {
+      "Product name": "Papaya Juice 3.5",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.34%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "papayajuice-flower-jar",
+      "Days on Shelf": 2
+    },
+    {
+      "Product name": "Berry Fizz 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "26.25%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "3.5g": 9
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "berryfizz-flower-jar",
+      "Days on Shelf": 2
+    },
+    {
+      "Product name": "G13 Skunk Live Rosin 1g",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {
+        "1g": "$78.00"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "1g": 4
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "g13skunk-rosin-jar-1",
+      "Days on Shelf": 2
+    },
+    {
+      "Product name": "Strawberry Guava 1g Preroll",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$18.00"
+      },
+      "Discount Price": {
+        "1g": "$18.00"
+      },
+      "THC": "26.11%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Preroll",
+      "SKU": "strawberryguava-flower-preroll",
+      "Days on Shelf": 2
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "3.5g": 6
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 6
+    }
+  ],
+  "2026-02-04": [
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "3.5g": 6
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 8
+    },
+    {
+      "Product name": "Melted Strawberries 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "32.6%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "meltedstrawberries-flower-jar",
+      "Days on Shelf": 3
+    },
+    {
+      "Product name": "Papaya Juice 3.5",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.34%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "papayajuice-flower-jar",
+      "Days on Shelf": 3
+    },
+    {
+      "Product name": "G13 Skunk Live Rosin 1g",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {
+        "1g": "$78.00"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "1g": 2
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "g13skunk-rosin-jar-1",
+      "Days on Shelf": 3
+    },
+    {
+      "Product name": "Berry Fizz 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "26.25%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "3.5g": 8
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "berryfizz-flower-jar",
+      "Days on Shelf": 3
+    },
+    {
+      "Product name": "Strawberry Guava 1g Preroll",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$18.00"
+      },
+      "Discount Price": {
+        "1g": "$18.00"
+      },
+      "THC": "26.11%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Preroll",
+      "SKU": "strawberryguava-flower-preroll",
+      "Days on Shelf": 3
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "3.5g": 6
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 7
     }
   ]
 }
