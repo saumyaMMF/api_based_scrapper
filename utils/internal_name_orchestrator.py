@@ -105,6 +105,7 @@ def ensure_internal_product_name(product: dict) -> dict:
     - AI runs ONLY if Internal Product Name is missing
     - Existing mappings are NEVER modified
     - New mappings are append-only
+    - NO rule-based fallback - AI only
     """
 
     raw_name = product.get("Product name", "")
@@ -114,11 +115,12 @@ def ensure_internal_product_name(product: dict) -> dict:
     if existing_name:
         return product
 
-    # 🤖 AI AGENT CALL
+    # 🤖 AI AGENT CALL - ONLY AI, NO FALLBACK
     ai_result = ai_extract_internal_name(raw_name)
 
     if not ai_result:
-        return product  # AI declined / unsure
+        # AI declined - return product without any internal name
+        return product
 
     name = ai_result["internal_product_name"]
     confidence = ai_result["confidence"]
@@ -130,7 +132,7 @@ def ensure_internal_product_name(product: dict) -> dict:
         product["Internal Product Name"] = AUTO_PATTERNS[key]
         return product
 
-    # ✅ Append new mapping
+    # ✅ Append new AI mapping
     save_auto_mapping(key, name)
     log_mapping_event(
         raw_product_name=raw_name,

@@ -459,23 +459,6 @@ def product_name_type_mapping(product_name: str, company_name: str, unit: str) -
 #     return "-".join(sku_parts)
 
 
-def map_internal_type(product: dict) -> dict:
-    """Map internal product type based on existing internal name"""
-    # If internal name exists, preserve the type from existing data
-    if product.get("Internal Product Type"):
-        return product
-    
-    # Otherwise, set a default type or derive from category
-    category = product.get("Category", "").lower()
-    if "vape" in category or "cart" in category:
-        product["Internal Product Type"] = "Cart"
-    elif "flower" in category:
-        product["Internal Product Type"] = "Flower Jar"
-    else:
-        product["Internal Product Type"] = "Rosin Jar"
-    
-    return product
-
 def generate_sku(internal_name: str, internal_type: str, unit: str = "") -> str:
     """Generate SKU based on internal name, type, and unit"""
     if not internal_name or not internal_type:
@@ -661,330 +644,302 @@ def split_rosin_jar_separate(product: Dict[str, Any]) -> List[Dict[str, Any]]:
     # If nothing was split (unlikely), return original
     return out or [product]
 
+                    
+def enhance_product_with_mapping(product: Dict[str, Any], company_name: str) -> Dict[str, Any]:
+    """Enhance product with internal mapping and SKU generation"""
+    if not product:
+        return product
 
-def enhance_product_with_mapping(product: dict, company_name: str) -> dict:
-    raw_name = product.get("Product name", "")
-    internal_name = product.get("Internal Product Name", "").strip()
+    # Get the first unit for mapping (or 'each' if no specific unit)
+    price_data = product.get("Price", {})
+    unit = next(iter(price_data.keys())) if price_data else "each"
 
-    # 🤖 AI-FIRST: Direct AI extraction when internal name is missing
+    # Get internal mapping
+    internal_name, internal_type = product_name_type_mapping(
+        product.get("Product name", ""),
+        company_name,
+        unit
+    )
+
+    # AI-FIRST: Direct AI extraction when internal name is missing
     if not internal_name:
         product = ensure_internal_product_name(product)
         internal_name = product.get("Internal Product Name", "").strip()
-        
-        # 🔧 RULE-BASED FALLBACK: If AI fails, try rule-based extraction
-        if not internal_name:
-            from utils.internal_name_resolver import extract_candidate_internal_name
-            candidate = extract_candidate_internal_name(raw_name)
-            if candidate:
-                key = candidate.lower()
-                if key not in AUTO_PATTERNS:
-                    save_auto_mapping(key, candidate)
-                    log_mapping_event(
-                        raw_product_name=raw_name,
-                        normalized_key=key,
-                        internal_name=candidate,
-                        source="rule_based_fallback"
-                    )
-                    AUTO_PATTERNS[key] = candidate
-                product["Internal Product Name"] = candidate
-                internal_name = candidate
 
-    # Existing logic continues untouched
-    product = map_internal_type(product)
-    sku = generate_sku(internal_name, product.get("Internal Product Type", ""))
-    if sku:
-        product["SKU"] = sku
 
-    return product
-                    
-# def enhance_product_with_mapping(product: Dict[str, Any], company_name: str) -> Dict[str, Any]:
-#     """Enhance product with internal mapping and SKU generation"""
-#     if not product:
-#         return product
+    # name = product.get("Product name", "").lower()
 
-#     # Get the first unit for mapping (or 'each' if no specific unit)
-#     price_data = product.get("Price", {})
-#     unit = next(iter(price_data.keys())) if price_data else "each"
+    # if (
+    #     "donkey butter" in name
+    #     and (
+    #     re.search(r"\b\d+\s*[x×]\s*\d+(\.\d+)?\s*g\b", name)   # matches "7x0.5g"
+    #     or re.search(r"\b\d+\s*(?:1/2|1\/2)\s*g\b", name)      # matches "7 1/2g"
+    #     )
+    #     # and re.search(r"\b\d+\s*[x×]\s*\d+(\.\d+)?\s*g\b", name)
+    #     and "pre-roll" in name
+    # ):
+    #     product["Internal Product Name"] = "Donkey Butter"
+    #     product["Internal Product Type"] = "Preroll Multipack"
+    #     product["SKU"] = "donkeybutter-flower-preroll-multipack"
+    #     return product  #  prevents later mappings from overwriting
 
-#     # Get internal mapping
-#     internal_name, internal_type = product_name_type_mapping(
-#         product.get("Product name", ""),
-#         company_name,
-#         unit
-#     )
-#     # name = product.get("Product name", "").lower()
+    product_name_lower = product.get("Product name", "").lower()
+    category = product.get("Category", "").lower()
 
-#     # if (
-#     #     "donkey butter" in name
-#     #     and (
-#     #     re.search(r"\b\d+\s*[x×]\s*\d+(\.\d+)?\s*g\b", name)   # matches "7x0.5g"
-#     #     or re.search(r"\b\d+\s*(?:1/2|1\/2)\s*g\b", name)      # matches "7 1/2g"
-#     #     )
-#     #     # and re.search(r"\b\d+\s*[x×]\s*\d+(\.\d+)?\s*g\b", name)
-#     #     and "pre-roll" in name
-#     # ):
-#     #     product["Internal Product Name"] = "Donkey Butter"
-#     #     product["Internal Product Type"] = "Preroll Multipack"
-#     #     product["SKU"] = "donkeybutter-flower-preroll-multipack"
-#     #     return product  #  prevents later mappings from overwriting
+    # === CUSTOM FIX FOR "LIVE ROSIN" ===
+    if "live rosin" in product_name_lower:
+        if (
+            any(cat in category for cat in ["vapes", "vaporizers", "vape", "cartridge", "concentrates", "concentrate", "extracts"])
+            and unit in ["0.5g", ".5g", "½g", "each", "1g"]
+        ):
+            internal_type = "Cart" 
+        else:
+            internal_type = "Rosin Jar"
 
-#     product_name_lower = product.get("Product name", "").lower()
-#     category = product.get("Category", "").lower()
+    # === HANDLE VAPE CART CATEGORY ===
+    if "vape carts" in category.lower():
+        if "rosin" in product_name_lower or "cart" in product_name_lower or "vape" in product_name_lower  or "vape carts" in category.lower():
+            internal_type = "Cart"  # Force classification to "Rosin Cart"
+        else:
+            internal_type = "Rosin Jar"
 
-#     # === CUSTOM FIX FOR "LIVE ROSIN" ===
-#     if "live rosin" in product_name_lower:
-#         if (
-#             any(cat in category for cat in ["vapes", "vaporizers", "vape", "cartridge", "concentrates", "concentrate", "extracts"])
-#             and unit in ["0.5g", ".5g", "½g", "each", "1g"]
-#         ):
-#             internal_type = "Cart" 
-#         else:
-#             internal_type = "Rosin Jar"
+    if category in ["concentrate", "concentrates", "extracts"]:
+        if "cart" not in product_name_lower:
+            internal_type = "Rosin Jar"
+        else:
+            internal_type = "Cart"
 
-#     # === HANDLE VAPE CART CATEGORY ===
-#     if "vape carts" in category.lower():
-#         if "rosin" in product_name_lower or "cart" in product_name_lower or "vape" in product_name_lower  or "vape carts" in category.lower():
-#             internal_type = "Cart"  # Force classification to "Rosin Cart"
-#         else:
-#             internal_type = "Rosin Jar"
+    if category in ["flower bar", "flower jar"]:
+        internal_type = "Flower Jar"
 
-#     if category in ["concentrate", "concentrates", "extracts"]:
-#         if "cart" not in product_name_lower:
-#             internal_type = "Rosin Jar"
-#         else:
-#             internal_type = "Cart"
+    # === FIX FOR "FLOWER" CATEGORY ===
+    if category == "flower":
+        if "bulk" in product_name_lower:
+            internal_type = "Flower Bulk"
+        else:
+            internal_type = "Flower Jar"
 
-#     if category in ["flower bar", "flower jar"]:
-#         internal_type = "Flower Jar"
+    # === FIX FOR PRE-ROLL PRODUCTS ===
+    if category in ["pre-rolls", "prerolls", "pre rolls"]:
+        internal_type = "Preroll"
 
-#     # === FIX FOR "FLOWER" CATEGORY ===
-#     if category == "flower":
-#         if "bulk" in product_name_lower:
-#             internal_type = "Flower Bulk"
-#         else:
-#             internal_type = "Flower Jar"
+    # === SCOPED FIX FOR "DULCE DE UVA | 1g Pre-roll" ===
+    if (
+        ("dulce de uva" in product_name_lower or "black maple" in product_name_lower)
+        and (category in ["pre-rolls", "pre-roll"])
+        and internal_type.lower() == "cart"
+    ):
+        internal_type = "Preroll"
 
-#     # === FIX FOR PRE-ROLL PRODUCTS ===
-#     if category in ["pre-rolls", "prerolls", "pre rolls"]:
-#         internal_type = "Preroll"
+    if "moroccan peaches" in product_name_lower:
+        if category == "vape":
+            internal_type = "Cart"
+        elif category == "pre-roll":
+            internal_type = "Preroll"
 
-#     # === SCOPED FIX FOR "DULCE DE UVA | 1g Pre-roll" ===
-#     if (
-#         ("dulce de uva" in product_name_lower or "black maple" in product_name_lower)
-#         and (category in ["pre-rolls", "pre-roll"])
-#         and internal_type.lower() == "cart"
-#     ):
-#         internal_type = "Preroll"
+    # if "dulce de uva" in product_name_lower:
+    if category == "extract":
+        internal_type = "Rosin Jar"
+    elif category == "pre-roll":
+        internal_type = "Preroll"
 
-#     if "moroccan peaches" in product_name_lower:
-#         if category == "vape":
-#             internal_type = "Cart"
-#         elif category == "pre-roll":
-#             internal_type = "Preroll"
+    # === SCOPED FIX FOR "DONKEY BUTTER | 1g Pre-roll" ===
+    if (
+        "donkey butter" in product_name_lower
+        and "pre-roll" in product_name_lower
+        and category == "pre-rolls"
+        and unit == "1g"
+        and internal_type.lower() == "flower jar"
+    ):
+        internal_type = "Preroll"
 
-#     # if "dulce de uva" in product_name_lower:
-#     if category == "extract":
-#         internal_type = "Rosin Jar"
-#     elif category == "pre-roll":
-#         internal_type = "Preroll"
+    # === FIX FOR Rosin Jar SKU to handle "each" as "1" ===
+    if internal_type.lower() == "rosin jar" and unit.lower() == "each":
+        unit = "1"  # Force unit to '1' for Rosin Jar products
 
-#     # === SCOPED FIX FOR "DONKEY BUTTER | 1g Pre-roll" ===
-#     if (
-#         "donkey butter" in product_name_lower
-#         and "pre-roll" in product_name_lower
-#         and category == "pre-rolls"
-#         and unit == "1g"
-#         and internal_type.lower() == "flower jar"
-#     ):
-#         internal_type = "Preroll"
+    # Define stores for which Flower Jar → Flower Bulk rule applies
+    flower_bulk_stores = {"garcia's", "mothaplant","rimeline","sweetspot"}
 
-#     # === FIX FOR Rosin Jar SKU to handle "each" as "1" ===
-#     if internal_type.lower() == "rosin jar" and unit.lower() == "each":
-#         unit = "1"  # Force unit to '1' for Rosin Jar products
+    normalized_store = normalize_string(company_name)
 
-#     # Define stores for which Flower Jar → Flower Bulk rule applies
-#     flower_bulk_stores = {"garcia's", "mothaplant","rimeline","sweetspot"}
+    # Apply rule only if store is in our special list
+    if normalized_store in flower_bulk_stores:
+        if category.lower() in {"flower", "flower jar", "flower bulk", "flower bar"}:
+            if internal_type.lower() == "flower jar" or internal_type.lower() == "preroll":
+                internal_type = "Flower Bulk"
 
-#     normalized_store = normalize_string(company_name)
+    if (
+        "donkey butter" in product_name_lower
+        and "2 pack" in product_name_lower
+        and category == "pre-rolls"
+        and internal_type.lower() == "preroll"
+    ):
+        product["Internal Product Name"] = "Donkey Butter"
+        product["Internal Product Type"] = "Preroll"
+        product["SKU"] = "donkeybutter-flower-preroll"
+        return product  # Skip further processing
 
-#     # Apply rule only if store is in our special list
-#     if normalized_store in flower_bulk_stores:
-#         if category.lower() in {"flower", "flower jar", "flower bulk", "flower bar"}:
-#             if internal_type.lower() == "flower jar" or internal_type.lower() == "preroll":
-#                 internal_type = "Flower Bulk"
+    # # === FIX: All multipacks should be flower-multipack SKU ===
+    # normalized_product_name = normalize_string(product.get("Product name", ""))
 
-#     if (
-#         "donkey butter" in product_name_lower
-#         and "2 pack" in product_name_lower
-#         and category == "pre-rolls"
-#         and internal_type.lower() == "preroll"
-#     ):
-#         product["Internal Product Name"] = "Donkey Butter"
-#         product["Internal Product Type"] = "Preroll"
-#         product["SKU"] = "donkeybutter-flower-preroll"
-#         return product  # Skip further processing
-
-#     # # === FIX: All multipacks should be flower-multipack SKU ===
-#     # normalized_product_name = normalize_string(product.get("Product name", ""))
-
-#     # # Special rule: 3-Strain Multipack → Donkey Butter Flower Multipack
-#     # if "3 strain" in normalized_product_name and (
-#     #     "multipack" in normalized_product_name or "multi pack" in normalized_product_name
-#     # ):
-#     #     product["Internal Product Name"] = "Donkey Butter"
-#     #     product["Internal Product Type"] = "Flower Multipack"
-#     #     product["SKU"] = "donkeybutter-flower-multipack"
-#     #     return product  # Skip further processing
+    # # Special rule: 3-Strain Multipack → Donkey Butter Flower Multipack
+    # if "3 strain" in normalized_product_name and (
+    #     "multipack" in normalized_product_name or "multi pack" in normalized_product_name
+    # ):
+    #     product["Internal Product Name"] = "Donkey Butter"
+    #     product["Internal Product Type"] = "Flower Multipack"
+    #     product["SKU"] = "donkeybutter-flower-multipack"
+    #     return product  # Skip further processing
     
-#     if (
-#         "donkey butter" in product_name_lower
-#         and "6pk" in product_name_lower
-#         and category == "pre-rolls"
-#     ):
-#         product["Internal Product Name"] = "Donkey Butter"
-#         product["Internal Product Type"] = "Preroll Multipack"
-#         product["SKU"] = "donkeybutter-preroll-multipack"
-#         return product  # Skip further processing
+    if (
+        "donkey butter" in product_name_lower
+        and "6pk" in product_name_lower
+        and category == "pre-rolls"
+    ):
+        product["Internal Product Name"] = "Donkey Butter"
+        product["Internal Product Type"] = "Preroll Multipack"
+        product["SKU"] = "donkeybutter-preroll-multipack"
+        return product  # Skip further processing
     
-#     # if (
-#     #     "donkey butter" in product_name_lower 
-#     #     and "dogwalkers" in product_name_lower
-#     #     and "7-pack ea" in product_name_lower
-#     #     and category == "pre-rolls"
-#     # ):
-#     #     product["Internal Product Name"] = "Donkey Butter"
-#     #     product["Internal Product Type"] = "Flower Multipack"
-#     #     product["SKU"] = "donkeybutter-flower-multipack"
-#     #     return product  # Skip further processing
+    # if (
+    #     "donkey butter" in product_name_lower 
+    #     and "dogwalkers" in product_name_lower
+    #     and "7-pack ea" in product_name_lower
+    #     and category == "pre-rolls"
+    # ):
+    #     product["Internal Product Name"] = "Donkey Butter"
+    #     product["Internal Product Type"] = "Flower Multipack"
+    #     product["SKU"] = "donkeybutter-flower-multipack"
+    #     return product  # Skip further processing
     
-#     # if (
-#     #     "donkey butter" in product_name_lower 
-#     #     and "7 count" in product_name_lower
-#     #     and category == "preroll"
-#     # ):
-#     #     product["Internal Product Name"] = "Donkey Butter"
-#     #     product["Internal Product Type"] = "Flower Multipack"
-#     #     product["SKU"] = "donkeybutter-flower-multipack"
-#     #     return product  # Skip further processing
-#         # === GENERAL FIX: Donkey Butter multipacks (any format) ===
-#     # nl = product_name_lower
-#     # nl_nospace = nl.replace(" ", "")
+    # if (
+    #     "donkey butter" in product_name_lower 
+    #     and "7 count" in product_name_lower
+    #     and category == "preroll"
+    # ):
+    #     product["Internal Product Name"] = "Donkey Butter"
+    #     product["Internal Product Type"] = "Flower Multipack"
+    #     product["SKU"] = "donkeybutter-flower-multipack"
+    #     return product  # Skip further processing
+        # === GENERAL FIX: Donkey Butter multipacks (any format) ===
+    # nl = product_name_lower
+    # nl_nospace = nl.replace(" ", "")
 
-#     # # treat "3 strain multipack" as Donkey Butter too (keeps your old rule)
-#     # donkey_by_3strain = ("3-strain" in nl) and (
-#     #     "multi pack" in nl or re.search(r"\bmulti\s*pack\b", nl)
-#     # )
+    # # treat "3 strain multipack" as Donkey Butter too (keeps your old rule)
+    # donkey_by_3strain = ("3-strain" in nl) and (
+    #     "multi pack" in nl or re.search(r"\bmulti\s*pack\b", nl)
+    # )
 
-#     # is_donkey = ("donkeybutter" in nl_nospace) or ("donkey butter" in nl) or donkey_by_3strain
+    # is_donkey = ("donkeybutter" in nl_nospace) or ("donkey butter" in nl) or donkey_by_3strain
 
-#     # # multipack indicators: "multipack", "multi pack", "6pk", "2 pack", "(7)", "7x0.5g", "dogwalkers", etc.
-#     # is_multipack = (
-#     #     "multipack" in nl
-#     #     or re.search(r"\bmulti\s*pack\b", nl)
-#     #     or re.search(r"\b\d+\s*(?:pack|pk)\b", nl)   # "2 pack", "6pk"
-#     #     or re.search(r"\(\s*\d+\s*\)", nl)           # "(7)"
-#     #     or re.search(r"\b\d+\s*[x×]\s*\d*", nl)      # "7x", "7x0.5g"
-#     #     or "dogwalkers" in nl
-#     #     or "7-pack" in nl
-#     #     or "7 count" in nl
-#     # )
+    # # multipack indicators: "multipack", "multi pack", "6pk", "2 pack", "(7)", "7x0.5g", "dogwalkers", etc.
+    # is_multipack = (
+    #     "multipack" in nl
+    #     or re.search(r"\bmulti\s*pack\b", nl)
+    #     or re.search(r"\b\d+\s*(?:pack|pk)\b", nl)   # "2 pack", "6pk"
+    #     or re.search(r"\(\s*\d+\s*\)", nl)           # "(7)"
+    #     or re.search(r"\b\d+\s*[x×]\s*\d*", nl)      # "7x", "7x0.5g"
+    #     or "dogwalkers" in nl
+    #     or "7-pack" in nl
+    #     or "7 count" in nl
+    # )
 
-#     # if is_donkey and is_multipack:
-#     #     product["Internal Product Name"] = "Donkey Butter"
-#     #     product["Internal Product Type"] = "Preroll Multipack"
-#     #     product["SKU"] = "donkeybutter-flower-preroll-multipack"
-#     #     return product
-#     # === GENERAL FIX: Donkey Butter multipacks (all formats, includes your 7x/.5g pre-roll case) ===
-#     name_raw = product.get("Product name", "")
-#     nl = name_raw.lower()
-#     nl_nospace = nl.replace(" ", "")
-#     category_lower = (product.get("Category") or "").lower()
+    # if is_donkey and is_multipack:
+    #     product["Internal Product Name"] = "Donkey Butter"
+    #     product["Internal Product Type"] = "Preroll Multipack"
+    #     product["SKU"] = "donkeybutter-flower-preroll-multipack"
+    #     return product
+    # === GENERAL FIX: Donkey Butter multipacks (all formats, includes your 7x/.5g pre-roll case) ===
+    name_raw = product.get("Product name", "")
+    nl = name_raw.lower()
+    nl_nospace = nl.replace(" ", "")
+    category_lower = (product.get("Category") or "").lower()
 
-#     # treat "3 strain"/"3-strain" multipack as Donkey Butter too
-#     donkey_by_3strain = (("3 strain" in nl) or ("3-strain" in nl)) and (
-#         "multipack" in nl or re.search(r"\bmulti\s*pack\b", nl)
-#     )
+    # treat "3 strain"/"3-strain" multipack as Donkey Butter too
+    donkey_by_3strain = (("3 strain" in nl) or ("3-strain" in nl)) and (
+        "multipack" in nl or re.search(r"\bmulti\s*pack\b", nl)
+    )
 
-#     is_donkey = ("donkeybutter" in nl_nospace) or ("donkey butter" in nl) or donkey_by_3strain
+    is_donkey = ("donkeybutter" in nl_nospace) or ("donkey butter" in nl) or donkey_by_3strain
 
-#     # pre-roll indicators (name or category)
-#     is_prerollish = (
-#         "pre-roll" in nl or "pre roll" in nl or "preroll" in nl
-#         or "pre-rolls" in nl or "prerolls" in nl or "pre rolls" in nl
-#         or category_lower in ("pre-roll", "pre-rolls", "preroll", "prerolls", "pre rolls")
-#     )
+    # pre-roll indicators (name or category)
+    is_prerollish = (
+        "pre-roll" in nl or "pre roll" in nl or "preroll" in nl
+        or "pre-rolls" in nl or "prerolls" in nl or "pre rolls" in nl
+        or category_lower in ("pre-roll", "pre-rolls", "preroll", "prerolls", "pre rolls")
+    )
 
-#     # weight-pattern multipack like "7x0.5g" or "7 1/2g" (your earlier condition)
-#     has_weighted_x = (
-#         re.search(r"\b\d+\s*[x×]\s*\d+(\.\d+)?\s*g\b", nl) is not None  # e.g. "7x0.5g"
-#         or re.search(r"\b\d+\s*(?:1/2|1\/2)\s*g\b", nl) is not None     # e.g. "7 1/2g"
-#     )
+    # weight-pattern multipack like "7x0.5g" or "7 1/2g" (your earlier condition)
+    has_weighted_x = (
+        re.search(r"\b\d+\s*[x×]\s*\d+(\.\d+)?\s*g\b", nl) is not None  # e.g. "7x0.5g"
+        or re.search(r"\b\d+\s*(?:1/2|1\/2)\s*g\b", nl) is not None     # e.g. "7 1/2g"
+    )
 
-#     # generic multipack indicators
-#     is_generic_multipack = (
-#         "multipack" in nl
-#         or re.search(r"\bmulti\s*pack\b", nl)
-#         # or re.search(r"\b\d+\s*(?:pack|pk)\b", nl)     # "2 pack", "6pk"
-#         or re.search(r"\(\s*\d+\s*\)", nl)             # "(7)"
-#         or re.search(r"\b\d+\s*[x×]\s*\d*", nl)        # "7x", "7x0.5g"
-#         or "7-pack" in nl
-#         or "7 count" in nl
-#         or "dogwalkers" in nl
-#     )
+    # generic multipack indicators
+    is_generic_multipack = (
+        "multipack" in nl
+        or re.search(r"\bmulti\s*pack\b", nl)
+        # or re.search(r"\b\d+\s*(?:pack|pk)\b", nl)     # "2 pack", "6pk"
+        or re.search(r"\(\s*\d+\s*\)", nl)             # "(7)"
+        or re.search(r"\b\d+\s*[x×]\s*\d*", nl)        # "7x", "7x0.5g"
+        or "7-pack" in nl
+        or "7 count" in nl
+        or "dogwalkers" in nl
+    )
 
-#     # final multipack decision:
-#     # - any generic multipack signal, OR
-#     # - (pre-roll-ish AND the weighted '7x/.5g' etc. pattern)
-#     is_multipack = is_generic_multipack or (is_prerollish and has_weighted_x)
+    # final multipack decision:
+    # - any generic multipack signal, OR
+    # - (pre-roll-ish AND the weighted '7x/.5g' etc. pattern)
+    is_multipack = is_generic_multipack or (is_prerollish and has_weighted_x)
 
-#     if is_donkey and is_multipack:
-#         product["Internal Product Name"] = "Donkey Butter"
-#         product["Internal Product Type"] = "Preroll Multipack"
-#         product["SKU"] = "donkeybutter-flower-preroll-multipack"
-#         return product 
+    if is_donkey and is_multipack:
+        product["Internal Product Name"] = "Donkey Butter"
+        product["Internal Product Type"] = "Preroll Multipack"
+        product["SKU"] = "donkeybutter-flower-preroll-multipack"
+        return product 
     
-#     # === GENERAL FIX: Deathstar multipacks (any format) ===
-#     nl = product_name_lower
-#     nl_nospace = nl.replace(" ", "")
-#     is_deathstar = ("deathstar" in nl_nospace) or ("death star" in nl)
+    # === GENERAL FIX: Deathstar multipacks (any format) ===
+    nl = product_name_lower
+    nl_nospace = nl.replace(" ", "")
+    is_deathstar = ("deathstar" in nl_nospace) or ("death star" in nl)
 
-#     # multipack indicators: "multipack", "multi pack", "7x", "(7)", "2 pack", etc.
-#     is_multipack = (
-#         "multipack" in nl
-#         or re.search(r"\bmulti\s*pack\b", nl)
-#         or re.search(r"\b\d+\s*pack\b", nl)         # "2 pack", "5 pack"
-#         or re.search(r"\(\s*\d+\s*\)", nl)          # "(7)"
-#         or re.search(r"\b\d+\s*[x×]\s*\d*", nl)     # "7x", "7x0.5g"
-#     )
+    # multipack indicators: "multipack", "multi pack", "7x", "(7)", "2 pack", etc.
+    is_multipack = (
+        "multipack" in nl
+        or re.search(r"\bmulti\s*pack\b", nl)
+        or re.search(r"\b\d+\s*pack\b", nl)         # "2 pack", "5 pack"
+        or re.search(r"\(\s*\d+\s*\)", nl)          # "(7)"
+        or re.search(r"\b\d+\s*[x×]\s*\d*", nl)     # "7x", "7x0.5g"
+    )
 
-#     # === Dulce de Uva: ONLY 7 pk preroll → multipack SKU ===
-#     nl = (product.get("Product name") or "").lower()
-#     if ("dulce de uva" in nl) and re.search(r"\b7\s*pk\b", nl):
-#         product["Internal Product Name"] = "Dulce de Uva"
-#         product["Internal Product Type"] = "Preroll Multipack"
-#         product["SKU"] = "dulcedeuva-flower-preroll-multipack"
-#         return product
+    # === Dulce de Uva: ONLY 7 pk preroll → multipack SKU ===
+    nl = (product.get("Product name") or "").lower()
+    if ("dulce de uva" in nl) and re.search(r"\b7\s*pk\b", nl):
+        product["Internal Product Name"] = "Dulce de Uva"
+        product["Internal Product Type"] = "Preroll Multipack"
+        product["SKU"] = "dulcedeuva-flower-preroll-multipack"
+        return product
 
-#     if is_deathstar and is_multipack:
-#         product["Internal Product Name"] = "Deathstar"
-#         product["Internal Product Type"] = "Preroll Multipack"
-#         product["SKU"] = "deathstar-flower-preroll-multipack"
-#         return product  #  stop here so nothing overwrites it
+    if is_deathstar and is_multipack:
+        product["Internal Product Name"] = "Deathstar"
+        product["Internal Product Type"] = "Preroll Multipack"
+        product["SKU"] = "deathstar-flower-preroll-multipack"
+        return product  #  stop here so nothing overwrites it
 
-#     # Generate SKU
-#     sku = generate_sku(internal_name, internal_type, unit)
+    # Generate SKU
+    sku = generate_sku(internal_name, internal_type, unit)
 
-#     # Update product
-#     enhanced_product = product.copy()
-#     enhanced_product["Internal Product Name"] = internal_name
-#     enhanced_product["Internal Product Type"] = internal_type
-#     enhanced_product["SKU"] = sku
+    # Update product
+    enhanced_product = product.copy()
+    enhanced_product["Internal Product Name"] = internal_name
+    enhanced_product["Internal Product Type"] = internal_type
+    enhanced_product["SKU"] = sku
 
-#     # Initialize new fields if not present
-#     if "Days on Shelf" not in enhanced_product:
-#         enhanced_product["Days on Shelf"] = 0
+    # Initialize new fields if not present
+    if "Days on Shelf" not in enhanced_product:
+        enhanced_product["Days on Shelf"] = 0
 
-#     return enhanced_product
+    return enhanced_product
 
 def validate_product(product: Dict[str, Any]) -> bool:
     """Validate product data"""

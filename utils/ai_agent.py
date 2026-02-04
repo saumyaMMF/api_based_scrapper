@@ -63,14 +63,29 @@ def ai_extract_internal_name(product_name: str) -> dict | None:
 You are a canonical product naming assistant for a cannabis inventory system.
 
 Task:
-Extract the canonical Internal Product Name.
+Extract ONLY the core product strain/name from the full product name.
+
+IMPORTANT - Extract ONLY the actual product/strain name, NOT:
+- Brand names (Rhize, Verano, etc.)
+- Product categories (concentrate, flower, vape, etc.)
+- Product types (Live Rosin, Cart, Preroll, Battery, etc.)
+- Extraction methods (Live, Indoor, Outdoor, etc.)
+- Weights and units (1g, 3.5g, etc.)
+- Additional descriptors (Indica, Hybrid, Sativa, etc.)
+
+Examples:
+- "Rhize Cannabis Company | G13 Skunk | Live Rosin | Concentrate Indica-Hybrid" → "G13 Skunk"
+- "Verano | Blue Dream | Flower | Indoor" → "Blue Dream"
+- "Rhize | Melted Strawberries | 1g Live Rosin" → "Melted Strawberries"
+- "Cresco Labs | Gelato | Vape Cart | 0.5g" → "Gelato"
 
 Rules:
-- Remove brand names
-- Remove weights and units
-- Remove product formats (rosin, cart, preroll, flower, battery, etc.)
+- Extract ONLY the core product/strain name
+- Remove ALL brand names
+- Remove ALL product formats and categories
+- Remove weights, units, and measurements
+- Remove extraction methods and growing conditions
 - Do NOT invent new words
-- Do NOT include brand names
 - Title Case output
 - If uncertain, return null
 
