@@ -4057,6 +4057,156 @@
       "Days on Shelf": 91
     }
   ],
+  "2026-01-23": [
+    {
+      "Product name": "Papaya Juice",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.7%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "3.5g": 6
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "papayajuice-flower-jar",
+      "Days on Shelf": 93
+    },
+    {
+      "Product name": "Dulce de Uva",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.8%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "3.5g": 9
+      },
+      "Internal Product Name": "Dulce de Uva",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "dulcedeuva-flower-jar",
+      "Days on Shelf": 70
+    },
+    {
+      "Product name": "Dulce De Uva 1/8",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.8%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "3.5g": 6
+      },
+      "Internal Product Name": "Dulce De Uva 1/8",
+      "Internal Product Type": "Jar",
+      "SKU": "dulcedeuva1/8-flower-jar",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Papaya Juice 1/8",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.7%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "3.5g": 8
+      },
+      "Internal Product Name": "Papaya Juice 1/8",
+      "Internal Product Type": "Jar",
+      "SKU": "papayajuice1/8-flower-jar",
+      "Days on Shelf": 0
+    }
+  ],
+  "2026-01-24": [
+    {
+      "Product name": "Dulce De Uva 1/8",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.8%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "3.5g": 6
+      },
+      "Internal Product Name": "Dulce De Uva 1/8",
+      "Internal Product Type": "Jar",
+      "SKU": "dulcedeuva1/8-flower-jar",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Papaya Juice 1/8",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.7%",
+      "Quantity Available": 7,
+      "Quantity Per Option": {
+        "3.5g": 7
+      },
+      "Internal Product Name": "Papaya Juice 1/8",
+      "Internal Product Type": "Jar",
+      "SKU": "papayajuice1/8-flower-jar",
+      "Days on Shelf": 1
+    }
+  ],
+  "2026-01-25": [
+    {
+      "Product name": "Dulce De Uva 1/8",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.8%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "3.5g": 6
+      },
+      "Internal Product Name": "Dulce De Uva 1/8",
+      "Internal Product Type": "Jar",
+      "SKU": "dulcedeuva1/8-flower-jar",
+      "Days on Shelf": 2
+    },
+    {
+      "Product name": "Papaya Juice 1/8",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.7%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "3.5g": 6
+      },
+      "Internal Product Name": "Papaya Juice 1/8",
+      "Internal Product Type": "Jar",
+      "SKU": "papayajuice1/8-flower-jar",
+      "Days on Shelf": 2
+    }
+  ],
   "2026-01-27": [
     {
       "Product name": "Dulce de Uva 1/8",
@@ -4072,7 +4222,7 @@
       "Internal Product Name": "Dulce De Uva",
       "Internal Product Type": "Flower Jar",
       "SKU": "dulcedeuva-flower-jar",
-      "Days on Shelf": 0
+      "Days on Shelf": 72
     },
     {
       "Product name": "Papaya Juice 1/8",
@@ -4088,7 +4238,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Flower Jar",
       "SKU": "papayajuice-flower-jar",
-      "Days on Shelf": 0
+      "Days on Shelf": 97
     }
   ],
   "2026-01-28": [
@@ -4106,7 +4256,7 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Flower Jar",
       "SKU": "dulcedeuva-flower-jar",
-      "Days on Shelf": 1
+      "Days on Shelf": 73
     },
     {
       "Product name": "Papaya Juice 1/8",
@@ -4122,7 +4272,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Flower Jar",
       "SKU": "papayajuice-flower-jar",
-      "Days on Shelf": 1
+      "Days on Shelf": 98
     }
   ],
   "2026-01-29": [
@@ -4140,7 +4290,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Flower Jar",
       "SKU": "papayajuice-flower-jar",
-      "Days on Shelf": 2
+      "Days on Shelf": 99
     }
   ],
   "2026-01-30": [
@@ -4158,7 +4308,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Flower Jar",
       "SKU": "papayajuice-flower-jar",
-      "Days on Shelf": 3
+      "Days on Shelf": 100
     }
   ],
   "2026-01-31": [
@@ -4176,7 +4326,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Flower Jar",
       "SKU": "papayajuice-flower-jar",
-      "Days on Shelf": 4
+      "Days on Shelf": 101
     }
   ],
   "2026-02-01": [
@@ -4194,7 +4344,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Flower Jar",
       "SKU": "papayajuice-flower-jar",
-      "Days on Shelf": 5
+      "Days on Shelf": 102
     }
   ],
   "2026-02-02": [
@@ -4212,7 +4362,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Flower Jar",
       "SKU": "papayajuice-flower-jar",
-      "Days on Shelf": 6
+      "Days on Shelf": 103
     }
   ],
   "2026-02-03": [
@@ -4230,7 +4380,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Flower Jar",
       "SKU": "papayajuice-flower-jar",
-      "Days on Shelf": 7
+      "Days on Shelf": 104
     }
   ],
   "2026-02-04": [
@@ -4248,7 +4398,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Flower Jar",
       "SKU": "papayajuice-flower-jar",
-      "Days on Shelf": 8
+      "Days on Shelf": 105
     }
   ]
 }

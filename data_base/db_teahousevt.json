@@ -31351,6 +31351,372 @@
       "Days on Shelf": 14
     }
   ],
+  "2026-01-23": [
+    {
+      "Product name": "Strawberry Guava",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "83.06%",
+      "Quantity Available": 22,
+      "Quantity Per Option": {
+        ".5g": 22
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Cart",
+      "SKU": "strawberryguava-rosin-cart",
+      "Days on Shelf": 16
+    },
+    {
+      "Product name": "G13 Skunk",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$55.20"
+      },
+      "Discount Price": {},
+      "THC": "26.46%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "3.5g": 4
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Jar",
+      "SKU": "g13skunk-flower-jar",
+      "Days on Shelf": 15
+    },
+    {
+      "Product name": "Multipack",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "30%",
+      "Quantity Available": 34,
+      "Quantity Per Option": {
+        "3.5g": 34
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 4
+    },
+    {
+      "Product name": "Papaya Juice",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "75%",
+      "Quantity Available": 3,
+      "Quantity Per Option": {
+        ".5g": 3
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Cart",
+      "SKU": "papayajuice-rosin-cart",
+      "Days on Shelf": 72
+    },
+    {
+      "Product name": "Papaya Juice . Vape",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "75%",
+      "Quantity Available": 1,
+      "Quantity Per Option": {
+        ".5g": 1
+      },
+      "Internal Product Name": "Papaya Juice . Vape",
+      "Internal Product Type": "Cart",
+      "SKU": "papayajuice.vape-rosin-cart",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Strawberry Guava . Vape",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "83.06%",
+      "Quantity Available": 22,
+      "Quantity Per Option": {
+        ".5g": 22
+      },
+      "Internal Product Name": "Strawberry Guava . Vape",
+      "Internal Product Type": "Cart",
+      "SKU": "strawberryguava.vape-rosin-cart",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Berry Fizz",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$84.00"
+      },
+      "Discount Price": {},
+      "THC": "60%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "1g": 4
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Jar",
+      "SKU": "berryfizz-rosin-jar-1",
+      "Days on Shelf": 16
+    },
+    {
+      "Product name": "Sour Diesel",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$84.00"
+      },
+      "Discount Price": {},
+      "THC": "60%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "1g": 9
+      },
+      "Internal Product Name": "Sour Diesel",
+      "Internal Product Type": "Jar",
+      "SKU": "sourdiesel-rosin-jar-1",
+      "Days on Shelf": 16
+    },
+    {
+      "Product name": "(7X0.) Variety",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "30%",
+      "Quantity Available": 15,
+      "Quantity Per Option": {
+        "3.5g": 15
+      },
+      "Internal Product Name": "(7X0.) Variety",
+      "Internal Product Type": "Jar",
+      "SKU": "7x0variety-rosin-jar",
+      "Days on Shelf": 0
+    }
+  ],
+  "2026-01-24": [
+    {
+      "Product name": "Sour Diesel",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$84.00"
+      },
+      "Discount Price": {},
+      "THC": "60%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "1g": 9
+      },
+      "Internal Product Name": "Sour Diesel",
+      "Internal Product Type": "Jar",
+      "SKU": "sourdiesel-rosin-jar-1",
+      "Days on Shelf": 17
+    },
+    {
+      "Product name": "(7X0.) Variety",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "30%",
+      "Quantity Available": 1,
+      "Quantity Per Option": {
+        "3.5g": 1
+      },
+      "Internal Product Name": "(7X0.) Variety",
+      "Internal Product Type": "Jar",
+      "SKU": "7x0variety-rosin-jar",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Berry Fizz",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$84.00"
+      },
+      "Discount Price": {},
+      "THC": "60%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "1g": 4
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Jar",
+      "SKU": "berryfizz-rosin-jar-1",
+      "Days on Shelf": 17
+    },
+    {
+      "Product name": "Strawberry Guava . Vape",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "83.06%",
+      "Quantity Available": 21,
+      "Quantity Per Option": {
+        ".5g": 21
+      },
+      "Internal Product Name": "Strawberry Guava . Vape",
+      "Internal Product Type": "Cart",
+      "SKU": "strawberryguava.vape-rosin-cart",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Papaya Juice . Vape",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "75%",
+      "Quantity Available": 1,
+      "Quantity Per Option": {
+        ".5g": 1
+      },
+      "Internal Product Name": "Papaya Juice . Vape",
+      "Internal Product Type": "Cart",
+      "SKU": "papayajuice.vape-rosin-cart",
+      "Days on Shelf": 1
+    }
+  ],
+  "2026-01-25": [
+    {
+      "Product name": "(7X0.) Variety",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "30%",
+      "Quantity Available": 1,
+      "Quantity Per Option": {
+        "3.5g": 1
+      },
+      "Internal Product Name": "(7X0.) Variety",
+      "Internal Product Type": "Jar",
+      "SKU": "7x0variety-rosin-jar",
+      "Days on Shelf": 2
+    },
+    {
+      "Product name": "Sour Diesel",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$84.00"
+      },
+      "Discount Price": {},
+      "THC": "60%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "1g": 9
+      },
+      "Internal Product Name": "Sour Diesel",
+      "Internal Product Type": "Jar",
+      "SKU": "sourdiesel-rosin-jar-1",
+      "Days on Shelf": 18
+    },
+    {
+      "Product name": "Berry Fizz",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$84.00"
+      },
+      "Discount Price": {},
+      "THC": "60%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "1g": 4
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Jar",
+      "SKU": "berryfizz-rosin-jar-1",
+      "Days on Shelf": 18
+    },
+    {
+      "Product name": "Papaya Juice . Vape",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "75%",
+      "Quantity Available": 1,
+      "Quantity Per Option": {
+        ".5g": 1
+      },
+      "Internal Product Name": "Papaya Juice . Vape",
+      "Internal Product Type": "Cart",
+      "SKU": "papayajuice.vape-rosin-cart",
+      "Days on Shelf": 2
+    },
+    {
+      "Product name": "Strawberry Guava . Vape",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "83.06%",
+      "Quantity Available": 19,
+      "Quantity Per Option": {
+        ".5g": 19
+      },
+      "Internal Product Name": "Strawberry Guava . Vape",
+      "Internal Product Type": "Cart",
+      "SKU": "strawberryguava.vape-rosin-cart",
+      "Days on Shelf": 2
+    },
+    {
+      "Product name": "G13 Skunk",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$55.20"
+      },
+      "Discount Price": {},
+      "THC": "26.46%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "3.5g": 2
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Jar",
+      "SKU": "g13skunk-flower-jar",
+      "Days on Shelf": 17
+    }
+  ],
   "2026-01-27": [
     {
       "Product name": "G13 Skunk 3.5g Flower",
@@ -31366,7 +31732,7 @@
       "Internal Product Name": "G13 Skunk",
       "Internal Product Type": "Flower Jar",
       "SKU": "g13skunk-flower-jar",
-      "Days on Shelf": 0
+      "Days on Shelf": 19
     },
     {
       "Product name": "Papaya Juice Live Rosin .5g Vape",
@@ -31400,7 +31766,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Rosin Jar",
       "SKU": "berryfizz-rosin-jar-1",
-      "Days on Shelf": 0
+      "Days on Shelf": 20
     },
     {
       "Product name": "Strawberry Guava Live Rosin .5g Vape",
@@ -31416,7 +31782,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Cart",
       "SKU": "strawberryguava-rosin-cart",
-      "Days on Shelf": 0
+      "Days on Shelf": 18
     },
     {
       "Product name": "Sour Diesel 1g Live Rosin",
@@ -31434,7 +31800,7 @@
       "Internal Product Name": "Sour Diesel",
       "Internal Product Type": "Rosin Jar",
       "SKU": "sourdiesel-rosin-jar-1",
-      "Days on Shelf": 0
+      "Days on Shelf": 20
     }
   ],
   "2026-01-28": [
@@ -31452,7 +31818,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Cart",
       "SKU": "strawberryguava-rosin-cart",
-      "Days on Shelf": 1
+      "Days on Shelf": 19
     },
     {
       "Product name": "Berry Fizz 1g Live Rosin",
@@ -31470,7 +31836,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Rosin Jar",
       "SKU": "berryfizz-rosin-jar-1",
-      "Days on Shelf": 1
+      "Days on Shelf": 21
     },
     {
       "Product name": "Sour Diesel 1g Live Rosin",
@@ -31488,7 +31854,7 @@
       "Internal Product Name": "Sour Diesel",
       "Internal Product Type": "Rosin Jar",
       "SKU": "sourdiesel-rosin-jar-1",
-      "Days on Shelf": 1
+      "Days on Shelf": 21
     }
   ],
   "2026-01-29": [
@@ -31506,7 +31872,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Cart",
       "SKU": "strawberryguava-rosin-cart",
-      "Days on Shelf": 2
+      "Days on Shelf": 20
     },
     {
       "Product name": "Sour Diesel 1g Live Rosin",
@@ -31524,7 +31890,7 @@
       "Internal Product Name": "Sour Diesel",
       "Internal Product Type": "Rosin Jar",
       "SKU": "sourdiesel-rosin-jar-1",
-      "Days on Shelf": 2
+      "Days on Shelf": 22
     }
   ],
   "2026-01-30": [
@@ -31542,7 +31908,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Cart",
       "SKU": "strawberryguava-rosin-cart",
-      "Days on Shelf": 3
+      "Days on Shelf": 21
     },
     {
       "Product name": "Sour Diesel 1g Live Rosin",
@@ -31560,7 +31926,7 @@
       "Internal Product Name": "Sour Diesel",
       "Internal Product Type": "Rosin Jar",
       "SKU": "sourdiesel-rosin-jar-1",
-      "Days on Shelf": 3
+      "Days on Shelf": 23
     }
   ],
   "2026-01-31": [
@@ -31578,7 +31944,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Cart",
       "SKU": "strawberryguava-rosin-cart",
-      "Days on Shelf": 4
+      "Days on Shelf": 22
     },
     {
       "Product name": "Sour Diesel 1g Live Rosin",
@@ -31596,7 +31962,7 @@
       "Internal Product Name": "Sour Diesel",
       "Internal Product Type": "Rosin Jar",
       "SKU": "sourdiesel-rosin-jar-1",
-      "Days on Shelf": 4
+      "Days on Shelf": 24
     }
   ],
   "2026-02-01": [
@@ -31614,7 +31980,7 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 0
+      "Days on Shelf": 13
     },
     {
       "Product name": "G13 Skunk 3.5g Flower",
@@ -31630,7 +31996,7 @@
       "Internal Product Name": "G13 Skunk",
       "Internal Product Type": "Flower Jar",
       "SKU": "g13skunk-flower-jar",
-      "Days on Shelf": 0
+      "Days on Shelf": 24
     },
     {
       "Product name": "Strawberry Guava Live Rosin .5g Vape",
@@ -31646,7 +32012,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Cart",
       "SKU": "strawberryguava-rosin-cart",
-      "Days on Shelf": 5
+      "Days on Shelf": 23
     },
     {
       "Product name": "Sour Diesel 1g Live Rosin",
@@ -31664,7 +32030,7 @@
       "Internal Product Name": "Sour Diesel",
       "Internal Product Type": "Rosin Jar",
       "SKU": "sourdiesel-rosin-jar-1",
-      "Days on Shelf": 5
+      "Days on Shelf": 25
     },
     {
       "Product name": "GMO .5g Live Rosin Vape",
@@ -31732,7 +32098,7 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 1
+      "Days on Shelf": 14
     },
     {
       "Product name": "G13 Skunk 3.5g Flower",
@@ -31748,7 +32114,7 @@
       "Internal Product Name": "G13 Skunk",
       "Internal Product Type": "Flower Jar",
       "SKU": "g13skunk-flower-jar",
-      "Days on Shelf": 1
+      "Days on Shelf": 25
     },
     {
       "Product name": "Strawberry Guava Live Rosin .5g Vape",
@@ -31764,7 +32130,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Cart",
       "SKU": "strawberryguava-rosin-cart",
-      "Days on Shelf": 6
+      "Days on Shelf": 24
     },
     {
       "Product name": "Sour Diesel 1g Live Rosin",
@@ -31782,7 +32148,7 @@
       "Internal Product Name": "Sour Diesel",
       "Internal Product Type": "Rosin Jar",
       "SKU": "sourdiesel-rosin-jar-1",
-      "Days on Shelf": 6
+      "Days on Shelf": 26
     },
     {
       "Product name": "GMO .5g Live Rosin Vape",
@@ -31850,7 +32216,7 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 2
+      "Days on Shelf": 15
     },
     {
       "Product name": "G13 Skunk 3.5g Flower",
@@ -31866,7 +32232,7 @@
       "Internal Product Name": "G13 Skunk",
       "Internal Product Type": "Flower Jar",
       "SKU": "g13skunk-flower-jar",
-      "Days on Shelf": 2
+      "Days on Shelf": 26
     },
     {
       "Product name": "Strawberry Guava Live Rosin .5g Vape",
@@ -31882,7 +32248,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Cart",
       "SKU": "strawberryguava-rosin-cart",
-      "Days on Shelf": 7
+      "Days on Shelf": 25
     },
     {
       "Product name": "Sour Diesel 1g Live Rosin",
@@ -31900,7 +32266,7 @@
       "Internal Product Name": "Sour Diesel",
       "Internal Product Type": "Rosin Jar",
       "SKU": "sourdiesel-rosin-jar-1",
-      "Days on Shelf": 7
+      "Days on Shelf": 27
     },
     {
       "Product name": "Papaya Juice Flower 3.5g",
@@ -31968,7 +32334,7 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 3
+      "Days on Shelf": 16
     },
     {
       "Product name": "G13 Skunk 3.5g Flower",
@@ -31984,7 +32350,7 @@
       "Internal Product Name": "G13 Skunk",
       "Internal Product Type": "Flower Jar",
       "SKU": "g13skunk-flower-jar",
-      "Days on Shelf": 3
+      "Days on Shelf": 27
     },
     {
       "Product name": "Strawberry Guava Live Rosin .5g Vape",
@@ -32000,7 +32366,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Cart",
       "SKU": "strawberryguava-rosin-cart",
-      "Days on Shelf": 8
+      "Days on Shelf": 26
     },
     {
       "Product name": "Sour Diesel 1g Live Rosin",
@@ -32018,7 +32384,7 @@
       "Internal Product Name": "Sour Diesel",
       "Internal Product Type": "Rosin Jar",
       "SKU": "sourdiesel-rosin-jar-1",
-      "Days on Shelf": 8
+      "Days on Shelf": 28
     },
     {
       "Product name": "Papaya Juice Flower 3.5g",
