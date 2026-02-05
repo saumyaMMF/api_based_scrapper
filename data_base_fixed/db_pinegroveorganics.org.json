@@ -20200,27 +20200,5 @@
       "SKU": "battery-accessory",
       "Days on Shelf": 7
     }
-  ],
-  "2026-02-05": [
-    {
-      "Product name": "Rhize Cannabis - Universal Cartridge Battery",
-      "Category": "accessories",
-      "Brand": "Rhize Cannabis",
-      "Price": {
-        "N/A": "$12.00"
-      },
-      "Discount Price": {
-        "N/A": "$10.00"
-      },
-      "THC": "",
-      "Quantity Available": 2,
-      "Quantity Per Option": {
-        "N/A": 2
-      },
-      "Internal Product Name": "Battery",
-      "Internal Product Type": "Accessory",
-      "SKU": "battery-accessory",
-      "Days on Shelf": 8
-    }
   ]
 }

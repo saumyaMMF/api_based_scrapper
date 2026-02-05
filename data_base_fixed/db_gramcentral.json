@@ -45845,6 +45845,550 @@
       "Days on Shelf": 12
     }
   ],
+    "2026-01-24": [
+    {
+      "Product name": "Rhize | G13 Skunk  | 3.5g Flower",
+      "Category": "flower",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {
+        "3.5g": "$49.59"
+      },
+      "THC": "26.00%",
+      "Quantity Available": 28,
+      "Quantity Per Option": {
+        "3.5g": 28
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "g13skunk-flower-jar",
+      "Days on Shelf": 10
+    },
+    {
+      "Product name": "Rhize | Melted Strawberrys | 3.5g Flower",
+      "Category": "flower",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {
+        "3.5g": "$49.59"
+      },
+      "THC": "30.00%",
+      "Quantity Available": 26,
+      "Quantity Per Option": {
+        "3.5g": 26
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "meltedstrawberries-flower-jar",
+      "Days on Shelf": 180
+    },
+    {
+      "Product name": "Rhize | Berry Fizz | 3.5g Flower",
+      "Category": "flower",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {
+        "3.5g": "$49.59"
+      },
+      "THC": "27.00%",
+      "Quantity Available": 51,
+      "Quantity Per Option": {
+        "3.5g": 51
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "berryfizz-flower-jar",
+      "Days on Shelf": 15
+    },
+    {
+      "Product name": "Rhize | GMO | 3.5g Flower",
+      "Category": "flower",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {
+        "3.5g": "$49.59"
+      },
+      "THC": "29.00%",
+      "Quantity Available": 27,
+      "Quantity Per Option": {
+        "3.5g": 27
+      },
+      "Internal Product Name": "GMO",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "gmo-flower-jar",
+      "Days on Shelf": 15
+    },
+    {
+      "Product name": "Lavender Piff",
+      "Category": "Flower",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {
+        "3.5g": "$49.59"
+      },
+      "THC": "22.00%",
+      "Quantity Available": 29,
+      "Quantity Per Option": {
+        "3.5g": 29
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 15
+    },
+    {
+      "Product name": "Melted Strawberrys",
+      "Category": "Flower",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {
+        "3.5g": "$49.59"
+      },
+      "THC": "30.00%",
+      "Quantity Available": 26,
+      "Quantity Per Option": {
+        "3.5g": 26
+      },
+      "Internal Product Name": "Melted Strawberrys",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "meltedstrawberrys-flower-jar",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Rhize | Multi Pack #6 Indica Preroll | 7 x.5g",
+      "Category": "pre-roll",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {
+        "3.5g": "$49.59"
+      },
+      "THC": "28.00%",
+      "Quantity Available": 61,
+      "Quantity Per Option": {
+        "3.5g": 61
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 15
+    },
+    {
+      "Product name": "Rhize | Live Rosin | Berry Fizz | 1g",
+      "Category": "concentrates",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "1g": "$65.00"
+      },
+      "Discount Price": {
+        "1g": "$53.72"
+      },
+      "THC": "60.00%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "1g": 9
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "berryfizz-rosin-jar-1",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Rhize | Black Maple Live Rosin | 1g",
+      "Category": "Concentrate",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "1g": "$65.00"
+      },
+      "Discount Price": {
+        "1g": "$53.72"
+      },
+      "THC": "59.00%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Black Maple",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "blackmaple-rosin-jar-1",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Rhize | G13 Skunk  | 3.5g Flower",
+      "Category": "flower",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "1g": "$65.00"
+      },
+      "Discount Price": {
+        "1g": "$53.72"
+      },
+      "THC": "60.00%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "1g": 9
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "g13skunk-rosin-jar-1",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Rhize | Multi Pack #6 Indica Preroll | 7 x.5g",
+      "Category": "pre-roll",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {
+        "3.5g": "$49.59"
+      },
+      "THC": "28.00%",
+      "Quantity Available": 58,
+      "Quantity Per Option": {
+        "3.5g": 58
+      },
+      "Internal Product Name": "Multi Pack #6 Indica",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "multipack6indica-rosin-jar",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Rhize | Papaya Juice | Live Rosin | 1g",
+      "Category": "concentrates",
+      "Brand": "RHIZE",
+      "Price": {
+        "1g": "$65.00"
+      },
+      "Discount Price": {
+        "1g": "$53.72"
+      },
+      "THC": "60.00%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "papayajuice-rosin-jar-1",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Rhize | strawberry guava Live Rosin | 1g",
+      "Category": "concentrates",
+      "Brand": "RHIZE",
+      "Price": {
+        "1g": "$65.00"
+      },
+      "Discount Price": {
+        "1g": "$53.72"
+      },
+      "THC": "60.00%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "strawberryguava-rosin-jar-1",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Rhize | Berry Fizz Preroll | 1g",
+      "Category": "pre-roll",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "1g": "$17.15"
+      },
+      "Discount Price": {
+        "1g": "$14.17"
+      },
+      "THC": "27.00%",
+      "Quantity Available": 34,
+      "Quantity Per Option": {
+        "1g": 34
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "berryfizz-rosin-jar-1",
+      "Days on Shelf": 0
+    }
+  ],
+  "2026-01-25": [
+    {
+      "Product name": "Rhize | Berry Fizz Preroll | 1g",
+      "Category": "pre-roll",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "1g": "$17.15"
+      },
+      "Discount Price": {
+        "1g": "$14.17"
+      },
+      "THC": "27.00%",
+      "Quantity Available": 29,
+      "Quantity Per Option": {
+        "1g": 29
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "berryfizz-rosin-jar-1",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Rhize | Multi Pack #6 Indica Preroll | 7 x.5g",
+      "Category": "pre-roll",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {
+        "3.5g": "$49.59"
+      },
+      "THC": "28.00%",
+      "Quantity Available": 58,
+      "Quantity Per Option": {
+        "3.5g": 58
+      },
+      "Internal Product Name": "Multi Pack #6 Indica",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "multipack6indica-rosin-jar",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Multi #6 Indica X.",
+      "Category": "Concentrate",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {
+        "3.5g": "$49.59"
+      },
+      "THC": "28.00%",
+      "Quantity Available": 58,
+      "Quantity Per Option": {
+        "3.5g": 58
+      },
+      "Internal Product Name": "Multi #6 Indica X.",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "multi6indicax-rosin-jar",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Rhize | strawberry guava Live Rosin | 1g",
+      "Category": "concentrates",
+      "Brand": "RHIZE",
+      "Price": {
+        "1g": "$65.00"
+      },
+      "Discount Price": {
+        "1g": "$53.72"
+      },
+      "THC": "60.00%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "strawberryguava-rosin-jar-1",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Rhize | Papaya Juice | Live Rosin | 1g",
+      "Category": "concentrates",
+      "Brand": "RHIZE",
+      "Price": {
+        "1g": "$65.00"
+      },
+      "Discount Price": {
+        "1g": "$53.72"
+      },
+      "THC": "60.00%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "papayajuice-rosin-jar-1",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Rhize | G13 Skunk  | 3.5g Flower",
+      "Category": "flower",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "1g": "$65.00"
+      },
+      "Discount Price": {
+        "1g": "$53.72"
+      },
+      "THC": "60.00%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "1g": 9
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "g13skunk-rosin-jar-1",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Rhize | Black Maple Live Rosin | 1g",
+      "Category": "Concentrate",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "1g": "$65.00"
+      },
+      "Discount Price": {
+        "1g": "$53.72"
+      },
+      "THC": "59.00%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Black Maple",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "blackmaple-rosin-jar-1",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Rhize | Live Rosin | Berry Fizz | 1g",
+      "Category": "concentrates",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "1g": "$65.00"
+      },
+      "Discount Price": {
+        "1g": "$53.72"
+      },
+      "THC": "60.00%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "1g": 9
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "berryfizz-rosin-jar-1",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Melted Strawberrys",
+      "Category": "Flower",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {
+        "3.5g": "$49.59"
+      },
+      "THC": "30.00%",
+      "Quantity Available": 25,
+      "Quantity Per Option": {
+        "3.5g": 25
+      },
+      "Internal Product Name": "Melted Strawberrys",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "meltedstrawberrys-flower-jar",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Rhize | G13 Skunk  | 3.5g Flower",
+      "Category": "flower",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {
+        "3.5g": "$49.59"
+      },
+      "THC": "26.00%",
+      "Quantity Available": 28,
+      "Quantity Per Option": {
+        "3.5g": 28
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "g13skunk-flower-jar",
+      "Days on Shelf": 11
+    },
+    {
+      "Product name": "Lavender Piff",
+      "Category": "Flower",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {
+        "3.5g": "$49.59"
+      },
+      "THC": "22.00%",
+      "Quantity Available": 29,
+      "Quantity Per Option": {
+        "3.5g": 29
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 16
+    },
+    {
+      "Product name": "Rhize | GMO | 3.5g Flower",
+      "Category": "flower",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {
+        "3.5g": "$49.59"
+      },
+      "THC": "29.00%",
+      "Quantity Available": 27,
+      "Quantity Per Option": {
+        "3.5g": 27
+      },
+      "Internal Product Name": "GMO",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "gmo-flower-jar",
+      "Days on Shelf": 16
+    },
+    {
+      "Product name": "Rhize | Berry Fizz | 3.5g Flower",
+      "Category": "flower",
+      "Brand": "RHIZE CANNABIS COMPANY LLC",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {
+        "3.5g": "$49.59"
+      },
+      "THC": "27.00%",
+      "Quantity Available": 51,
+      "Quantity Per Option": {
+        "3.5g": 51
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "berryfizz-flower-jar",
+      "Days on Shelf": 16
+    }
+  ],
   "2026-01-27": [
     {
       "Product name": "Rhize | Berry Fizz Preroll | 1g",
@@ -45861,11 +46405,11 @@
       "Quantity Per Option": {
         "1g": 25
       },
-      "Internal Product Name": "",
+      "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Rosin Jar",
       "SKU": "rhizeberryfizzpreroll1g-rosin-jar-1",
-      "Days on Shelf": 0
-    },
+      "Days on Shelf": 3
+    },    
     {
       "Product name": "Rhize | Berry Fizz | 3.5g Flower",
       "Category": "flower",
@@ -45879,10 +46423,10 @@
       "THC": "27.00%",
       "Quantity Available": 51,
       "Quantity Per Option": {},
-      "Internal Product Name": "",
+      "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Flower Jar",
-      "SKU": "",
-      "Days on Shelf": 0
+      "SKU": "berryfizz-flower-jar",
+      "Days on Shelf": 18
     },
     {
       "Product name": "Rhize | Black Maple Live Rosin | 1g",
@@ -45899,7 +46443,7 @@
       "Quantity Per Option": {
         "1g": 10
       },
-      "Internal Product Name": "",
+      "Internal Product Name": "Black Maple",
       "Internal Product Type": "Rosin Jar",
       "SKU": "rhizeblackmapleliverosin1g-rosin-jar-1",
       "Days on Shelf": 0
@@ -45917,10 +46461,10 @@
       "THC": "26.00%",
       "Quantity Available": 28,
       "Quantity Per Option": {},
-      "Internal Product Name": "",
+      "Internal Product Name": "G13 Skunk",
       "Internal Product Type": "Flower Jar",
-      "SKU": "",
-      "Days on Shelf": 0
+      "SKU": "g13skunk-flower-jar",
+      "Days on Shelf": 13
     },
     {
       "Product name": "Rhize | GMO | 3.5g Flower",
@@ -45934,15 +46478,17 @@
       },
       "THC": "29.00%",
       "Quantity Available": 27,
-      "Quantity Per Option": {},
-      "Internal Product Name": "",
+      "Quantity Per Option": {
+        "3.5g": 27
+      },
+      "Internal Product Name": "GMO",
       "Internal Product Type": "Flower Jar",
-      "SKU": "",
-      "Days on Shelf": 0
+      "SKU": "gmo-flower-jar",
+      "Days on Shelf": 18
     },
     {
-      "Product name": "Rhize | Lavender Piff | 3.5g Flower",
-      "Category": "flower",
+      "Product name": "Lavender Piff",
+      "Category": "Flower",
       "Brand": "RHIZE CANNABIS COMPANY LLC",
       "Price": {
         "3.5g": "$60.00"
@@ -45952,12 +46498,14 @@
       },
       "THC": "22.00%",
       "Quantity Available": 29,
-      "Quantity Per Option": {},
-      "Internal Product Name": "",
+      "Quantity Per Option": {
+        "3.5g": 29
+      },
+      "Internal Product Name": "Lavender Piff",
       "Internal Product Type": "Flower Jar",
-      "SKU": "",
-      "Days on Shelf": 0
-    },
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 18
+    },    
     {
       "Product name": "Rhize | Live Rosin | Berry Fizz | 1g",
       "Category": "concentrates",
@@ -45973,10 +46521,10 @@
       "Quantity Per Option": {
         "1g": 9
       },
-      "Internal Product Name": "",
+      "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Rosin Jar",
-      "SKU": "rhizeliverosinberryfizz1g-rosin-jar-1",
-      "Days on Shelf": 0
+      "SKU": "berryfizz-rosin-jar-1",
+      "Days on Shelf": 3
     },
     {
       "Product name": "Rhize | Live Rosin | G13 Skunk | 1g",
@@ -45993,7 +46541,7 @@
       "Quantity Per Option": {
         "1g": 9
       },
-      "Internal Product Name": "",
+      "Internal Product Name": "G13 Skunk",
       "Internal Product Type": "Rosin Jar",
       "SKU": "rhizeliverosing13skunk1g-rosin-jar-1",
       "Days on Shelf": 0
@@ -46010,11 +46558,13 @@
       },
       "THC": "30.00%",
       "Quantity Available": 25,
-      "Quantity Per Option": {},
-      "Internal Product Name": "",
-      "Internal Product Type": "Flower Jar",
-      "SKU": "",
-      "Days on Shelf": 0
+      "Quantity Per Option": {
+        "3.5g": 25
+      },
+      "Internal Product Name": "Melted Strawberrys",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "meltedstrawberrys-flower-jar",
+      "Days on Shelf": 3
     },
     {
       "Product name": "Rhize | Multi Pack #6 Indica Preroll | 7 x.5g",
@@ -46049,7 +46599,7 @@
       "Quantity Per Option": {
         "1g": 10
       },
-      "Internal Product Name": "",
+      "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "rhizepapayajuiceliverosin1g-rosin-jar-1",
       "Days on Shelf": 0
@@ -46069,7 +46619,7 @@
       "Quantity Per Option": {
         "1g": 10
       },
-      "Internal Product Name": "",
+      "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Rosin Jar",
       "SKU": "rhizestrawberryguavaliverosin1g-rosin-jar-1",
       "Days on Shelf": 0
@@ -46092,7 +46642,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Preroll",
       "SKU": "berryfizz-flower-preroll",
-      "Days on Shelf": 0
+      "Days on Shelf": 4
     },
     {
       "Product name": "Rhize | Berry Fizz | 3.5g Flower",
@@ -46110,7 +46660,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Flower Jar",
       "SKU": "berryfizz-flower-jar",
-      "Days on Shelf": 0
+      "Days on Shelf": 19
     },
     {
       "Product name": "Rhize | Black Maple Live Rosin | 1g",
@@ -46130,7 +46680,7 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Rosin Jar",
       "SKU": "blackmaple-rosin-jar-1",
-      "Days on Shelf": 0
+      "Days on Shelf": 5
     },
     {
       "Product name": "Rhize | G13 Skunk  | 3.5g Flower",
@@ -46148,7 +46698,7 @@
       "Internal Product Name": "G13 Skunk",
       "Internal Product Type": "Flower Jar",
       "SKU": "g13skunk-flower-jar",
-      "Days on Shelf": 0
+      "Days on Shelf": 14
     },
     {
       "Product name": "Rhize | GMO | 3.5g Flower",
@@ -46166,7 +46716,7 @@
       "Internal Product Name": "GMO",
       "Internal Product Type": "Flower Jar",
       "SKU": "gmo-flower-jar",
-      "Days on Shelf": 0
+      "Days on Shelf": 19
     },
     {
       "Product name": "Rhize | Lavender Piff | 3.5g Flower",
@@ -46184,7 +46734,7 @@
       "Internal Product Name": "Lavender Piff",
       "Internal Product Type": "Flower Jar",
       "SKU": "lavenderpiff-flower-jar",
-      "Days on Shelf": 0
+      "Days on Shelf": 19
     },
     {
       "Product name": "Rhize | Live Rosin | Berry Fizz | 1g",
@@ -46204,7 +46754,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Rosin Jar",
       "SKU": "berryfizz-rosin-jar-1",
-      "Days on Shelf": 0
+      "Days on Shelf": 4
     },
     {
       "Product name": "Rhize | Live Rosin | G13 Skunk | 1g",
@@ -46242,7 +46792,7 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Flower Jar",
       "SKU": "meltedstrawberries-flower-jar",
-      "Days on Shelf": 0
+      "Days on Shelf": 184
     },
     {
       "Product name": "Rhize | Multi Pack #6 Indica Preroll | 7 x.5g",
@@ -46260,7 +46810,7 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 0
+      "Days on Shelf": 19
     },
     {
       "Product name": "Rhize | Papaya Juice | Live Rosin | 1g",
@@ -46280,7 +46830,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 0
+      "Days on Shelf": 4
     },
     {
       "Product name": "Rhize | strawberry guava Live Rosin | 1g",
@@ -46300,7 +46850,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Rosin Jar",
       "SKU": "strawberryguava-rosin-jar-1",
-      "Days on Shelf": 0
+      "Days on Shelf": 4
     }
   ],
   "2026-01-29": [
@@ -46320,7 +46870,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Preroll",
       "SKU": "berryfizz-flower-preroll",
-      "Days on Shelf": 1
+      "Days on Shelf": 5
     },
     {
       "Product name": "Rhize | Berry Fizz | 3.5g Flower",
@@ -46338,7 +46888,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Flower Jar",
       "SKU": "berryfizz-flower-jar",
-      "Days on Shelf": 1
+      "Days on Shelf": 20
     },
     {
       "Product name": "Rhize | Black Maple Live Rosin | 1g",
@@ -46358,7 +46908,7 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Rosin Jar",
       "SKU": "blackmaple-rosin-jar-1",
-      "Days on Shelf": 1
+      "Days on Shelf": 6
     },
     {
       "Product name": "Rhize | G13 Skunk  | 3.5g Flower",
@@ -46376,7 +46926,7 @@
       "Internal Product Name": "G13 Skunk",
       "Internal Product Type": "Flower Jar",
       "SKU": "g13skunk-flower-jar",
-      "Days on Shelf": 1
+      "Days on Shelf": 15
     },
     {
       "Product name": "Rhize | GMO | 3.5g Flower",
@@ -46394,7 +46944,7 @@
       "Internal Product Name": "GMO",
       "Internal Product Type": "Flower Jar",
       "SKU": "gmo-flower-jar",
-      "Days on Shelf": 1
+      "Days on Shelf": 20
     },
     {
       "Product name": "Rhize | Lavender Piff | 3.5g Flower",
@@ -46412,7 +46962,7 @@
       "Internal Product Name": "Lavender Piff",
       "Internal Product Type": "Flower Jar",
       "SKU": "lavenderpiff-flower-jar",
-      "Days on Shelf": 1
+      "Days on Shelf": 20
     },
     {
       "Product name": "Rhize | Live Rosin | Berry Fizz | 1g",
@@ -46432,7 +46982,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Rosin Jar",
       "SKU": "berryfizz-rosin-jar-1",
-      "Days on Shelf": 1
+      "Days on Shelf": 5
     },
     {
       "Product name": "Rhize | Live Rosin | G13 Skunk | 1g",
@@ -46470,7 +47020,7 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Flower Jar",
       "SKU": "meltedstrawberries-flower-jar",
-      "Days on Shelf": 1
+      "Days on Shelf": 185
     },
     {
       "Product name": "Rhize | Multi Pack #6 Indica Preroll | 7 x.5g",
@@ -46488,7 +47038,7 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 1
+      "Days on Shelf": 20
     },
     {
       "Product name": "Rhize | Papaya Juice | Live Rosin | 1g",
@@ -46508,7 +47058,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 1
+      "Days on Shelf": 5
     },
     {
       "Product name": "Rhize | strawberry guava Live Rosin | 1g",
@@ -46528,7 +47078,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Rosin Jar",
       "SKU": "strawberryguava-rosin-jar-1",
-      "Days on Shelf": 1
+      "Days on Shelf": 5
     }
   ],
   "2026-01-30": [
@@ -46548,7 +47098,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Preroll",
       "SKU": "berryfizz-flower-preroll",
-      "Days on Shelf": 2
+      "Days on Shelf": 6
     },
     {
       "Product name": "Rhize | Berry Fizz | 3.5g Flower",
@@ -46566,7 +47116,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Flower Jar",
       "SKU": "berryfizz-flower-jar",
-      "Days on Shelf": 2
+      "Days on Shelf": 21
     },
     {
       "Product name": "Rhize | Black Maple Live Rosin | 1g",
@@ -46586,7 +47136,7 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Rosin Jar",
       "SKU": "blackmaple-rosin-jar-1",
-      "Days on Shelf": 2
+      "Days on Shelf": 7
     },
     {
       "Product name": "Rhize | G13 Skunk  | 3.5g Flower",
@@ -46604,7 +47154,7 @@
       "Internal Product Name": "G13 Skunk",
       "Internal Product Type": "Flower Jar",
       "SKU": "g13skunk-flower-jar",
-      "Days on Shelf": 2
+      "Days on Shelf": 16
     },
     {
       "Product name": "Rhize | GMO | 3.5g Flower",
@@ -46622,7 +47172,7 @@
       "Internal Product Name": "GMO",
       "Internal Product Type": "Flower Jar",
       "SKU": "gmo-flower-jar",
-      "Days on Shelf": 2
+      "Days on Shelf": 21
     },
     {
       "Product name": "Rhize | Lavender Piff | 3.5g Flower",
@@ -46640,7 +47190,7 @@
       "Internal Product Name": "Lavender Piff",
       "Internal Product Type": "Flower Jar",
       "SKU": "lavenderpiff-flower-jar",
-      "Days on Shelf": 2
+      "Days on Shelf": 21
     },
     {
       "Product name": "Rhize | Live Rosin | Berry Fizz | 1g",
@@ -46660,7 +47210,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Rosin Jar",
       "SKU": "berryfizz-rosin-jar-1",
-      "Days on Shelf": 2
+      "Days on Shelf": 6
     },
     {
       "Product name": "Rhize | Live Rosin | G13 Skunk | 1g",
@@ -46698,7 +47248,7 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Flower Jar",
       "SKU": "meltedstrawberries-flower-jar",
-      "Days on Shelf": 2
+      "Days on Shelf": 186
     },
     {
       "Product name": "Rhize | Multi Pack #6 Indica Preroll | 7 x.5g",
@@ -46716,7 +47266,7 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 2
+      "Days on Shelf": 21
     },
     {
       "Product name": "Rhize | Papaya Juice | Live Rosin | 1g",
@@ -46736,7 +47286,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 2
+      "Days on Shelf": 6
     },
     {
       "Product name": "Rhize | strawberry guava Live Rosin | 1g",
@@ -46756,7 +47306,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Rosin Jar",
       "SKU": "strawberryguava-rosin-jar-1",
-      "Days on Shelf": 2
+      "Days on Shelf": 6
     }
   ],
   "2026-01-31": [
@@ -46776,7 +47326,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Preroll",
       "SKU": "berryfizz-flower-preroll",
-      "Days on Shelf": 3
+      "Days on Shelf": 7
     },
     {
       "Product name": "Rhize | Berry Fizz | 3.5g Flower",
@@ -46794,7 +47344,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Flower Jar",
       "SKU": "berryfizz-flower-jar",
-      "Days on Shelf": 3
+      "Days on Shelf": 22
     },
     {
       "Product name": "Rhize | Black Maple Live Rosin | 1g",
@@ -46814,7 +47364,7 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Rosin Jar",
       "SKU": "blackmaple-rosin-jar-1",
-      "Days on Shelf": 3
+      "Days on Shelf": 8
     },
     {
       "Product name": "Rhize | G13 Skunk  | 3.5g Flower",
@@ -46832,7 +47382,7 @@
       "Internal Product Name": "G13 Skunk",
       "Internal Product Type": "Flower Jar",
       "SKU": "g13skunk-flower-jar",
-      "Days on Shelf": 3
+      "Days on Shelf": 17
     },
     {
       "Product name": "Rhize | GMO | 3.5g Flower",
@@ -46850,7 +47400,7 @@
       "Internal Product Name": "GMO",
       "Internal Product Type": "Flower Jar",
       "SKU": "gmo-flower-jar",
-      "Days on Shelf": 3
+      "Days on Shelf": 22
     },
     {
       "Product name": "Rhize | Lavender Piff | 3.5g Flower",
@@ -46868,7 +47418,7 @@
       "Internal Product Name": "Lavender Piff",
       "Internal Product Type": "Flower Jar",
       "SKU": "lavenderpiff-flower-jar",
-      "Days on Shelf": 3
+      "Days on Shelf": 22
     },
     {
       "Product name": "Rhize | Live Rosin | Berry Fizz | 1g",
@@ -46888,7 +47438,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Rosin Jar",
       "SKU": "berryfizz-rosin-jar-1",
-      "Days on Shelf": 3
+      "Days on Shelf": 7
     },
     {
       "Product name": "Rhize | Live Rosin | G13 Skunk | 1g",
@@ -46926,7 +47476,7 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Flower Jar",
       "SKU": "meltedstrawberries-flower-jar",
-      "Days on Shelf": 3
+      "Days on Shelf": 187
     },
     {
       "Product name": "Rhize | Multi Pack #6 Indica Preroll | 7 x.5g",
@@ -46944,7 +47494,7 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 3
+      "Days on Shelf": 22
     },
     {
       "Product name": "Rhize | Papaya Juice | Live Rosin | 1g",
@@ -46964,7 +47514,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 3
+      "Days on Shelf": 7
     },
     {
       "Product name": "Rhize | strawberry guava Live Rosin | 1g",
@@ -46984,7 +47534,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Rosin Jar",
       "SKU": "strawberryguava-rosin-jar-1",
-      "Days on Shelf": 3
+      "Days on Shelf": 7
     }
   ],
   "2026-02-01": [
@@ -47004,7 +47554,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Preroll",
       "SKU": "berryfizz-flower-preroll",
-      "Days on Shelf": 4
+      "Days on Shelf": 8
     },
     {
       "Product name": "Rhize | Berry Fizz | 3.5g Flower",
@@ -47022,7 +47572,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Flower Jar",
       "SKU": "berryfizz-flower-jar",
-      "Days on Shelf": 4
+      "Days on Shelf": 23
     },
     {
       "Product name": "Rhize | Black Maple Live Rosin | 1g",
@@ -47042,7 +47592,7 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Rosin Jar",
       "SKU": "blackmaple-rosin-jar-1",
-      "Days on Shelf": 4
+      "Days on Shelf": 9
     },
     {
       "Product name": "Rhize | G13 Skunk  | 3.5g Flower",
@@ -47060,7 +47610,7 @@
       "Internal Product Name": "G13 Skunk",
       "Internal Product Type": "Flower Jar",
       "SKU": "g13skunk-flower-jar",
-      "Days on Shelf": 4
+      "Days on Shelf": 18
     },
     {
       "Product name": "Rhize | GMO | 3.5g Flower",
@@ -47078,7 +47628,7 @@
       "Internal Product Name": "GMO",
       "Internal Product Type": "Flower Jar",
       "SKU": "gmo-flower-jar",
-      "Days on Shelf": 4
+      "Days on Shelf": 23
     },
     {
       "Product name": "Rhize | Lavender Piff | 3.5g Flower",
@@ -47096,7 +47646,7 @@
       "Internal Product Name": "Lavender Piff",
       "Internal Product Type": "Flower Jar",
       "SKU": "lavenderpiff-flower-jar",
-      "Days on Shelf": 4
+      "Days on Shelf": 23
     },
     {
       "Product name": "Rhize | Live Rosin | Berry Fizz | 1g",
@@ -47116,7 +47666,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Rosin Jar",
       "SKU": "berryfizz-rosin-jar-1",
-      "Days on Shelf": 4
+      "Days on Shelf": 8
     },
     {
       "Product name": "Rhize | Live Rosin | G13 Skunk | 1g",
@@ -47154,7 +47704,7 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Flower Jar",
       "SKU": "meltedstrawberries-flower-jar",
-      "Days on Shelf": 4
+      "Days on Shelf": 188
     },
     {
       "Product name": "Rhize | Multi Pack #6 Indica Preroll | 7 x.5g",
@@ -47172,7 +47722,7 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 4
+      "Days on Shelf": 23
     },
     {
       "Product name": "Rhize | Papaya Juice | Live Rosin | 1g",
@@ -47192,7 +47742,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 4
+      "Days on Shelf": 8
     },
     {
       "Product name": "Rhize | strawberry guava Live Rosin | 1g",
@@ -47212,7 +47762,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Rosin Jar",
       "SKU": "strawberryguava-rosin-jar-1",
-      "Days on Shelf": 4
+      "Days on Shelf": 8
     }
   ],
   "2026-02-02": [
@@ -47232,7 +47782,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Preroll",
       "SKU": "berryfizz-flower-preroll",
-      "Days on Shelf": 5
+      "Days on Shelf": 9
     },
     {
       "Product name": "Rhize | Berry Fizz | 3.5g Flower",
@@ -47250,7 +47800,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Flower Jar",
       "SKU": "berryfizz-flower-jar",
-      "Days on Shelf": 5
+      "Days on Shelf": 24
     },
     {
       "Product name": "Rhize | Black Maple Live Rosin | 1g",
@@ -47270,7 +47820,7 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Rosin Jar",
       "SKU": "blackmaple-rosin-jar-1",
-      "Days on Shelf": 5
+      "Days on Shelf": 10
     },
     {
       "Product name": "Rhize | G13 Skunk  | 3.5g Flower",
@@ -47288,7 +47838,7 @@
       "Internal Product Name": "G13 Skunk",
       "Internal Product Type": "Flower Jar",
       "SKU": "g13skunk-flower-jar",
-      "Days on Shelf": 5
+      "Days on Shelf": 19
     },
     {
       "Product name": "Rhize | GMO | 3.5g Flower",
@@ -47306,7 +47856,7 @@
       "Internal Product Name": "GMO",
       "Internal Product Type": "Flower Jar",
       "SKU": "gmo-flower-jar",
-      "Days on Shelf": 5
+      "Days on Shelf": 24
     },
     {
       "Product name": "Rhize | Lavender Piff | 3.5g Flower",
@@ -47324,7 +47874,7 @@
       "Internal Product Name": "Lavender Piff",
       "Internal Product Type": "Flower Jar",
       "SKU": "lavenderpiff-flower-jar",
-      "Days on Shelf": 5
+      "Days on Shelf": 24
     },
     {
       "Product name": "Rhize | Live Rosin | Berry Fizz | 1g",
@@ -47344,7 +47894,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Rosin Jar",
       "SKU": "berryfizz-rosin-jar-1",
-      "Days on Shelf": 5
+      "Days on Shelf": 9
     },
     {
       "Product name": "Rhize | Live Rosin | G13 Skunk | 1g",
@@ -47382,7 +47932,7 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Flower Jar",
       "SKU": "meltedstrawberries-flower-jar",
-      "Days on Shelf": 5
+      "Days on Shelf": 189
     },
     {
       "Product name": "Rhize | Multi Pack #6 Indica Preroll | 7 x.5g",
@@ -47400,7 +47950,7 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 5
+      "Days on Shelf": 24
     },
     {
       "Product name": "Rhize | Papaya Juice | Live Rosin | 1g",
@@ -47420,7 +47970,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 5
+      "Days on Shelf": 9
     },
     {
       "Product name": "Rhize | strawberry guava Live Rosin | 1g",
@@ -47440,7 +47990,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Rosin Jar",
       "SKU": "strawberryguava-rosin-jar-1",
-      "Days on Shelf": 5
+      "Days on Shelf": 9
     }
   ],
   "2026-02-03": [
@@ -47460,7 +48010,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Preroll",
       "SKU": "berryfizz-flower-preroll",
-      "Days on Shelf": 6
+      "Days on Shelf": 10
     },
     {
       "Product name": "Rhize | Berry Fizz | 3.5g Flower",
@@ -47478,7 +48028,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Flower Jar",
       "SKU": "berryfizz-flower-jar",
-      "Days on Shelf": 6
+      "Days on Shelf": 25
     },
     {
       "Product name": "Rhize | Black Maple Live Rosin | 1g",
@@ -47498,7 +48048,7 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Rosin Jar",
       "SKU": "blackmaple-rosin-jar-1",
-      "Days on Shelf": 6
+      "Days on Shelf": 11
     },
     {
       "Product name": "Rhize | G13 Skunk  | 3.5g Flower",
@@ -47516,7 +48066,7 @@
       "Internal Product Name": "G13 Skunk",
       "Internal Product Type": "Flower Jar",
       "SKU": "g13skunk-flower-jar",
-      "Days on Shelf": 6
+      "Days on Shelf": 20
     },
     {
       "Product name": "Rhize | GMO | 3.5g Flower",
@@ -47534,7 +48084,7 @@
       "Internal Product Name": "GMO",
       "Internal Product Type": "Flower Jar",
       "SKU": "gmo-flower-jar",
-      "Days on Shelf": 6
+      "Days on Shelf": 25
     },
     {
       "Product name": "Rhize | Lavender Piff | 3.5g Flower",
@@ -47552,7 +48102,7 @@
       "Internal Product Name": "Lavender Piff",
       "Internal Product Type": "Flower Jar",
       "SKU": "lavenderpiff-flower-jar",
-      "Days on Shelf": 6
+      "Days on Shelf": 25
     },
     {
       "Product name": "Rhize | Live Rosin | Berry Fizz | 1g",
@@ -47572,7 +48122,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Rosin Jar",
       "SKU": "berryfizz-rosin-jar-1",
-      "Days on Shelf": 6
+      "Days on Shelf": 10
     },
     {
       "Product name": "Rhize | Live Rosin | G13 Skunk | 1g",
@@ -47610,7 +48160,7 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Flower Jar",
       "SKU": "meltedstrawberries-flower-jar",
-      "Days on Shelf": 6
+      "Days on Shelf": 190
     },
     {
       "Product name": "Rhize | Multi Pack #6 Indica Preroll | 7 x.5g",
@@ -47628,7 +48178,7 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 6
+      "Days on Shelf": 25
     },
     {
       "Product name": "Rhize | Papaya Juice | Live Rosin | 1g",
@@ -47648,7 +48198,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 6
+      "Days on Shelf": 10
     },
     {
       "Product name": "Rhize | strawberry guava Live Rosin | 1g",
@@ -47668,7 +48218,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Rosin Jar",
       "SKU": "strawberryguava-rosin-jar-1",
-      "Days on Shelf": 6
+      "Days on Shelf": 10
     }
   ],
   "2026-02-04": [
@@ -47688,7 +48238,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Preroll",
       "SKU": "berryfizz-flower-preroll",
-      "Days on Shelf": 7
+      "Days on Shelf": 11
     },
     {
       "Product name": "Rhize | Berry Fizz | 3.5g Flower",
@@ -47706,7 +48256,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Flower Jar",
       "SKU": "berryfizz-flower-jar",
-      "Days on Shelf": 7
+      "Days on Shelf": 26
     },
     {
       "Product name": "Rhize | Black Maple Live Rosin | 1g",
@@ -47726,7 +48276,7 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Rosin Jar",
       "SKU": "blackmaple-rosin-jar-1",
-      "Days on Shelf": 7
+      "Days on Shelf": 12
     },
     {
       "Product name": "Rhize | G13 Skunk  | 3.5g Flower",
@@ -47744,7 +48294,7 @@
       "Internal Product Name": "G13 Skunk",
       "Internal Product Type": "Flower Jar",
       "SKU": "g13skunk-flower-jar",
-      "Days on Shelf": 7
+      "Days on Shelf": 21
     },
     {
       "Product name": "Rhize | GMO | 3.5g Flower",
@@ -47762,7 +48312,7 @@
       "Internal Product Name": "GMO",
       "Internal Product Type": "Flower Jar",
       "SKU": "gmo-flower-jar",
-      "Days on Shelf": 7
+      "Days on Shelf": 26
     },
     {
       "Product name": "Rhize | Lavender Piff | 3.5g Flower",
@@ -47780,7 +48330,7 @@
       "Internal Product Name": "Lavender Piff",
       "Internal Product Type": "Flower Jar",
       "SKU": "lavenderpiff-flower-jar",
-      "Days on Shelf": 7
+      "Days on Shelf": 26
     },
     {
       "Product name": "Rhize | Live Rosin | Berry Fizz | 1g",
@@ -47800,7 +48350,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Rosin Jar",
       "SKU": "berryfizz-rosin-jar-1",
-      "Days on Shelf": 7
+      "Days on Shelf": 11
     },
     {
       "Product name": "Rhize | Live Rosin | G13 Skunk | 1g",
@@ -47838,7 +48388,7 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Flower Jar",
       "SKU": "meltedstrawberries-flower-jar",
-      "Days on Shelf": 7
+      "Days on Shelf": 191
     },
     {
       "Product name": "Rhize | Multi Pack #6 Indica Preroll | 7 x.5g",
@@ -47856,7 +48406,7 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 7
+      "Days on Shelf": 26
     },
     {
       "Product name": "Rhize | Papaya Juice | Live Rosin | 1g",
@@ -47876,7 +48426,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 7
+      "Days on Shelf": 11
     },
     {
       "Product name": "Rhize | strawberry guava Live Rosin | 1g",
@@ -47896,235 +48446,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Rosin Jar",
       "SKU": "strawberryguava-rosin-jar-1",
-      "Days on Shelf": 7
-    }
-  ],
-  "2026-02-05": [
-    {
-      "Product name": "Rhize | Berry Fizz Preroll | 1g",
-      "Category": "pre-roll",
-      "Brand": "RHIZE CANNABIS COMPANY LLC",
-      "Price": {
-        "1g": "$17.15"
-      },
-      "Discount Price": {
-        "1g": "$14.17"
-      },
-      "THC": "27.00%",
-      "Quantity Available": 4,
-      "Quantity Per Option": {},
-      "Internal Product Name": "Berry Fizz",
-      "Internal Product Type": "Preroll",
-      "SKU": "berryfizz-flower-preroll",
-      "Days on Shelf": 8
-    },
-    {
-      "Product name": "Rhize | Berry Fizz | 3.5g Flower",
-      "Category": "flower",
-      "Brand": "RHIZE CANNABIS COMPANY LLC",
-      "Price": {
-        "3.5g": "$60.00"
-      },
-      "Discount Price": {
-        "3.5g": "$49.59"
-      },
-      "THC": "27.00%",
-      "Quantity Available": 43,
-      "Quantity Per Option": {},
-      "Internal Product Name": "Berry Fizz",
-      "Internal Product Type": "Flower Jar",
-      "SKU": "berryfizz-flower-jar",
-      "Days on Shelf": 8
-    },
-    {
-      "Product name": "Rhize | Black Maple Live Rosin | 1g",
-      "Category": "concentrates",
-      "Brand": "RHIZE",
-      "Price": {
-        "1g": "$65.00"
-      },
-      "Discount Price": {
-        "1g": "$53.72"
-      },
-      "THC": "59.00%",
-      "Quantity Available": 10,
-      "Quantity Per Option": {
-        "1g": 10
-      },
-      "Internal Product Name": "Black Maple",
-      "Internal Product Type": "Rosin Jar",
-      "SKU": "blackmaple-rosin-jar-1",
-      "Days on Shelf": 8
-    },
-    {
-      "Product name": "Rhize | G13 Skunk  | 3.5g Flower",
-      "Category": "flower",
-      "Brand": "RHIZE CANNABIS COMPANY LLC",
-      "Price": {
-        "3.5g": "$60.00"
-      },
-      "Discount Price": {
-        "3.5g": "$49.59"
-      },
-      "THC": "26.00%",
-      "Quantity Available": 27,
-      "Quantity Per Option": {},
-      "Internal Product Name": "G13 Skunk",
-      "Internal Product Type": "Flower Jar",
-      "SKU": "g13skunk-flower-jar",
-      "Days on Shelf": 8
-    },
-    {
-      "Product name": "Rhize | GMO | 3.5g Flower",
-      "Category": "flower",
-      "Brand": "RHIZE CANNABIS COMPANY LLC",
-      "Price": {
-        "3.5g": "$60.00"
-      },
-      "Discount Price": {
-        "3.5g": "$49.59"
-      },
-      "THC": "29.00%",
-      "Quantity Available": 26,
-      "Quantity Per Option": {},
-      "Internal Product Name": "GMO",
-      "Internal Product Type": "Flower Jar",
-      "SKU": "gmo-flower-jar",
-      "Days on Shelf": 8
-    },
-    {
-      "Product name": "Rhize | Lavender Piff | 3.5g Flower",
-      "Category": "flower",
-      "Brand": "RHIZE CANNABIS COMPANY LLC",
-      "Price": {
-        "3.5g": "$60.00"
-      },
-      "Discount Price": {
-        "3.5g": "$49.59"
-      },
-      "THC": "22.00%",
-      "Quantity Available": 28,
-      "Quantity Per Option": {},
-      "Internal Product Name": "Lavender Piff",
-      "Internal Product Type": "Flower Jar",
-      "SKU": "lavenderpiff-flower-jar",
-      "Days on Shelf": 8
-    },
-    {
-      "Product name": "Rhize | Live Rosin | Berry Fizz | 1g",
-      "Category": "concentrates",
-      "Brand": "RHIZE CANNABIS COMPANY LLC",
-      "Price": {
-        "1g": "$65.00"
-      },
-      "Discount Price": {
-        "1g": "$53.72"
-      },
-      "THC": "60.00%",
-      "Quantity Available": 8,
-      "Quantity Per Option": {
-        "1g": 8
-      },
-      "Internal Product Name": "Berry Fizz",
-      "Internal Product Type": "Rosin Jar",
-      "SKU": "berryfizz-rosin-jar-1",
-      "Days on Shelf": 8
-    },
-    {
-      "Product name": "Rhize | Live Rosin | G13 Skunk | 1g",
-      "Category": "concentrates",
-      "Brand": "RHIZE CANNABIS COMPANY LLC",
-      "Price": {
-        "1g": "$65.00"
-      },
-      "Discount Price": {
-        "1g": "$53.72"
-      },
-      "THC": "60.00%",
-      "Quantity Available": 8,
-      "Quantity Per Option": {
-        "1g": 8
-      },
-      "Internal Product Name": "G13 Skunk",
-      "Internal Product Type": "Rosin Jar",
-      "SKU": "g13skunk-rosin-jar-1",
-      "Days on Shelf": 8
-    },
-    {
-      "Product name": "Rhize | Melted Strawberrys | 3.5g Flower",
-      "Category": "flower",
-      "Brand": "RHIZE CANNABIS COMPANY LLC",
-      "Price": {
-        "3.5g": "$60.00"
-      },
-      "Discount Price": {
-        "3.5g": "$49.59"
-      },
-      "THC": "30.00%",
-      "Quantity Available": 15,
-      "Quantity Per Option": {},
-      "Internal Product Name": "Melted Strawberries",
-      "Internal Product Type": "Flower Jar",
-      "SKU": "meltedstrawberries-flower-jar",
-      "Days on Shelf": 8
-    },
-    {
-      "Product name": "Rhize | Multi Pack #6 Indica Preroll | 7 x.5g",
-      "Category": "pre-roll",
-      "Brand": "RHIZE CANNABIS COMPANY LLC",
-      "Price": {
-        "3.5g": "$60.00"
-      },
-      "Discount Price": {
-        "3.5g": "$49.59"
-      },
-      "THC": "28.00%",
-      "Quantity Available": 41,
-      "Quantity Per Option": {},
-      "Internal Product Name": "Multipack",
-      "Internal Product Type": "Preroll",
-      "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 8
-    },
-    {
-      "Product name": "Rhize | Papaya Juice | Live Rosin | 1g",
-      "Category": "concentrates",
-      "Brand": "RHIZE",
-      "Price": {
-        "1g": "$65.00"
-      },
-      "Discount Price": {
-        "1g": "$53.72"
-      },
-      "THC": "60.00%",
-      "Quantity Available": 10,
-      "Quantity Per Option": {
-        "1g": 10
-      },
-      "Internal Product Name": "Papaya Juice",
-      "Internal Product Type": "Rosin Jar",
-      "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 8
-    },
-    {
-      "Product name": "Rhize | strawberry guava Live Rosin | 1g",
-      "Category": "concentrates",
-      "Brand": "RHIZE",
-      "Price": {
-        "1g": "$65.00"
-      },
-      "Discount Price": {
-        "1g": "$53.72"
-      },
-      "THC": "60.00%",
-      "Quantity Available": 9,
-      "Quantity Per Option": {
-        "1g": 9
-      },
-      "Internal Product Name": "Strawberry Guava",
-      "Internal Product Type": "Rosin Jar",
-      "SKU": "strawberryguava-rosin-jar-1",
-      "Days on Shelf": 8
+      "Days on Shelf": 11
     }
   ]
 }

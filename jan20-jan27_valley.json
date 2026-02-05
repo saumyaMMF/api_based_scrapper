@@ -1,0 +1,1028 @@
+{
+  "2026-01-21": [
+    {
+      "Product name": "Multipack",
+      "Category": "Pre Rolls",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$58.00"
+      },
+      "Discount Price": {},
+      "THC": "27%",
+      "Quantity Available": 21,
+      "Quantity Per Option": {},
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 138
+    },
+    {
+      "Product name": "Papaya Juice Hash Rosin",
+      "Category": "Concentrates",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$72.00"
+      },
+      "Discount Price": {},
+      "THC": "643mg",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "1g": 9
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "papayajuice-rosin-jar-1",
+      "Days on Shelf": 14
+    },
+    {
+      "Product name": "Dulce De Uva - 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "24.7%",
+      "Quantity Available": 23,
+      "Quantity Per Option": {},
+      "Internal Product Name": "Dulce de Uva",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "dulcedeuva-flower-jar",
+      "Days on Shelf": 88
+    },
+    {
+      "Product name": "Honey Banana Hash Rosin",
+      "Category": "Concentrates",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {},
+      "THC": "600mg",
+      "Quantity Available": 5,
+      "Quantity Per Option": {
+        "1g": 5
+      },
+      "Internal Product Name": "Honey Banana",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "honeybanana-rosin-jar-1",
+      "Days on Shelf": 233
+    },
+    {
+      "Product name": "Melted Strawberries - Vape",
+      "Category": "Vape Carts",
+      "Brand": "Rhize",
+      "Price": {
+        "0.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "403.5mg",
+      "Quantity Available": 12,
+      "Quantity Per Option": {},
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Cart",
+      "SKU": "meltedstrawberries-rosin-cart",
+      "Days on Shelf": 14
+    },
+    {
+      "Product name": "Strawberry Guava - 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "28.6%",
+      "Quantity Available": 18,
+      "Quantity Per Option": {},
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "strawberryguava-flower-jar",
+      "Days on Shelf": 46
+    },
+    {
+      "Product name": "Strawberry Guava Live Rosin",
+      "Category": "Concentrates",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {},
+      "THC": "650mg",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "strawberryguava-rosin-jar-1",
+      "Days on Shelf": 138
+    },
+    {
+      "Product name": "Dulce De Uva - 1g",
+      "Category": "Pre Rolls",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {},
+      "THC": "26.8%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {},
+      "Internal Product Name": "Dulce de Uva",
+      "Internal Product Type": "Preroll",
+      "SKU": "dulcedeuva-flower-preroll",
+      "Days on Shelf": 110
+    },
+    {
+      "Product name": "Sherb Cream Pie - 1g",
+      "Category": "Pre Rolls",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {},
+      "THC": "20.8%",
+      "Quantity Available": 41,
+      "Quantity Per Option": {},
+      "Internal Product Name": "Sherb Cream Pie",
+      "Internal Product Type": "Preroll",
+      "SKU": "sherbcreampie-flower-preroll",
+      "Days on Shelf": 19
+    },
+    {
+      "Product name": "Strawberry Guava- 1g",
+      "Category": "Pre Rolls",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {},
+      "THC": "28.6%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {},
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Preroll",
+      "SKU": "strawberryguava-flower-preroll",
+      "Days on Shelf": 14
+    },
+    {
+      "Product name": "Black Maple- 3.5",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "25.42%",
+      "Quantity Available": 21,
+      "Quantity Per Option": {},
+      "Internal Product Name": "Black Maple",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "blackmaple-flower-jar",
+      "Days on Shelf": 88
+    },
+    {
+      "Product name": "Sherb Cream Pie - 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "20.8%",
+      "Quantity Available": 20,
+      "Quantity Per Option": {},
+      "Internal Product Name": "Sherb Cream Pie",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "sherbcreampie-flower-jar",
+      "Days on Shelf": 82
+    },
+    {
+      "Product name": "Berry Fizz - 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "25.38%",
+      "Quantity Available": 11,
+      "Quantity Per Option": {},
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "berryfizz-flower-jar",
+      "Days on Shelf": 46
+    },
+    {
+      "Product name": "Berry Fizz",
+      "Category": "Pre Rolls",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$17.00"
+      },
+      "Discount Price": {},
+      "THC": "25%",
+      "Quantity Available": 39,
+      "Quantity Per Option": {},
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Preroll",
+      "SKU": "berryfizz-flower-preroll",
+      "Days on Shelf": 17
+    },
+    {
+      "Product name": "Berry Fizz",
+      "Category": "Concentrates",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$84.00"
+      },
+      "Discount Price": {},
+      "THC": "350mg",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "1g": 8
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "berryfizz-rosin-jar-1",
+      "Days on Shelf": 14
+    },
+    {
+      "Product name": "Strawberry Guava",
+      "Category": "Vape Carts",
+      "Brand": "Rhize",
+      "Price": {
+        "0.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "390mg",
+      "Quantity Available": 12,
+      "Quantity Per Option": {},
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Cart",
+      "SKU": "strawberryguava-rosin-cart",
+      "Days on Shelf": 14
+    },
+    {
+      "Product name": "Candied Oranges",
+      "Category": "Concentrates",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$84.00"
+      },
+      "Discount Price": {},
+      "THC": "700mg",
+      "Quantity Available": 5,
+      "Quantity Per Option": {
+        "1g": 5
+      },
+      "Internal Product Name": "Candied Oranges",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "candiedoranges-rosin-jar-1",
+      "Days on Shelf": 14
+    }
+  ],
+  "2026-01-24": [
+    {
+      "Product name": "Multipack",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$58.00"
+      },
+      "Discount Price": {},
+      "THC": "27%",
+      "Quantity Available": 21,
+      "Quantity Per Option": {
+        "3.5g": 21
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 141
+    },
+    {
+      "Product name": "Dulce De Uva",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "24.7%",
+      "Quantity Available": 23,
+      "Quantity Per Option": {
+        "3.5g": 23
+      },
+      "Internal Product Name": "Dulce De Uva",
+      "Internal Product Type": "Jar",
+      "SKU": "dulcedeuva-flower-jar",
+      "Days on Shelf": 91
+    },
+    {
+      "Product name": "Black Maple",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "25.42%",
+      "Quantity Available": 21,
+      "Quantity Per Option": {
+        "3.5g": 21
+      },
+      "Internal Product Name": "Black Maple",
+      "Internal Product Type": "Jar",
+      "SKU": "blackmaple-flower-jar",
+      "Days on Shelf": 91
+    },
+    {
+      "Product name": "Sherb Cream Pie",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "20.8%",
+      "Quantity Available": 20,
+      "Quantity Per Option": {
+        "3.5g": 20
+      },
+      "Internal Product Name": "Sherb Cream Pie",
+      "Internal Product Type": "Jar",
+      "SKU": "sherbcreampie-flower-jar",
+      "Days on Shelf": 85
+    },
+    {
+      "Product name": "Berry Fizz",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "25.38%",
+      "Quantity Available": 11,
+      "Quantity Per Option": {
+        "3.5g": 11
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Jar",
+      "SKU": "berryfizz-flower-jar",
+      "Days on Shelf": 49
+    },
+    {
+      "Product name": "Strawberry Guava",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "28.6%",
+      "Quantity Available": 18,
+      "Quantity Per Option": {
+        "3.5g": 18
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Jar",
+      "SKU": "strawberryguava-flower-jar",
+      "Days on Shelf": 49
+    },
+    {
+      "Product name": "Black Maple 3.5",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "25.42%",
+      "Quantity Available": 18,
+      "Quantity Per Option": {
+        "3.5g": 18
+      },
+      "Internal Product Name": "Black Maple 3.5",
+      "Internal Product Type": "Jar",
+      "SKU": "blackmaple3.5-flower-jar",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Dulce de Uva",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {},
+      "THC": "26.8%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Dulce de Uva",
+      "Internal Product Type": "Preroll",
+      "SKU": "dulcedeuva-flower-preroll",
+      "Days on Shelf": 113
+    },
+    {
+      "Product name": "Sherb Cream Pie",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {},
+      "THC": "20.8%",
+      "Quantity Available": 41,
+      "Quantity Per Option": {
+        "1g": 41
+      },
+      "Internal Product Name": "Sherb Cream Pie",
+      "Internal Product Type": "Preroll",
+      "SKU": "sherbcreampie-flower-preroll",
+      "Days on Shelf": 22
+    },
+    {
+      "Product name": "Berry Fizz",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$17.00"
+      },
+      "Discount Price": {},
+      "THC": "25%",
+      "Quantity Available": 39,
+      "Quantity Per Option": {
+        "1g": 39
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Preroll",
+      "SKU": "berryfizz-flower-preroll",
+      "Days on Shelf": 14
+    },
+    {
+      "Product name": "Strawberry Guava",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {},
+      "THC": "28.6%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "1g": 8
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Preroll",
+      "SKU": "strawberryguava-flower-preroll",
+      "Days on Shelf": 17
+    },
+    {
+      "Product name": "Strawberry Guava",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "390mg",
+      "Quantity Available": 12,
+      "Quantity Per Option": {
+        ".5g": 12
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Cart",
+      "SKU": "strawberryguava-rosin-cart",
+      "Days on Shelf": 17
+    },
+    {
+      "Product name": "Melted Strawberries",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "403.5mg",
+      "Quantity Available": 12,
+      "Quantity Per Option": {
+        ".5g": 12
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Cart",
+      "SKU": "meltedstrawberries-rosin-cart",
+      "Days on Shelf": 17
+    },
+    {
+      "Product name": "Honey Banana",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {},
+      "THC": "600mg",
+      "Quantity Available": 5,
+      "Quantity Per Option": {
+        "1g": 5
+      },
+      "Internal Product Name": "Honey Banana",
+      "Internal Product Type": "Jar",
+      "SKU": "honeybanana-rosin-jar-1",
+      "Days on Shelf": 236
+    },
+    {
+      "Product name": "Strawberry Guava",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {},
+      "THC": "28.6%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "1g": 4
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Jar",
+      "SKU": "strawberryguava-rosin-jar-1",
+      "Days on Shelf": 141
+    },
+    {
+      "Product name": "Sherb Cream Pie",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {},
+      "THC": "20.8%",
+      "Quantity Available": 41,
+      "Quantity Per Option": {
+        "1g": 41
+      },
+      "Internal Product Name": "Sherb Cream Pie",
+      "Internal Product Type": "Jar",
+      "SKU": "sherbcreampie-rosin-jar-1",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Papaya Juice Hash",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$72.00"
+      },
+      "Discount Price": {},
+      "THC": "643mg",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "1g": 8
+      },
+      "Internal Product Name": "Papaya Juice Hash",
+      "Internal Product Type": "Jar",
+      "SKU": "papayajuicehash-rosin-jar-1",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Multipack",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$58.00"
+      },
+      "Discount Price": {},
+      "THC": "27%",
+      "Quantity Available": 17,
+      "Quantity Per Option": {
+        "3.5g": 17
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Jar",
+      "SKU": "multipack-rosin-jar",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Honey Banana Hash",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {},
+      "THC": "600mg",
+      "Quantity Available": 5,
+      "Quantity Per Option": {
+        "1g": 5
+      },
+      "Internal Product Name": "Honey Banana Hash",
+      "Internal Product Type": "Jar",
+      "SKU": "honeybananahash-rosin-jar-1",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Dulce De Uva",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {},
+      "THC": "26.8%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "1g": 8
+      },
+      "Internal Product Name": "Dulce De Uva",
+      "Internal Product Type": "Jar",
+      "SKU": "dulcedeuva-rosin-jar-1",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Melted Strawberries Vape",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "403.5mg",
+      "Quantity Available": 11,
+      "Quantity Per Option": {
+        ".5g": 11
+      },
+      "Internal Product Name": "Melted Strawberries Vape",
+      "Internal Product Type": "Cart",
+      "SKU": "meltedstrawberriesvape-rosin-cart",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Papaya Juice",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$72.00"
+      },
+      "Discount Price": {},
+      "THC": "643mg",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "1g": 9
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Jar",
+      "SKU": "papayajuice-rosin-jar-1",
+      "Days on Shelf": 17
+    },
+    {
+      "Product name": "Candied Oranges",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$84.00"
+      },
+      "Discount Price": {},
+      "THC": "700mg",
+      "Quantity Available": 5,
+      "Quantity Per Option": {
+        "1g": 5
+      },
+      "Internal Product Name": "Candied Oranges",
+      "Internal Product Type": "Jar",
+      "SKU": "candiedoranges-rosin-jar-1",
+      "Days on Shelf": 17
+    },
+    {
+      "Product name": "Berry Fizz",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$84.00"
+      },
+      "Discount Price": {},
+      "THC": "350mg",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "1g": 8
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Jar",
+      "SKU": "berryfizz-rosin-jar-1",
+      "Days on Shelf": 17
+    },
+    {
+      "Product name": "Strawberry Guava",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {},
+      "THC": "650mg",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Jar",
+      "SKU": "strawberryguava-rosin-jar-1",
+      "Days on Shelf": 141
+    }
+  ],
+  "2026-01-25": [
+    {
+      "Product name": "Black Maple 3.5",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "25.42%",
+      "Quantity Available": 18,
+      "Quantity Per Option": {
+        "3.5g": 18
+      },
+      "Internal Product Name": "Black Maple 3.5",
+      "Internal Product Type": "Jar",
+      "SKU": "blackmaple3.5-flower-jar",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Strawberry Guava",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "390mg",
+      "Quantity Available": 12,
+      "Quantity Per Option": {
+        ".5g": 12
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Cart",
+      "SKU": "strawberryguava-rosin-cart",
+      "Days on Shelf": 18
+    },
+    {
+      "Product name": "Melted Strawberries Vape",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "403.5mg",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        ".5g": 10
+      },
+      "Internal Product Name": "Melted Strawberries Vape",
+      "Internal Product Type": "Cart",
+      "SKU": "meltedstrawberriesvape-rosin-cart",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Strawberry Guava",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {},
+      "THC": "650mg",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Jar",
+      "SKU": "strawberryguava-rosin-jar-1",
+      "Days on Shelf": 142
+    },
+    {
+      "Product name": "Candied Oranges",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$84.00"
+      },
+      "Discount Price": {},
+      "THC": "700mg",
+      "Quantity Available": 5,
+      "Quantity Per Option": {
+        "1g": 5
+      },
+      "Internal Product Name": "Candied Oranges",
+      "Internal Product Type": "Jar",
+      "SKU": "candiedoranges-rosin-jar-1",
+      "Days on Shelf": 18
+    },
+    {
+      "Product name": "Berry Fizz",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$84.00"
+      },
+      "Discount Price": {},
+      "THC": "350mg",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "1g": 8
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Jar",
+      "SKU": "berryfizz-rosin-jar-1",
+      "Days on Shelf": 18
+    },
+    {
+      "Product name": "Dulce De Uva",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {},
+      "THC": "26.8%",
+      "Quantity Available": 7,
+      "Quantity Per Option": {
+        "1g": 7
+      },
+      "Internal Product Name": "Dulce De Uva",
+      "Internal Product Type": "Jar",
+      "SKU": "dulcedeuva-rosin-jar-1",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Honey Banana Hash",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {},
+      "THC": "600mg",
+      "Quantity Available": 5,
+      "Quantity Per Option": {
+        "1g": 5
+      },
+      "Internal Product Name": "Honey Banana Hash",
+      "Internal Product Type": "Jar",
+      "SKU": "honeybananahash-rosin-jar-1",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Multipack",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$58.00"
+      },
+      "Discount Price": {},
+      "THC": "27%",
+      "Quantity Available": 17,
+      "Quantity Per Option": {
+        "3.5g": 17
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Jar",
+      "SKU": "multipack-rosin-jar",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Papaya Juice Hash",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$72.00"
+      },
+      "Discount Price": {},
+      "THC": "643mg",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "1g": 8
+      },
+      "Internal Product Name": "Papaya Juice Hash",
+      "Internal Product Type": "Jar",
+      "SKU": "papayajuicehash-rosin-jar-1",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Sherb Cream Pie",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {},
+      "THC": "20.8%",
+      "Quantity Available": 41,
+      "Quantity Per Option": {
+        "1g": 41
+      },
+      "Internal Product Name": "Sherb Cream Pie",
+      "Internal Product Type": "Jar",
+      "SKU": "sherbcreampie-rosin-jar-1",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Strawberry Guava",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {},
+      "THC": "28.6%",
+      "Quantity Available": 3,
+      "Quantity Per Option": {
+        "1g": 3
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Jar",
+      "SKU": "strawberryguava-rosin-jar-1",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Strawberry Guava",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "28.6%",
+      "Quantity Available": 18,
+      "Quantity Per Option": {
+        "3.5g": 18
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Jar",
+      "SKU": "strawberryguava-flower-jar",
+      "Days on Shelf": 50
+    },
+    {
+      "Product name": "Berry Fizz",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "25.38%",
+      "Quantity Available": 11,
+      "Quantity Per Option": {
+        "3.5g": 11
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Jar",
+      "SKU": "berryfizz-flower-jar",
+      "Days on Shelf": 50
+    },
+    {
+      "Product name": "Sherb Cream Pie",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "20.8%",
+      "Quantity Available": 20,
+      "Quantity Per Option": {
+        "3.5g": 20
+      },
+      "Internal Product Name": "Sherb Cream Pie",
+      "Internal Product Type": "Jar",
+      "SKU": "sherbcreampie-flower-jar",
+      "Days on Shelf": 86
+    },
+    {
+      "Product name": "Dulce De Uva",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "24.7%",
+      "Quantity Available": 23,
+      "Quantity Per Option": {
+        "3.5g": 23
+      },
+      "Internal Product Name": "Dulce De Uva",
+      "Internal Product Type": "Jar",
+      "SKU": "dulcedeuva-flower-jar",
+      "Days on Shelf": 92
+    }
+  ]
+}

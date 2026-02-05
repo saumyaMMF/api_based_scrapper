@@ -1,0 +1,264 @@
+{
+  "2026-01-21": [
+    {
+      "Product name": "Dulce de Uva",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.8%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "3.5g": 9
+      },
+      "Internal Product Name": "Dulce de Uva",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "dulcedeuva-flower-jar",
+      "Days on Shelf": 68
+    },
+    {
+      "Product name": "Papaya Juice",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.7%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "3.5g": 6
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "papayajuice-flower-jar",
+      "Days on Shelf": 91
+    }
+  ],
+  "2026-01-23": [
+    {
+      "Product name": "Papaya Juice",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.7%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "3.5g": 6
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "papayajuice-flower-jar",
+      "Days on Shelf": 93
+    },
+    {
+      "Product name": "Dulce de Uva",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.8%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "3.5g": 9
+      },
+      "Internal Product Name": "Dulce de Uva",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "dulcedeuva-flower-jar",
+      "Days on Shelf": 70
+    },
+    {
+      "Product name": "Dulce De Uva 1/8",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.8%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "3.5g": 6
+      },
+      "Internal Product Name": "Dulce De Uva 1/8",
+      "Internal Product Type": "Jar",
+      "SKU": "dulcedeuva1/8-flower-jar",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Papaya Juice 1/8",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.7%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "3.5g": 8
+      },
+      "Internal Product Name": "Papaya Juice 1/8",
+      "Internal Product Type": "Jar",
+      "SKU": "papayajuice1/8-flower-jar",
+      "Days on Shelf": 0
+    }
+  ],
+  "2026-01-24": [
+    {
+      "Product name": "Dulce De Uva 1/8",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.8%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "3.5g": 6
+      },
+      "Internal Product Name": "Dulce De Uva 1/8",
+      "Internal Product Type": "Jar",
+      "SKU": "dulcedeuva1/8-flower-jar",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Papaya Juice 1/8",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.7%",
+      "Quantity Available": 7,
+      "Quantity Per Option": {
+        "3.5g": 7
+      },
+      "Internal Product Name": "Papaya Juice 1/8",
+      "Internal Product Type": "Jar",
+      "SKU": "papayajuice1/8-flower-jar",
+      "Days on Shelf": 1
+    }
+  ],
+  "2026-01-25": [
+    {
+      "Product name": "Dulce De Uva 1/8",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.8%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "3.5g": 6
+      },
+      "Internal Product Name": "Dulce De Uva 1/8",
+      "Internal Product Type": "Jar",
+      "SKU": "dulcedeuva1/8-flower-jar",
+      "Days on Shelf": 2
+    },
+    {
+      "Product name": "Papaya Juice 1/8",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.7%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "3.5g": 6
+      },
+      "Internal Product Name": "Papaya Juice 1/8",
+      "Internal Product Type": "Jar",
+      "SKU": "papayajuice1/8-flower-jar",
+      "Days on Shelf": 2
+    }
+  ],
+  "2026-01-27": [
+    {
+      "Product name": "Dulce De Uva 1/8",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.8%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "3.5g": 4
+      },
+      "Internal Product Name": "Dulce De Uva 1/8",
+      "Internal Product Type": "Jar",
+      "SKU": "dulcedeuva1/8-flower-jar",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Papaya Juice 1/8",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.7%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "3.5g": 8
+      },
+      "Internal Product Name": "Papaya Juice 1/8",
+      "Internal Product Type": "Jar",
+      "SKU": "papayajuice1/8-flower-jar",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Dulce De Uva",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.8%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "3.5g": 4
+      },
+      "Internal Product Name": "Dulce De Uva",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "dulcedeuva-flower-jar",
+      "Days on Shelf": 74
+    },
+    {
+      "Product name": "Papaya Juice",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {},
+      "THC": "26.7%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "3.5g": 8
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "papayajuice-flower-jar",
+      "Days on Shelf": 97
+    }
+  ]
+}

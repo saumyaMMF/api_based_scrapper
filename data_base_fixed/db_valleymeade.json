@@ -81355,6 +81355,748 @@
       "Days on Shelf": 14
     }
   ],
+  "2026-01-24": [
+    {
+      "Product name": "Multipack",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$58.00"
+      },
+      "Discount Price": {},
+      "THC": "27%",
+      "Quantity Available": 21,
+      "Quantity Per Option": {
+        "3.5g": 21
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 141
+    },
+    {
+      "Product name": "Dulce De Uva",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "24.7%",
+      "Quantity Available": 23,
+      "Quantity Per Option": {
+        "3.5g": 23
+      },
+      "Internal Product Name": "Dulce De Uva",
+      "Internal Product Type": "Jar",
+      "SKU": "dulcedeuva-flower-jar",
+      "Days on Shelf": 91
+    },
+    {
+      "Product name": "Black Maple",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "25.42%",
+      "Quantity Available": 21,
+      "Quantity Per Option": {
+        "3.5g": 21
+      },
+      "Internal Product Name": "Black Maple",
+      "Internal Product Type": "Jar",
+      "SKU": "blackmaple-flower-jar",
+      "Days on Shelf": 91
+    },
+    {
+      "Product name": "Sherb Cream Pie",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "20.8%",
+      "Quantity Available": 20,
+      "Quantity Per Option": {
+        "3.5g": 20
+      },
+      "Internal Product Name": "Sherb Cream Pie",
+      "Internal Product Type": "Jar",
+      "SKU": "sherbcreampie-flower-jar",
+      "Days on Shelf": 85
+    },
+    {
+      "Product name": "Berry Fizz",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "25.38%",
+      "Quantity Available": 11,
+      "Quantity Per Option": {
+        "3.5g": 11
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Jar",
+      "SKU": "berryfizz-flower-jar",
+      "Days on Shelf": 49
+    },
+    {
+      "Product name": "Strawberry Guava",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "28.6%",
+      "Quantity Available": 18,
+      "Quantity Per Option": {
+        "3.5g": 18
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Jar",
+      "SKU": "strawberryguava-flower-jar",
+      "Days on Shelf": 49
+    },
+    {
+      "Product name": "Black Maple 3.5",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "25.42%",
+      "Quantity Available": 18,
+      "Quantity Per Option": {
+        "3.5g": 18
+      },
+      "Internal Product Name": "Black Maple 3.5",
+      "Internal Product Type": "Jar",
+      "SKU": "blackmaple3.5-flower-jar",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Dulce de Uva",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {},
+      "THC": "26.8%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Dulce de Uva",
+      "Internal Product Type": "Preroll",
+      "SKU": "dulcedeuva-flower-preroll",
+      "Days on Shelf": 113
+    },
+    {
+      "Product name": "Sherb Cream Pie",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {},
+      "THC": "20.8%",
+      "Quantity Available": 41,
+      "Quantity Per Option": {
+        "1g": 41
+      },
+      "Internal Product Name": "Sherb Cream Pie",
+      "Internal Product Type": "Preroll",
+      "SKU": "sherbcreampie-flower-preroll",
+      "Days on Shelf": 22
+    },
+    {
+      "Product name": "Berry Fizz",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$17.00"
+      },
+      "Discount Price": {},
+      "THC": "25%",
+      "Quantity Available": 39,
+      "Quantity Per Option": {
+        "1g": 39
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Preroll",
+      "SKU": "berryfizz-flower-preroll",
+      "Days on Shelf": 17
+    },
+    {
+      "Product name": "Strawberry Guava",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {},
+      "THC": "28.6%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "1g": 8
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Preroll",
+      "SKU": "strawberryguava-flower-preroll",
+      "Days on Shelf": 17
+    },
+    {
+      "Product name": "Strawberry Guava",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "390mg",
+      "Quantity Available": 12,
+      "Quantity Per Option": {
+        ".5g": 12
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Cart",
+      "SKU": "strawberryguava-rosin-cart",
+      "Days on Shelf": 17
+    },
+    {
+      "Product name": "Melted Strawberries",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "403.5mg",
+      "Quantity Available": 12,
+      "Quantity Per Option": {
+        ".5g": 12
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Cart",
+      "SKU": "meltedstrawberries-rosin-cart",
+      "Days on Shelf": 17
+    },
+    {
+      "Product name": "Honey Banana",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {},
+      "THC": "600mg",
+      "Quantity Available": 5,
+      "Quantity Per Option": {
+        "1g": 5
+      },
+      "Internal Product Name": "Honey Banana",
+      "Internal Product Type": "Jar",
+      "SKU": "honeybanana-rosin-jar-1",
+      "Days on Shelf": 236
+    },
+    {
+      "Product name": "Strawberry Guava",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {},
+      "THC": "28.6%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "1g": 4
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Jar",
+      "SKU": "strawberryguava-rosin-jar-1",
+      "Days on Shelf": 141
+    },
+    {
+      "Product name": "Sherb Cream Pie",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {},
+      "THC": "20.8%",
+      "Quantity Available": 41,
+      "Quantity Per Option": {
+        "1g": 41
+      },
+      "Internal Product Name": "Sherb Cream Pie",
+      "Internal Product Type": "Jar",
+      "SKU": "sherbcreampie-rosin-jar-1",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Papaya Juice Hash",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$72.00"
+      },
+      "Discount Price": {},
+      "THC": "643mg",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "1g": 8
+      },
+      "Internal Product Name": "Papaya Juice Hash",
+      "Internal Product Type": "Jar",
+      "SKU": "papayajuicehash-rosin-jar-1",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Multipack",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$58.00"
+      },
+      "Discount Price": {},
+      "THC": "27%",
+      "Quantity Available": 17,
+      "Quantity Per Option": {
+        "3.5g": 17
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Jar",
+      "SKU": "multipack-rosin-jar",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Honey Banana Hash",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {},
+      "THC": "600mg",
+      "Quantity Available": 5,
+      "Quantity Per Option": {
+        "1g": 5
+      },
+      "Internal Product Name": "Honey Banana Hash",
+      "Internal Product Type": "Jar",
+      "SKU": "honeybananahash-rosin-jar-1",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Dulce De Uva",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {},
+      "THC": "26.8%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "1g": 8
+      },
+      "Internal Product Name": "Dulce De Uva",
+      "Internal Product Type": "Jar",
+      "SKU": "dulcedeuva-rosin-jar-1",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Melted Strawberries Vape",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "403.5mg",
+      "Quantity Available": 11,
+      "Quantity Per Option": {
+        ".5g": 11
+      },
+      "Internal Product Name": "Melted Strawberries Vape",
+      "Internal Product Type": "Cart",
+      "SKU": "meltedstrawberriesvape-rosin-cart",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Papaya Juice",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$72.00"
+      },
+      "Discount Price": {},
+      "THC": "643mg",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "1g": 9
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Jar",
+      "SKU": "papayajuice-rosin-jar-1",
+      "Days on Shelf": 17
+    },
+    {
+      "Product name": "Candied Oranges",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$84.00"
+      },
+      "Discount Price": {},
+      "THC": "700mg",
+      "Quantity Available": 5,
+      "Quantity Per Option": {
+        "1g": 5
+      },
+      "Internal Product Name": "Candied Oranges",
+      "Internal Product Type": "Jar",
+      "SKU": "candiedoranges-rosin-jar-1",
+      "Days on Shelf": 17
+    },
+    {
+      "Product name": "Berry Fizz",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$84.00"
+      },
+      "Discount Price": {},
+      "THC": "350mg",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "1g": 8
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Jar",
+      "SKU": "berryfizz-rosin-jar-1",
+      "Days on Shelf": 17
+    },
+    {
+      "Product name": "Strawberry Guava",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {},
+      "THC": "650mg",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Jar",
+      "SKU": "strawberryguava-rosin-jar-1",
+      "Days on Shelf": 141
+    }
+  ],
+  "2026-01-25": [
+    {
+      "Product name": "Black Maple 3.5",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "25.42%",
+      "Quantity Available": 18,
+      "Quantity Per Option": {
+        "3.5g": 18
+      },
+      "Internal Product Name": "Black Maple 3.5",
+      "Internal Product Type": "Jar",
+      "SKU": "blackmaple3.5-flower-jar",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Strawberry Guava",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "390mg",
+      "Quantity Available": 12,
+      "Quantity Per Option": {
+        ".5g": 12
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Cart",
+      "SKU": "strawberryguava-rosin-cart",
+      "Days on Shelf": 18
+    },
+    {
+      "Product name": "Melted Strawberries Vape",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "403.5mg",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        ".5g": 10
+      },
+      "Internal Product Name": "Melted Strawberries Vape",
+      "Internal Product Type": "Cart",
+      "SKU": "meltedstrawberriesvape-rosin-cart",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Strawberry Guava",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {},
+      "THC": "650mg",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Jar",
+      "SKU": "strawberryguava-rosin-jar-1",
+      "Days on Shelf": 142
+    },
+    {
+      "Product name": "Candied Oranges",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$84.00"
+      },
+      "Discount Price": {},
+      "THC": "700mg",
+      "Quantity Available": 5,
+      "Quantity Per Option": {
+        "1g": 5
+      },
+      "Internal Product Name": "Candied Oranges",
+      "Internal Product Type": "Jar",
+      "SKU": "candiedoranges-rosin-jar-1",
+      "Days on Shelf": 18
+    },
+    {
+      "Product name": "Berry Fizz",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$84.00"
+      },
+      "Discount Price": {},
+      "THC": "350mg",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "1g": 8
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Jar",
+      "SKU": "berryfizz-rosin-jar-1",
+      "Days on Shelf": 18
+    },
+    {
+      "Product name": "Dulce De Uva",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {},
+      "THC": "26.8%",
+      "Quantity Available": 7,
+      "Quantity Per Option": {
+        "1g": 7
+      },
+      "Internal Product Name": "Dulce De Uva",
+      "Internal Product Type": "Jar",
+      "SKU": "dulcedeuva-rosin-jar-1",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Honey Banana Hash",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$78.00"
+      },
+      "Discount Price": {},
+      "THC": "600mg",
+      "Quantity Available": 5,
+      "Quantity Per Option": {
+        "1g": 5
+      },
+      "Internal Product Name": "Honey Banana Hash",
+      "Internal Product Type": "Jar",
+      "SKU": "honeybananahash-rosin-jar-1",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Multipack",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$58.00"
+      },
+      "Discount Price": {},
+      "THC": "27%",
+      "Quantity Available": 17,
+      "Quantity Per Option": {
+        "3.5g": 17
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Jar",
+      "SKU": "multipack-rosin-jar",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Papaya Juice Hash",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$72.00"
+      },
+      "Discount Price": {},
+      "THC": "643mg",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "1g": 8
+      },
+      "Internal Product Name": "Papaya Juice Hash",
+      "Internal Product Type": "Jar",
+      "SKU": "papayajuicehash-rosin-jar-1",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Sherb Cream Pie",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {},
+      "THC": "20.8%",
+      "Quantity Available": 41,
+      "Quantity Per Option": {
+        "1g": 41
+      },
+      "Internal Product Name": "Sherb Cream Pie",
+      "Internal Product Type": "Jar",
+      "SKU": "sherbcreampie-rosin-jar-1",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Strawberry Guava",
+      "Category": "Rosin",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {},
+      "THC": "28.6%",
+      "Quantity Available": 3,
+      "Quantity Per Option": {
+        "1g": 3
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Jar",
+      "SKU": "strawberryguava-rosin-jar-1",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Strawberry Guava",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "28.6%",
+      "Quantity Available": 18,
+      "Quantity Per Option": {
+        "3.5g": 18
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Jar",
+      "SKU": "strawberryguava-flower-jar",
+      "Days on Shelf": 50
+    },
+    {
+      "Product name": "Berry Fizz",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "25.38%",
+      "Quantity Available": 11,
+      "Quantity Per Option": {
+        "3.5g": 11
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Jar",
+      "SKU": "berryfizz-flower-jar",
+      "Days on Shelf": 50
+    },
+    {
+      "Product name": "Sherb Cream Pie",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "20.8%",
+      "Quantity Available": 20,
+      "Quantity Per Option": {
+        "3.5g": 20
+      },
+      "Internal Product Name": "Sherb Cream Pie",
+      "Internal Product Type": "Jar",
+      "SKU": "sherbcreampie-flower-jar",
+      "Days on Shelf": 86
+    },
+    {
+      "Product name": "Dulce De Uva",
+      "Category": "Flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {},
+      "THC": "24.7%",
+      "Quantity Available": 23,
+      "Quantity Per Option": {
+        "3.5g": 23
+      },
+      "Internal Product Name": "Dulce De Uva",
+      "Internal Product Type": "Jar",
+      "SKU": "dulcedeuva-flower-jar",
+      "Days on Shelf": 92
+    }
+  ],
   "2026-01-27": [
     {
       "Product name": "Multipack",
@@ -81370,7 +82112,7 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Rosin Jar",
       "SKU": "multipack-rosin-jar",
-      "Days on Shelf": 0
+      "Days on Shelf": 3
     },
     {
       "Product name": "Papaya Juice Hash Rosin",
@@ -81388,7 +82130,7 @@
       "Internal Product Name": "Papaya Juice Hash",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuicehash-rosin-jar-1",
-      "Days on Shelf": 0
+      "Days on Shelf": 3
     },
     {
       "Product name": "Dulce De Uva - 3.5g",
@@ -81404,7 +82146,7 @@
       "Internal Product Name": "Dulce De Uva",
       "Internal Product Type": "Flower Jar",
       "SKU": "dulcedeuva-flower-jar",
-      "Days on Shelf": 0
+      "Days on Shelf": 94
     },
     {
       "Product name": "Honey Banana Hash Rosin",
@@ -81422,7 +82164,7 @@
       "Internal Product Name": "Honey Banana Hash",
       "Internal Product Type": "Rosin Jar",
       "SKU": "honeybananahash-rosin-jar-1",
-      "Days on Shelf": 0
+      "Days on Shelf": 3
     },
     {
       "Product name": "Melted Strawberries - Vape",
@@ -81438,7 +82180,7 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Cart",
       "SKU": "meltedstrawberries-rosin-cart",
-      "Days on Shelf": 0
+      "Days on Shelf": 19
     },
     {
       "Product name": "Strawberry Guava - 3.5g",
@@ -81454,7 +82196,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Flower Jar",
       "SKU": "strawberryguava-flower-jar",
-      "Days on Shelf": 0
+      "Days on Shelf": 52
     },
     {
       "Product name": "Strawberry Guava Live Rosin",
@@ -81472,7 +82214,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Rosin Jar",
       "SKU": "strawberryguava-rosin-jar-1",
-      "Days on Shelf": 0
+      "Days on Shelf": 145
     },
     {
       "Product name": "Dulce De Uva - 1g",
@@ -81490,7 +82232,7 @@
       "Internal Product Name": "Dulce De Uva",
       "Internal Product Type": "Rosin Jar",
       "SKU": "dulcedeuva-rosin-jar-1",
-      "Days on Shelf": 0
+      "Days on Shelf": 3
     },
     {
       "Product name": "Sherb Cream Pie - 1g",
@@ -81508,7 +82250,7 @@
       "Internal Product Name": "Sherb Cream Pie",
       "Internal Product Type": "Rosin Jar",
       "SKU": "sherbcreampie-rosin-jar-1",
-      "Days on Shelf": 0
+      "Days on Shelf": 3
     },
     {
       "Product name": "Strawberry Guava- 1g",
@@ -81542,7 +82284,7 @@
       "Internal Product Name": "Black Maple 3.5",
       "Internal Product Type": "Flower Jar",
       "SKU": "blackmaple3.5-flower-jar",
-      "Days on Shelf": 0
+      "Days on Shelf": 3
     },
     {
       "Product name": "Sherb Cream Pie - 3.5g",
@@ -81558,7 +82300,7 @@
       "Internal Product Name": "Sherb Cream Pie",
       "Internal Product Type": "Flower Jar",
       "SKU": "sherbcreampie-flower-jar",
-      "Days on Shelf": 0
+      "Days on Shelf": 88
     },
     {
       "Product name": "Berry Fizz - 3.5g",
@@ -81574,7 +82316,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Flower Jar",
       "SKU": "berryfizz-flower-jar",
-      "Days on Shelf": 0
+      "Days on Shelf": 52
     },
     {
       "Product name": "Berry Fizz",
@@ -81610,7 +82352,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Rosin Jar",
       "SKU": "berryfizz-rosin-jar-1",
-      "Days on Shelf": 0
+      "Days on Shelf": 20
     },
     {
       "Product name": "Strawberry Guava",
@@ -81626,7 +82368,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Cart",
       "SKU": "strawberryguava-rosin-cart",
-      "Days on Shelf": 0
+      "Days on Shelf": 20
     },
     {
       "Product name": "Candied Oranges",
@@ -81644,7 +82386,7 @@
       "Internal Product Name": "Candied Oranges",
       "Internal Product Type": "Rosin Jar",
       "SKU": "candiedoranges-rosin-jar-1",
-      "Days on Shelf": 0
+      "Days on Shelf": 20
     }
   ],
   "2026-01-28": [
@@ -81662,7 +82404,7 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 0
+      "Days on Shelf": 145
     },
     {
       "Product name": "Papaya Juice Hash Rosin",
@@ -81680,7 +82422,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 0
+      "Days on Shelf": 21
     },
     {
       "Product name": "Dulce De Uva - 3.5g",
@@ -81696,7 +82438,7 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Flower Jar",
       "SKU": "dulcedeuva-flower-jar",
-      "Days on Shelf": 1
+      "Days on Shelf": 95
     },
     {
       "Product name": "Honey Banana Hash Rosin",
@@ -81714,7 +82456,7 @@
       "Internal Product Name": "Honey Banana",
       "Internal Product Type": "Rosin Jar",
       "SKU": "honeybanana-rosin-jar-1",
-      "Days on Shelf": 0
+      "Days on Shelf": 140
     },
     {
       "Product name": "Melted Strawberries - Vape",
@@ -81730,7 +82472,7 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Cart",
       "SKU": "meltedstrawberries-rosin-cart",
-      "Days on Shelf": 1
+      "Days on Shelf": 20
     },
     {
       "Product name": "Strawberry Guava - 3.5g",
@@ -81746,7 +82488,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Flower Jar",
       "SKU": "strawberryguava-flower-jar",
-      "Days on Shelf": 1
+      "Days on Shelf": 53
     },
     {
       "Product name": "Strawberry Guava Live Rosin",
@@ -81764,7 +82506,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Rosin Jar",
       "SKU": "strawberryguava-rosin-jar-1",
-      "Days on Shelf": 1
+      "Days on Shelf": 146
     },
     {
       "Product name": "Dulce De Uva - 1g",
@@ -81780,7 +82522,7 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 0
+      "Days on Shelf": 137
     },
     {
       "Product name": "Sherb Cream Pie - 1g",
@@ -81796,7 +82538,7 @@
       "Internal Product Name": "Sherb Cream Pie",
       "Internal Product Type": "Preroll",
       "SKU": "sherbcreampie-flower-preroll",
-      "Days on Shelf": 0
+      "Days on Shelf": 26
     },
     {
       "Product name": "Strawberry Guava- 1g",
@@ -81812,7 +82554,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Preroll",
       "SKU": "strawberryguava-flower-preroll",
-      "Days on Shelf": 0
+      "Days on Shelf": 21
     },
     {
       "Product name": "Black Maple- 3.5",
@@ -81828,7 +82570,7 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Flower Jar",
       "SKU": "blackmaple-flower-jar",
-      "Days on Shelf": 0
+      "Days on Shelf": 95
     },
     {
       "Product name": "Sherb Cream Pie - 3.5g",
@@ -81844,7 +82586,7 @@
       "Internal Product Name": "Sherb Cream Pie",
       "Internal Product Type": "Flower Jar",
       "SKU": "sherbcreampie-flower-jar",
-      "Days on Shelf": 1
+      "Days on Shelf": 89
     },
     {
       "Product name": "Berry Fizz - 3.5g",
@@ -81860,7 +82602,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Flower Jar",
       "SKU": "berryfizz-flower-jar",
-      "Days on Shelf": 1
+      "Days on Shelf": 53
     },
     {
       "Product name": "Berry Fizz",
@@ -81876,7 +82618,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Preroll",
       "SKU": "berryfizz-flower-preroll",
-      "Days on Shelf": 0
+      "Days on Shelf": 21
     },
     {
       "Product name": "Berry Fizz",
@@ -81894,7 +82636,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Rosin Jar",
       "SKU": "berryfizz-rosin-jar-1",
-      "Days on Shelf": 1
+      "Days on Shelf": 21
     },
     {
       "Product name": "Strawberry Guava",
@@ -81910,7 +82652,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Cart",
       "SKU": "strawberryguava-rosin-cart",
-      "Days on Shelf": 1
+      "Days on Shelf": 21
     },
     {
       "Product name": "Candied Oranges",
@@ -81928,7 +82670,7 @@
       "Internal Product Name": "Candied Oranges",
       "Internal Product Type": "Rosin Jar",
       "SKU": "candiedoranges-rosin-jar-1",
-      "Days on Shelf": 1
+      "Days on Shelf": 21
     }
   ],
   "2026-01-29": [
@@ -81946,7 +82688,7 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 1
+      "Days on Shelf": 146
     },
     {
       "Product name": "Papaya Juice Hash Rosin",
@@ -81964,7 +82706,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 1
+      "Days on Shelf": 22
     },
     {
       "Product name": "Dulce De Uva - 3.5g",
@@ -81980,7 +82722,7 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Flower Jar",
       "SKU": "dulcedeuva-flower-jar",
-      "Days on Shelf": 2
+      "Days on Shelf": 96
     },
     {
       "Product name": "Honey Banana Hash Rosin",
@@ -81998,7 +82740,7 @@
       "Internal Product Name": "Honey Banana",
       "Internal Product Type": "Rosin Jar",
       "SKU": "honeybanana-rosin-jar-1",
-      "Days on Shelf": 1
+      "Days on Shelf": 141
     },
     {
       "Product name": "Melted Strawberries - Vape",
@@ -82014,7 +82756,7 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Cart",
       "SKU": "meltedstrawberries-rosin-cart",
-      "Days on Shelf": 2
+      "Days on Shelf": 21
     },
     {
       "Product name": "Strawberry Guava - 3.5g",
@@ -82030,7 +82772,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Flower Jar",
       "SKU": "strawberryguava-flower-jar",
-      "Days on Shelf": 2
+      "Days on Shelf": 54
     },
     {
       "Product name": "Strawberry Guava Live Rosin",
@@ -82048,7 +82790,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Rosin Jar",
       "SKU": "strawberryguava-rosin-jar-1",
-      "Days on Shelf": 2
+      "Days on Shelf": 147
     },
     {
       "Product name": "Dulce De Uva - 1g",
@@ -82064,7 +82806,7 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 1
+      "Days on Shelf": 138
     },
     {
       "Product name": "Sherb Cream Pie - 1g",
@@ -82080,7 +82822,7 @@
       "Internal Product Name": "Sherb Cream Pie",
       "Internal Product Type": "Preroll",
       "SKU": "sherbcreampie-flower-preroll",
-      "Days on Shelf": 1
+      "Days on Shelf": 27
     },
     {
       "Product name": "Strawberry Guava- 1g",
@@ -82096,7 +82838,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Preroll",
       "SKU": "strawberryguava-flower-preroll",
-      "Days on Shelf": 1
+      "Days on Shelf": 22
     },
     {
       "Product name": "Black Maple- 3.5",
@@ -82112,7 +82854,7 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Flower Jar",
       "SKU": "blackmaple-flower-jar",
-      "Days on Shelf": 1
+      "Days on Shelf": 96
     },
     {
       "Product name": "Sherb Cream Pie - 3.5g",
@@ -82128,7 +82870,7 @@
       "Internal Product Name": "Sherb Cream Pie",
       "Internal Product Type": "Flower Jar",
       "SKU": "sherbcreampie-flower-jar",
-      "Days on Shelf": 2
+      "Days on Shelf": 90
     },
     {
       "Product name": "Berry Fizz - 3.5g",
@@ -82144,7 +82886,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Flower Jar",
       "SKU": "berryfizz-flower-jar",
-      "Days on Shelf": 2
+      "Days on Shelf": 54
     },
     {
       "Product name": "Berry Fizz",
@@ -82160,7 +82902,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Preroll",
       "SKU": "berryfizz-flower-preroll",
-      "Days on Shelf": 1
+      "Days on Shelf": 22
     },
     {
       "Product name": "Berry Fizz",
@@ -82178,7 +82920,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Rosin Jar",
       "SKU": "berryfizz-rosin-jar-1",
-      "Days on Shelf": 2
+      "Days on Shelf": 22
     },
     {
       "Product name": "Strawberry Guava",
@@ -82194,7 +82936,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Cart",
       "SKU": "strawberryguava-rosin-cart",
-      "Days on Shelf": 2
+      "Days on Shelf": 22
     },
     {
       "Product name": "Candied Oranges",
@@ -82212,7 +82954,7 @@
       "Internal Product Name": "Candied Oranges",
       "Internal Product Type": "Rosin Jar",
       "SKU": "candiedoranges-rosin-jar-1",
-      "Days on Shelf": 2
+      "Days on Shelf": 22
     }
   ],
   "2026-01-30": [
@@ -82230,7 +82972,7 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 2
+      "Days on Shelf": 147
     },
     {
       "Product name": "Papaya Juice Hash Rosin",
@@ -82248,7 +82990,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 2
+      "Days on Shelf": 23
     },
     {
       "Product name": "Dulce De Uva - 3.5g",
@@ -82264,7 +83006,7 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Flower Jar",
       "SKU": "dulcedeuva-flower-jar",
-      "Days on Shelf": 3
+      "Days on Shelf": 97
     },
     {
       "Product name": "Honey Banana Hash Rosin",
@@ -82282,7 +83024,7 @@
       "Internal Product Name": "Honey Banana",
       "Internal Product Type": "Rosin Jar",
       "SKU": "honeybanana-rosin-jar-1",
-      "Days on Shelf": 2
+      "Days on Shelf": 142
     },
     {
       "Product name": "Melted Strawberries - Vape",
@@ -82298,7 +83040,7 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Cart",
       "SKU": "meltedstrawberries-rosin-cart",
-      "Days on Shelf": 3
+      "Days on Shelf": 22
     },
     {
       "Product name": "Strawberry Guava - 3.5g",
@@ -82314,7 +83056,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Flower Jar",
       "SKU": "strawberryguava-flower-jar",
-      "Days on Shelf": 3
+      "Days on Shelf": 55
     },
     {
       "Product name": "Strawberry Guava Live Rosin",
@@ -82332,7 +83074,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Rosin Jar",
       "SKU": "strawberryguava-rosin-jar-1",
-      "Days on Shelf": 3
+      "Days on Shelf": 148
     },
     {
       "Product name": "Dulce De Uva - 1g",
@@ -82348,7 +83090,7 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 2
+      "Days on Shelf": 139
     },
     {
       "Product name": "Sherb Cream Pie - 1g",
@@ -82364,7 +83106,7 @@
       "Internal Product Name": "Sherb Cream Pie",
       "Internal Product Type": "Preroll",
       "SKU": "sherbcreampie-flower-preroll",
-      "Days on Shelf": 2
+      "Days on Shelf": 28
     },
     {
       "Product name": "Strawberry Guava- 1g",
@@ -82380,7 +83122,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Preroll",
       "SKU": "strawberryguava-flower-preroll",
-      "Days on Shelf": 2
+      "Days on Shelf": 23
     },
     {
       "Product name": "Black Maple- 3.5",
@@ -82396,7 +83138,7 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Flower Jar",
       "SKU": "blackmaple-flower-jar",
-      "Days on Shelf": 2
+      "Days on Shelf": 97
     },
     {
       "Product name": "Sherb Cream Pie - 3.5g",
@@ -82412,7 +83154,7 @@
       "Internal Product Name": "Sherb Cream Pie",
       "Internal Product Type": "Flower Jar",
       "SKU": "sherbcreampie-flower-jar",
-      "Days on Shelf": 3
+      "Days on Shelf": 91
     },
     {
       "Product name": "Berry Fizz - 3.5g",
@@ -82428,7 +83170,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Flower Jar",
       "SKU": "berryfizz-flower-jar",
-      "Days on Shelf": 3
+      "Days on Shelf": 55
     },
     {
       "Product name": "Berry Fizz",
@@ -82444,7 +83186,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Preroll",
       "SKU": "berryfizz-flower-preroll",
-      "Days on Shelf": 2
+      "Days on Shelf": 23
     },
     {
       "Product name": "Berry Fizz",
@@ -82462,7 +83204,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Rosin Jar",
       "SKU": "berryfizz-rosin-jar-1",
-      "Days on Shelf": 3
+      "Days on Shelf": 23
     },
     {
       "Product name": "Strawberry Guava",
@@ -82478,7 +83220,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Cart",
       "SKU": "strawberryguava-rosin-cart",
-      "Days on Shelf": 3
+      "Days on Shelf": 23
     },
     {
       "Product name": "Candied Oranges",
@@ -82496,7 +83238,7 @@
       "Internal Product Name": "Candied Oranges",
       "Internal Product Type": "Rosin Jar",
       "SKU": "candiedoranges-rosin-jar-1",
-      "Days on Shelf": 3
+      "Days on Shelf": 23
     }
   ],
   "2026-01-31": [
@@ -82514,7 +83256,7 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 3
+      "Days on Shelf": 148
     },
     {
       "Product name": "Papaya Juice Hash Rosin",
@@ -82532,9 +83274,9 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 3
+      "Days on Shelf": 24
     },
-    {
+      {
       "Product name": "Dulce De Uva - 3.5g",
       "Category": "Flower",
       "Brand": "Rhize",
@@ -82548,7 +83290,7 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Flower Jar",
       "SKU": "dulcedeuva-flower-jar",
-      "Days on Shelf": 4
+      "Days on Shelf": 98
     },
     {
       "Product name": "Honey Banana Hash Rosin",
@@ -82566,7 +83308,7 @@
       "Internal Product Name": "Honey Banana",
       "Internal Product Type": "Rosin Jar",
       "SKU": "honeybanana-rosin-jar-1",
-      "Days on Shelf": 3
+      "Days on Shelf": 143
     },
     {
       "Product name": "Melted Strawberries - Vape",
@@ -82582,7 +83324,7 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Cart",
       "SKU": "meltedstrawberries-rosin-cart",
-      "Days on Shelf": 4
+      "Days on Shelf": 23
     },
     {
       "Product name": "Strawberry Guava - 3.5g",
@@ -82598,7 +83340,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Flower Jar",
       "SKU": "strawberryguava-flower-jar",
-      "Days on Shelf": 4
+      "Days on Shelf": 56
     },
     {
       "Product name": "Strawberry Guava Live Rosin",
@@ -82616,7 +83358,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Rosin Jar",
       "SKU": "strawberryguava-rosin-jar-1",
-      "Days on Shelf": 4
+      "Days on Shelf": 149
     },
     {
       "Product name": "Dulce De Uva - 1g",
@@ -82632,7 +83374,7 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 3
+      "Days on Shelf": 140
     },
     {
       "Product name": "Sherb Cream Pie - 1g",
@@ -82648,7 +83390,7 @@
       "Internal Product Name": "Sherb Cream Pie",
       "Internal Product Type": "Preroll",
       "SKU": "sherbcreampie-flower-preroll",
-      "Days on Shelf": 3
+      "Days on Shelf": 29
     },
     {
       "Product name": "Strawberry Guava- 1g",
@@ -82664,7 +83406,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Preroll",
       "SKU": "strawberryguava-flower-preroll",
-      "Days on Shelf": 3
+      "Days on Shelf": 24
     },
     {
       "Product name": "Black Maple- 3.5",
@@ -82680,7 +83422,7 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Flower Jar",
       "SKU": "blackmaple-flower-jar",
-      "Days on Shelf": 3
+      "Days on Shelf": 98
     },
     {
       "Product name": "Sherb Cream Pie - 3.5g",
@@ -82696,7 +83438,7 @@
       "Internal Product Name": "Sherb Cream Pie",
       "Internal Product Type": "Flower Jar",
       "SKU": "sherbcreampie-flower-jar",
-      "Days on Shelf": 4
+      "Days on Shelf": 92
     },
     {
       "Product name": "Berry Fizz - 3.5g",
@@ -82712,7 +83454,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Flower Jar",
       "SKU": "berryfizz-flower-jar",
-      "Days on Shelf": 4
+      "Days on Shelf": 56
     },
     {
       "Product name": "Berry Fizz",
@@ -82728,7 +83470,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Preroll",
       "SKU": "berryfizz-flower-preroll",
-      "Days on Shelf": 3
+      "Days on Shelf": 24
     },
     {
       "Product name": "Berry Fizz",
@@ -82746,7 +83488,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Rosin Jar",
       "SKU": "berryfizz-rosin-jar-1",
-      "Days on Shelf": 4
+      "Days on Shelf": 24
     },
     {
       "Product name": "Strawberry Guava",
@@ -82762,7 +83504,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Cart",
       "SKU": "strawberryguava-rosin-cart",
-      "Days on Shelf": 4
+      "Days on Shelf": 24
     },
     {
       "Product name": "Candied Oranges",
@@ -82780,7 +83522,7 @@
       "Internal Product Name": "Candied Oranges",
       "Internal Product Type": "Rosin Jar",
       "SKU": "candiedoranges-rosin-jar-1",
-      "Days on Shelf": 4
+      "Days on Shelf": 24
     }
   ],
   "2026-02-01": [
@@ -82798,7 +83540,7 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 4
+      "Days on Shelf": 149
     },
     {
       "Product name": "Papaya Juice Hash Rosin",
@@ -82816,7 +83558,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 4
+      "Days on Shelf": 25
     },
     {
       "Product name": "Dulce De Uva - 3.5g",
@@ -82832,7 +83574,7 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Flower Jar",
       "SKU": "dulcedeuva-flower-jar",
-      "Days on Shelf": 5
+      "Days on Shelf": 99
     },
     {
       "Product name": "Honey Banana Hash Rosin",
@@ -82850,7 +83592,7 @@
       "Internal Product Name": "Honey Banana",
       "Internal Product Type": "Rosin Jar",
       "SKU": "honeybanana-rosin-jar-1",
-      "Days on Shelf": 4
+      "Days on Shelf": 144
     },
     {
       "Product name": "Melted Strawberries - Vape",
@@ -82866,7 +83608,7 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Cart",
       "SKU": "meltedstrawberries-rosin-cart",
-      "Days on Shelf": 5
+      "Days on Shelf": 24
     },
     {
       "Product name": "Strawberry Guava - 3.5g",
@@ -82882,7 +83624,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Flower Jar",
       "SKU": "strawberryguava-flower-jar",
-      "Days on Shelf": 5
+      "Days on Shelf": 57
     },
     {
       "Product name": "Strawberry Guava Live Rosin",
@@ -82900,7 +83642,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Rosin Jar",
       "SKU": "strawberryguava-rosin-jar-1",
-      "Days on Shelf": 5
+      "Days on Shelf": 150
     },
     {
       "Product name": "Dulce De Uva - 1g",
@@ -82916,7 +83658,7 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 4
+      "Days on Shelf": 141
     },
     {
       "Product name": "Sherb Cream Pie - 1g",
@@ -82932,7 +83674,7 @@
       "Internal Product Name": "Sherb Cream Pie",
       "Internal Product Type": "Preroll",
       "SKU": "sherbcreampie-flower-preroll",
-      "Days on Shelf": 4
+      "Days on Shelf": 30
     },
     {
       "Product name": "Strawberry Guava- 1g",
@@ -82948,7 +83690,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Preroll",
       "SKU": "strawberryguava-flower-preroll",
-      "Days on Shelf": 4
+      "Days on Shelf": 25
     },
     {
       "Product name": "Black Maple- 3.5",
@@ -82964,7 +83706,7 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Flower Jar",
       "SKU": "blackmaple-flower-jar",
-      "Days on Shelf": 4
+      "Days on Shelf": 99
     },
     {
       "Product name": "Sherb Cream Pie - 3.5g",
@@ -82980,7 +83722,7 @@
       "Internal Product Name": "Sherb Cream Pie",
       "Internal Product Type": "Flower Jar",
       "SKU": "sherbcreampie-flower-jar",
-      "Days on Shelf": 5
+      "Days on Shelf": 93
     },
     {
       "Product name": "Berry Fizz - 3.5g",
@@ -82996,7 +83738,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Flower Jar",
       "SKU": "berryfizz-flower-jar",
-      "Days on Shelf": 5
+      "Days on Shelf": 57
     },
     {
       "Product name": "Berry Fizz",
@@ -83012,7 +83754,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Preroll",
       "SKU": "berryfizz-flower-preroll",
-      "Days on Shelf": 4
+      "Days on Shelf": 25
     },
     {
       "Product name": "Berry Fizz",
@@ -83030,7 +83772,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Rosin Jar",
       "SKU": "berryfizz-rosin-jar-1",
-      "Days on Shelf": 5
+      "Days on Shelf": 25
     },
     {
       "Product name": "Strawberry Guava",
@@ -83046,7 +83788,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Cart",
       "SKU": "strawberryguava-rosin-cart",
-      "Days on Shelf": 5
+      "Days on Shelf": 25
     },
     {
       "Product name": "Candied Oranges",
@@ -83064,7 +83806,7 @@
       "Internal Product Name": "Candied Oranges",
       "Internal Product Type": "Rosin Jar",
       "SKU": "candiedoranges-rosin-jar-1",
-      "Days on Shelf": 5
+      "Days on Shelf": 25
     }
   ],
   "2026-02-02": [
@@ -83082,7 +83824,7 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 5
+      "Days on Shelf": 150
     },
     {
       "Product name": "Papaya Juice Hash Rosin",
@@ -83100,7 +83842,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 5
+      "Days on Shelf": 26
     },
     {
       "Product name": "Dulce De Uva - 3.5g",
@@ -83116,7 +83858,7 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Flower Jar",
       "SKU": "dulcedeuva-flower-jar",
-      "Days on Shelf": 6
+      "Days on Shelf": 100
     },
     {
       "Product name": "Honey Banana Hash Rosin",
@@ -83134,7 +83876,7 @@
       "Internal Product Name": "Honey Banana",
       "Internal Product Type": "Rosin Jar",
       "SKU": "honeybanana-rosin-jar-1",
-      "Days on Shelf": 5
+      "Days on Shelf": 145
     },
     {
       "Product name": "Melted Strawberries - Vape",
@@ -83150,7 +83892,7 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Cart",
       "SKU": "meltedstrawberries-rosin-cart",
-      "Days on Shelf": 6
+      "Days on Shelf": 25
     },
     {
       "Product name": "Strawberry Guava - 3.5g",
@@ -83166,7 +83908,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Flower Jar",
       "SKU": "strawberryguava-flower-jar",
-      "Days on Shelf": 6
+      "Days on Shelf": 58
     },
     {
       "Product name": "Strawberry Guava Live Rosin",
@@ -83184,7 +83926,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Rosin Jar",
       "SKU": "strawberryguava-rosin-jar-1",
-      "Days on Shelf": 6
+      "Days on Shelf": 151
     },
     {
       "Product name": "Dulce De Uva - 1g",
@@ -83200,7 +83942,7 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 5
+      "Days on Shelf": 142
     },
     {
       "Product name": "Sherb Cream Pie - 1g",
@@ -83216,7 +83958,7 @@
       "Internal Product Name": "Sherb Cream Pie",
       "Internal Product Type": "Preroll",
       "SKU": "sherbcreampie-flower-preroll",
-      "Days on Shelf": 5
+      "Days on Shelf": 31
     },
     {
       "Product name": "Strawberry Guava- 1g",
@@ -83232,7 +83974,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Preroll",
       "SKU": "strawberryguava-flower-preroll",
-      "Days on Shelf": 5
+      "Days on Shelf": 26
     },
     {
       "Product name": "Black Maple- 3.5",
@@ -83248,7 +83990,7 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Flower Jar",
       "SKU": "blackmaple-flower-jar",
-      "Days on Shelf": 5
+      "Days on Shelf": 100
     },
     {
       "Product name": "Sherb Cream Pie - 3.5g",
@@ -83264,7 +84006,7 @@
       "Internal Product Name": "Sherb Cream Pie",
       "Internal Product Type": "Flower Jar",
       "SKU": "sherbcreampie-flower-jar",
-      "Days on Shelf": 6
+      "Days on Shelf": 94
     },
     {
       "Product name": "Berry Fizz - 3.5g",
@@ -83280,7 +84022,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Flower Jar",
       "SKU": "berryfizz-flower-jar",
-      "Days on Shelf": 6
+      "Days on Shelf": 58
     },
     {
       "Product name": "Berry Fizz",
@@ -83296,7 +84038,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Preroll",
       "SKU": "berryfizz-flower-preroll",
-      "Days on Shelf": 5
+      "Days on Shelf": 26
     },
     {
       "Product name": "Berry Fizz",
@@ -83314,7 +84056,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Rosin Jar",
       "SKU": "berryfizz-rosin-jar-1",
-      "Days on Shelf": 6
+      "Days on Shelf": 26
     },
     {
       "Product name": "Strawberry Guava",
@@ -83330,7 +84072,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Cart",
       "SKU": "strawberryguava-rosin-cart",
-      "Days on Shelf": 6
+      "Days on Shelf": 26
     },
     {
       "Product name": "Candied Oranges",
@@ -83348,7 +84090,7 @@
       "Internal Product Name": "Candied Oranges",
       "Internal Product Type": "Rosin Jar",
       "SKU": "candiedoranges-rosin-jar-1",
-      "Days on Shelf": 6
+      "Days on Shelf": 26
     }
   ],
   "2026-02-03": [
@@ -83366,7 +84108,7 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 6
+      "Days on Shelf": 151
     },
     {
       "Product name": "Papaya Juice Hash Rosin",
@@ -83384,7 +84126,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 6
+      "Days on Shelf": 27
     },
     {
       "Product name": "Dulce De Uva - 3.5g",
@@ -83400,7 +84142,7 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Flower Jar",
       "SKU": "dulcedeuva-flower-jar",
-      "Days on Shelf": 7
+      "Days on Shelf": 101
     },
     {
       "Product name": "Honey Banana Hash Rosin",
@@ -83418,7 +84160,7 @@
       "Internal Product Name": "Honey Banana",
       "Internal Product Type": "Rosin Jar",
       "SKU": "honeybanana-rosin-jar-1",
-      "Days on Shelf": 6
+      "Days on Shelf": 146
     },
     {
       "Product name": "Melted Strawberries - Vape",
@@ -83434,7 +84176,7 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Cart",
       "SKU": "meltedstrawberries-rosin-cart",
-      "Days on Shelf": 7
+      "Days on Shelf": 26
     },
     {
       "Product name": "Strawberry Guava - 3.5g",
@@ -83450,7 +84192,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Flower Jar",
       "SKU": "strawberryguava-flower-jar",
-      "Days on Shelf": 7
+      "Days on Shelf": 59
     },
     {
       "Product name": "Strawberry Guava Live Rosin",
@@ -83468,7 +84210,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Rosin Jar",
       "SKU": "strawberryguava-rosin-jar-1",
-      "Days on Shelf": 7
+      "Days on Shelf": 152
     },
     {
       "Product name": "Dulce De Uva - 1g",
@@ -83484,7 +84226,7 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 6
+      "Days on Shelf": 143
     },
     {
       "Product name": "Sherb Cream Pie - 1g",
@@ -83500,7 +84242,7 @@
       "Internal Product Name": "Sherb Cream Pie",
       "Internal Product Type": "Preroll",
       "SKU": "sherbcreampie-flower-preroll",
-      "Days on Shelf": 6
+      "Days on Shelf": 32
     },
     {
       "Product name": "Strawberry Guava- 1g",
@@ -83516,7 +84258,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Preroll",
       "SKU": "strawberryguava-flower-preroll",
-      "Days on Shelf": 6
+      "Days on Shelf": 27
     },
     {
       "Product name": "Black Maple- 3.5",
@@ -83532,7 +84274,7 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Flower Jar",
       "SKU": "blackmaple-flower-jar",
-      "Days on Shelf": 6
+      "Days on Shelf": 101
     },
     {
       "Product name": "Sherb Cream Pie - 3.5g",
@@ -83548,7 +84290,7 @@
       "Internal Product Name": "Sherb Cream Pie",
       "Internal Product Type": "Flower Jar",
       "SKU": "sherbcreampie-flower-jar",
-      "Days on Shelf": 7
+      "Days on Shelf": 95
     },
     {
       "Product name": "Berry Fizz - 3.5g",
@@ -83564,7 +84306,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Flower Jar",
       "SKU": "berryfizz-flower-jar",
-      "Days on Shelf": 7
+      "Days on Shelf": 59
     },
     {
       "Product name": "Berry Fizz",
@@ -83580,7 +84322,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Preroll",
       "SKU": "berryfizz-flower-preroll",
-      "Days on Shelf": 6
+      "Days on Shelf": 27
     },
     {
       "Product name": "Berry Fizz",
@@ -83598,7 +84340,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Rosin Jar",
       "SKU": "berryfizz-rosin-jar-1",
-      "Days on Shelf": 7
+      "Days on Shelf": 27
     },
     {
       "Product name": "Strawberry Guava",
@@ -83614,7 +84356,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Cart",
       "SKU": "strawberryguava-rosin-cart",
-      "Days on Shelf": 7
+      "Days on Shelf": 27
     },
     {
       "Product name": "Candied Oranges",
@@ -83632,7 +84374,7 @@
       "Internal Product Name": "Candied Oranges",
       "Internal Product Type": "Rosin Jar",
       "SKU": "candiedoranges-rosin-jar-1",
-      "Days on Shelf": 7
+      "Days on Shelf": 27
     }
   ],
   "2026-02-04": [
@@ -83650,7 +84392,7 @@
       "Internal Product Name": "Multipack",
       "Internal Product Type": "Preroll",
       "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 7
+      "Days on Shelf": 152
     },
     {
       "Product name": "Papaya Juice Hash Rosin",
@@ -83668,7 +84410,7 @@
       "Internal Product Name": "Papaya Juice",
       "Internal Product Type": "Rosin Jar",
       "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 7
+      "Days on Shelf": 28
     },
     {
       "Product name": "Dulce De Uva - 3.5g",
@@ -83684,7 +84426,7 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Flower Jar",
       "SKU": "dulcedeuva-flower-jar",
-      "Days on Shelf": 8
+      "Days on Shelf": 102
     },
     {
       "Product name": "Honey Banana Hash Rosin",
@@ -83702,7 +84444,7 @@
       "Internal Product Name": "Honey Banana",
       "Internal Product Type": "Rosin Jar",
       "SKU": "honeybanana-rosin-jar-1",
-      "Days on Shelf": 7
+      "Days on Shelf": 147
     },
     {
       "Product name": "Melted Strawberries - Vape",
@@ -83718,7 +84460,7 @@
       "Internal Product Name": "Melted Strawberries",
       "Internal Product Type": "Cart",
       "SKU": "meltedstrawberries-rosin-cart",
-      "Days on Shelf": 8
+      "Days on Shelf": 27
     },
     {
       "Product name": "Strawberry Guava - 3.5g",
@@ -83734,7 +84476,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Flower Jar",
       "SKU": "strawberryguava-flower-jar",
-      "Days on Shelf": 8
+      "Days on Shelf": 60
     },
     {
       "Product name": "Strawberry Guava Live Rosin",
@@ -83752,7 +84494,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Rosin Jar",
       "SKU": "strawberryguava-rosin-jar-1",
-      "Days on Shelf": 8
+      "Days on Shelf": 153
     },
     {
       "Product name": "Dulce De Uva - 1g",
@@ -83768,7 +84510,7 @@
       "Internal Product Name": "Dulce de Uva",
       "Internal Product Type": "Preroll",
       "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 7
+      "Days on Shelf": 144
     },
     {
       "Product name": "Sherb Cream Pie - 1g",
@@ -83784,7 +84526,7 @@
       "Internal Product Name": "Sherb Cream Pie",
       "Internal Product Type": "Preroll",
       "SKU": "sherbcreampie-flower-preroll",
-      "Days on Shelf": 7
+      "Days on Shelf": 33
     },
     {
       "Product name": "Strawberry Guava- 1g",
@@ -83800,7 +84542,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Preroll",
       "SKU": "strawberryguava-flower-preroll",
-      "Days on Shelf": 7
+      "Days on Shelf": 28
     },
     {
       "Product name": "Black Maple- 3.5",
@@ -83816,7 +84558,7 @@
       "Internal Product Name": "Black Maple",
       "Internal Product Type": "Flower Jar",
       "SKU": "blackmaple-flower-jar",
-      "Days on Shelf": 7
+      "Days on Shelf": 102
     },
     {
       "Product name": "Sherb Cream Pie - 3.5g",
@@ -83832,7 +84574,7 @@
       "Internal Product Name": "Sherb Cream Pie",
       "Internal Product Type": "Flower Jar",
       "SKU": "sherbcreampie-flower-jar",
-      "Days on Shelf": 8
+      "Days on Shelf": 96
     },
     {
       "Product name": "Berry Fizz - 3.5g",
@@ -83848,7 +84590,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Flower Jar",
       "SKU": "berryfizz-flower-jar",
-      "Days on Shelf": 8
+      "Days on Shelf": 60
     },
     {
       "Product name": "Berry Fizz",
@@ -83864,7 +84606,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Preroll",
       "SKU": "berryfizz-flower-preroll",
-      "Days on Shelf": 7
+      "Days on Shelf": 28
     },
     {
       "Product name": "Berry Fizz",
@@ -83882,7 +84624,7 @@
       "Internal Product Name": "Berry Fizz",
       "Internal Product Type": "Rosin Jar",
       "SKU": "berryfizz-rosin-jar-1",
-      "Days on Shelf": 8
+      "Days on Shelf": 28
     },
     {
       "Product name": "Strawberry Guava",
@@ -83898,7 +84640,7 @@
       "Internal Product Name": "Strawberry Guava",
       "Internal Product Type": "Cart",
       "SKU": "strawberryguava-rosin-cart",
-      "Days on Shelf": 8
+      "Days on Shelf": 28
     },
     {
       "Product name": "Candied Oranges",
@@ -83916,291 +84658,7 @@
       "Internal Product Name": "Candied Oranges",
       "Internal Product Type": "Rosin Jar",
       "SKU": "candiedoranges-rosin-jar-1",
-      "Days on Shelf": 8
-    }
-  ],
-  "2026-02-05": [
-    {
-      "Product name": "Multipack",
-      "Category": "Pre Rolls",
-      "Brand": "Rhize",
-      "Price": {
-        "3.5g": "$58.00"
-      },
-      "Discount Price": {},
-      "THC": "27%",
-      "Quantity Available": 8,
-      "Quantity Per Option": {},
-      "Internal Product Name": "Multipack",
-      "Internal Product Type": "Preroll",
-      "SKU": "multipack-flower-preroll-multipack",
-      "Days on Shelf": 8
-    },
-    {
-      "Product name": "Papaya Juice Hash Rosin",
-      "Category": "Concentrates",
-      "Brand": "Rhize",
-      "Price": {
-        "1g": "$72.00"
-      },
-      "Discount Price": {},
-      "THC": "643mg",
-      "Quantity Available": 7,
-      "Quantity Per Option": {
-        "1g": 7
-      },
-      "Internal Product Name": "Papaya Juice",
-      "Internal Product Type": "Rosin Jar",
-      "SKU": "papayajuice-rosin-jar-1",
-      "Days on Shelf": 8
-    },
-    {
-      "Product name": "Dulce De Uva - 3.5g",
-      "Category": "Flower",
-      "Brand": "Rhize",
-      "Price": {
-        "3.5g": "$60.00"
-      },
-      "Discount Price": {},
-      "THC": "24.7%",
-      "Quantity Available": 22,
-      "Quantity Per Option": {},
-      "Internal Product Name": "Dulce de Uva",
-      "Internal Product Type": "Flower Jar",
-      "SKU": "dulcedeuva-flower-jar",
-      "Days on Shelf": 9
-    },
-    {
-      "Product name": "Honey Banana Hash Rosin",
-      "Category": "Concentrates",
-      "Brand": "Rhize",
-      "Price": {
-        "1g": "$78.00"
-      },
-      "Discount Price": {},
-      "THC": "600mg",
-      "Quantity Available": 4,
-      "Quantity Per Option": {
-        "1g": 4
-      },
-      "Internal Product Name": "Honey Banana",
-      "Internal Product Type": "Rosin Jar",
-      "SKU": "honeybanana-rosin-jar-1",
-      "Days on Shelf": 8
-    },
-    {
-      "Product name": "Melted Strawberries - Vape",
-      "Category": "Vape Carts",
-      "Brand": "Rhize",
-      "Price": {
-        "0.5g": "$60.00"
-      },
-      "Discount Price": {},
-      "THC": "403.5mg",
-      "Quantity Available": 7,
-      "Quantity Per Option": {},
-      "Internal Product Name": "Melted Strawberries",
-      "Internal Product Type": "Cart",
-      "SKU": "meltedstrawberries-rosin-cart",
-      "Days on Shelf": 9
-    },
-    {
-      "Product name": "Strawberry Guava - 3.5g",
-      "Category": "Flower",
-      "Brand": "Rhize",
-      "Price": {
-        "3.5g": "$60.00"
-      },
-      "Discount Price": {},
-      "THC": "28.6%",
-      "Quantity Available": 16,
-      "Quantity Per Option": {},
-      "Internal Product Name": "Strawberry Guava",
-      "Internal Product Type": "Flower Jar",
-      "SKU": "strawberryguava-flower-jar",
-      "Days on Shelf": 9
-    },
-    {
-      "Product name": "Strawberry Guava Live Rosin",
-      "Category": "Concentrates",
-      "Brand": "Rhize",
-      "Price": {
-        "1g": "$78.00"
-      },
-      "Discount Price": {},
-      "THC": "650mg",
-      "Quantity Available": 8,
-      "Quantity Per Option": {
-        "1g": 8
-      },
-      "Internal Product Name": "Strawberry Guava",
-      "Internal Product Type": "Rosin Jar",
-      "SKU": "strawberryguava-rosin-jar-1",
-      "Days on Shelf": 9
-    },
-    {
-      "Product name": "Dulce De Uva - 1g",
-      "Category": "Pre Rolls",
-      "Brand": "Rhize",
-      "Price": {
-        "1g": "$15.00"
-      },
-      "Discount Price": {},
-      "THC": "26.8%",
-      "Quantity Available": 2,
-      "Quantity Per Option": {},
-      "Internal Product Name": "Dulce de Uva",
-      "Internal Product Type": "Preroll",
-      "SKU": "dulcedeuva-flower-preroll",
-      "Days on Shelf": 8
-    },
-    {
-      "Product name": "Sherb Cream Pie - 1g",
-      "Category": "Pre Rolls",
-      "Brand": "Rhize",
-      "Price": {
-        "1g": "$15.00"
-      },
-      "Discount Price": {},
-      "THC": "20.8%",
-      "Quantity Available": 37,
-      "Quantity Per Option": {},
-      "Internal Product Name": "Sherb Cream Pie",
-      "Internal Product Type": "Preroll",
-      "SKU": "sherbcreampie-flower-preroll",
-      "Days on Shelf": 8
-    },
-    {
-      "Product name": "Strawberry Guava- 1g",
-      "Category": "Pre Rolls",
-      "Brand": "Rhize",
-      "Price": {
-        "1g": "$15.00"
-      },
-      "Discount Price": {},
-      "THC": "28.6%",
-      "Quantity Available": 1,
-      "Quantity Per Option": {},
-      "Internal Product Name": "Strawberry Guava",
-      "Internal Product Type": "Preroll",
-      "SKU": "strawberryguava-flower-preroll",
-      "Days on Shelf": 8
-    },
-    {
-      "Product name": "Black Maple- 3.5",
-      "Category": "Flower",
-      "Brand": "Rhize",
-      "Price": {
-        "3.5g": "$60.00"
-      },
-      "Discount Price": {},
-      "THC": "25.42%",
-      "Quantity Available": 13,
-      "Quantity Per Option": {},
-      "Internal Product Name": "Black Maple",
-      "Internal Product Type": "Flower Jar",
-      "SKU": "blackmaple-flower-jar",
-      "Days on Shelf": 8
-    },
-    {
-      "Product name": "Sherb Cream Pie - 3.5g",
-      "Category": "Flower",
-      "Brand": "Rhize",
-      "Price": {
-        "3.5g": "$60.00"
-      },
-      "Discount Price": {},
-      "THC": "20.8%",
-      "Quantity Available": 18,
-      "Quantity Per Option": {},
-      "Internal Product Name": "Sherb Cream Pie",
-      "Internal Product Type": "Flower Jar",
-      "SKU": "sherbcreampie-flower-jar",
-      "Days on Shelf": 9
-    },
-    {
-      "Product name": "Berry Fizz - 3.5g",
-      "Category": "Flower",
-      "Brand": "Rhize",
-      "Price": {
-        "3.5g": "$60.00"
-      },
-      "Discount Price": {},
-      "THC": "25.38%",
-      "Quantity Available": 8,
-      "Quantity Per Option": {},
-      "Internal Product Name": "Berry Fizz",
-      "Internal Product Type": "Flower Jar",
-      "SKU": "berryfizz-flower-jar",
-      "Days on Shelf": 9
-    },
-    {
-      "Product name": "Berry Fizz",
-      "Category": "Pre Rolls",
-      "Brand": "Rhize",
-      "Price": {
-        "1g": "$17.00"
-      },
-      "Discount Price": {},
-      "THC": "25%",
-      "Quantity Available": 25,
-      "Quantity Per Option": {},
-      "Internal Product Name": "Berry Fizz",
-      "Internal Product Type": "Preroll",
-      "SKU": "berryfizz-flower-preroll",
-      "Days on Shelf": 8
-    },
-    {
-      "Product name": "Berry Fizz",
-      "Category": "Concentrates",
-      "Brand": "Rhize",
-      "Price": {
-        "1g": "$84.00"
-      },
-      "Discount Price": {},
-      "THC": "350mg",
-      "Quantity Available": 7,
-      "Quantity Per Option": {
-        "1g": 7
-      },
-      "Internal Product Name": "Berry Fizz",
-      "Internal Product Type": "Rosin Jar",
-      "SKU": "berryfizz-rosin-jar-1",
-      "Days on Shelf": 9
-    },
-    {
-      "Product name": "Strawberry Guava",
-      "Category": "Vape Carts",
-      "Brand": "Rhize",
-      "Price": {
-        "0.5g": "$60.00"
-      },
-      "Discount Price": {},
-      "THC": "390mg",
-      "Quantity Available": 9,
-      "Quantity Per Option": {},
-      "Internal Product Name": "Strawberry Guava",
-      "Internal Product Type": "Cart",
-      "SKU": "strawberryguava-rosin-cart",
-      "Days on Shelf": 9
-    },
-    {
-      "Product name": "Candied Oranges",
-      "Category": "Concentrates",
-      "Brand": "Rhize",
-      "Price": {
-        "1g": "$84.00"
-      },
-      "Discount Price": {},
-      "THC": "700mg",
-      "Quantity Available": 3,
-      "Quantity Per Option": {
-        "1g": 3
-      },
-      "Internal Product Name": "Candied Oranges",
-      "Internal Product Type": "Rosin Jar",
-      "SKU": "candiedoranges-rosin-jar-1",
-      "Days on Shelf": 9
+      "Days on Shelf": 28
     }
   ]
 }

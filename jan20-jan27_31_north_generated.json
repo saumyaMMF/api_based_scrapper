@@ -1,0 +1,694 @@
+{
+  "2026-01-20": [
+    {
+      "Product name": "Cart Battery Rhize Universal",
+      "Category": "Accessory",
+      "Brand": "Rhize",
+      "Price": {
+        "each": "$14.40"
+      },
+      "Discount Price": {
+        "each": "$14.40"
+      },
+      "THC": "THC -",
+      "Quantity Available": 3,
+      "Quantity Per Option": {
+        "each": 3
+      },
+      "Internal Product Name": "Battery",
+      "Internal Product Type": "Accessory",
+      "SKU": "battery-accessory",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "Rhize Strawberry Guava - 1 g Live Rosin Concentrate",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "1g": 4
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "strawberryguava-rosin-jar-1",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "Rhize Rosin - Melted Strawberries 1 g Live Rosin",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 3,
+      "Quantity Per Option": {
+        "1g": 3
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "meltedstrawberries-rosin-jar-1",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "Rhize Rosin - Black Maple 1 g Live Rosin",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "1g": 2
+      },
+      "Internal Product Name": "Black Maple",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "blackmaple-rosin-jar-1",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "Berry Fizz 1g Live Rosin - Rhize",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "1g": 2
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "berryfizz-rosin-jar-1",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "Rhize Multipack 7 Dogwalkers",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {
+        "3.5g": "$57.60"
+      },
+      "THC": "28.0%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "3.5g": 9
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 9
+    }
+  ],
+  "2026-01-21": [
+    {
+      "Product name": "Rhize Rosin - Black Maple 1 g Live Rosin",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "1g": 2
+      },
+      "Internal Product Name": "Black Maple",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "blackmaple-rosin-jar-1",
+      "Days on Shelf": 10
+    },
+    {
+      "Product name": "Cart Battery Rhize Universal",
+      "Category": "Accessory",
+      "Brand": "Rhize",
+      "Price": {
+        "each": "$14.40"
+      },
+      "Discount Price": {
+        "each": "$14.40"
+      },
+      "THC": "THC -",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "each": 2
+      },
+      "Internal Product Name": "Battery",
+      "Internal Product Type": "Accessory",
+      "SKU": "battery-accessory",
+      "Days on Shelf": 10
+    },
+    {
+      "Product name": "Rhize Multipack 7 Dogwalkers",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {
+        "3.5g": "$57.60"
+      },
+      "THC": "28.0%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "3.5g": 8
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 10
+    },
+    {
+      "Product name": "Berry Fizz 1g Live Rosin - Rhize",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "1g": 2
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "berryfizz-rosin-jar-1",
+      "Days on Shelf": 10
+    },
+    {
+      "Product name": "Rhize Rosin - Melted Strawberries 1 g Live Rosin",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 3,
+      "Quantity Per Option": {
+        "1g": 3
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "meltedstrawberries-rosin-jar-1",
+      "Days on Shelf": 10
+    },
+    {
+      "Product name": "Rhize Strawberry Guava - 1 g Live Rosin Concentrate",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "1g": 4
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "strawberryguava-rosin-jar-1",
+      "Days on Shelf": 10
+    }
+  ],
+  "2026-01-23": [
+    {
+      "Product name": "Rhize Multipack 7 Dogwalkers",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {
+        "3.5g": "$57.60"
+      },
+      "THC": "28.0%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "3.5g": 8
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "multipack-rosin-jar",
+      "Days on Shelf": 0
+    },
+    {
+      "Product name": "Rhize Strawberry Guava - 1 g Live Rosin Concentrate",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "1g": 4
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "strawberryguava-rosin-jar-1",
+      "Days on Shelf": 12
+    },
+    {
+      "Product name": "Rhize Rosin - Melted Strawberries 1 g Live Rosin",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "1g": 2
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "meltedstrawberries-rosin-jar-1",
+      "Days on Shelf": 12
+    },
+    {
+      "Product name": "Rhize Rosin - Black Maple 1 g Live Rosin",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "1g": 2
+      },
+      "Internal Product Name": "Black Maple",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "blackmaple-rosin-jar-1",
+      "Days on Shelf": 12
+    },
+    {
+      "Product name": "Berry Fizz 1g Live Rosin - Rhize",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "1g": 2
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "berryfizz-rosin-jar-1",
+      "Days on Shelf": 12
+    },
+    {
+      "Product name": "Rhize Multipack 7 Dogwalkers",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {
+        "3.5g": "$57.60"
+      },
+      "THC": "28.0%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "3.5g": 8
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 12
+    },
+    {
+      "Product name": "Cart Battery Rhize Universal",
+      "Category": "Accessory",
+      "Brand": "Rhize",
+      "Price": {
+        "each": "$14.40"
+      },
+      "Discount Price": {
+        "each": "$14.40"
+      },
+      "THC": "THC -",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "each": 2
+      },
+      "Internal Product Name": "Battery",
+      "Internal Product Type": "Accessory",
+      "SKU": "battery-accessory",
+      "Days on Shelf": 10
+    }
+  ],
+  "2026-01-24": [
+    {
+      "Product name": "Rhize Multipack 7 Dogwalkers",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {
+        "3.5g": "$57.60"
+      },
+      "THC": "28.0%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "3.5g": 8
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "multipack-rosin-jar",
+      "Days on Shelf": 1
+    },
+    {
+      "Product name": "Rhize Strawberry Guava - 1 g Live Rosin Concentrate",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "1g": 4
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "strawberryguava-rosin-jar-1",
+      "Days on Shelf": 13
+    },
+    {
+      "Product name": "Rhize Rosin - Melted Strawberries 1 g Live Rosin",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "1g": 2
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "meltedstrawberries-rosin-jar-1",
+      "Days on Shelf": 13
+    },
+    {
+      "Product name": "Rhize Rosin - Black Maple 1 g Live Rosin",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "1g": 2
+      },
+      "Internal Product Name": "Black Maple",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "blackmaple-rosin-jar-1",
+      "Days on Shelf": 13
+    },
+    {
+      "Product name": "Berry Fizz 1g Live Rosin - Rhize",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "1g": 2
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "berryfizz-rosin-jar-1",
+      "Days on Shelf": 13
+    }
+  ],
+  "2026-01-25": [
+    {
+      "Product name": "Rhize Multipack 7 Dogwalkers",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {
+        "3.5g": "$57.60"
+      },
+      "THC": "28.0%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "3.5g": 8
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "multipack-rosin-jar",
+      "Days on Shelf": 2
+    },
+    {
+      "Product name": "Berry Fizz 1g Live Rosin - Rhize",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "1g": 2
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "berryfizz-rosin-jar-1",
+      "Days on Shelf": 14
+    },
+    {
+      "Product name": "Rhize Rosin - Black Maple 1 g Live Rosin",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "1g": 2
+      },
+      "Internal Product Name": "Black Maple",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "blackmaple-rosin-jar-1",
+      "Days on Shelf": 14
+    },
+    {
+      "Product name": "Rhize Rosin - Melted Strawberries 1 g Live Rosin",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "1g": 2
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "meltedstrawberries-rosin-jar-1",
+      "Days on Shelf": 14
+    },
+    {
+      "Product name": "Rhize Strawberry Guava - 1 g Live Rosin Concentrate",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "1g": 4
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "strawberryguava-rosin-jar-1",
+      "Days on Shelf": 14
+    }
+  ],
+  "2026-01-27": [
+    {
+      "Product name": "Rhize Strawberry Guava - 1 g Live Rosin Concentrate",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "1g": 4
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "strawberryguava-rosin-jar-1",
+      "Days on Shelf": 16
+    },
+    {
+      "Product name": "Rhize Multipack 7 Dogwalkers",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {
+        "3.5g": "$57.60"
+      },
+      "THC": "28.0%",
+      "Quantity Available": 5,
+      "Quantity Per Option": {
+        "3.5g": 5
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "multipack-rosin-jar",
+      "Days on Shelf": 4
+    },
+    {
+      "Product name": "Rhize Rosin - Melted Strawberries 1 g Live Rosin",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "1g": 2
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "meltedstrawberries-rosin-jar-1",
+      "Days on Shelf": 16
+    },
+    {
+      "Product name": "Berry Fizz 1g Live Rosin - Rhize",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "1g": 2
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "berryfizz-rosin-jar-1",
+      "Days on Shelf": 16
+    },
+    {
+      "Product name": "Berry Fizz",
+      "Category": "Concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$69.60"
+      },
+      "Discount Price": {
+        "1g": "$69.60"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "1g": 2
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "berryfizz-rosin-jar-1",
+      "Days on Shelf": 0
+    }
+  ]
+}

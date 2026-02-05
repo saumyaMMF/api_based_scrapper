@@ -18434,42 +18434,5 @@
       "SKU": "berryfizz-flower-bulk",
       "Days on Shelf": 7
     }
-  ],
-  "2026-02-05": [
-    {
-      "Product name": "Berry Fizz from Rhize Cannabis Company",
-      "Category": "flower",
-      "Brand": "Rhize Cannabis Company",
-      "Price": {
-        "1g": "$16.80",
-        "2g": "$33.60",
-        "1/8oz": "$58.80",
-        "1/4oz": "$117.60",
-        "1/2oz": "$235.20",
-        "1oz": "$470.40"
-      },
-      "Discount Price": {
-        "1g": "$14.00",
-        "2g": "$28.00",
-        "1/8oz": "$49.00",
-        "1/4oz": "$98.00",
-        "1/2oz": "$196.00",
-        "1oz": "$392.00"
-      },
-      "THC": "",
-      "Quantity Available": 61,
-      "Quantity Per Option": {
-        "1g": 25,
-        "2g": 18,
-        "1/8oz": 10,
-        "1/4oz": 5,
-        "1/2oz": 2,
-        "1oz": 1
-      },
-      "Internal Product Name": "Berry Fizz",
-      "Internal Product Type": "Flower Bulk",
-      "SKU": "berryfizz-flower-bulk",
-      "Days on Shelf": 8
-    }
   ]
 }
