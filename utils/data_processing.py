@@ -1030,11 +1030,31 @@ class DataProcessor:
  
             # Create DataFrame
             final_df = pd.DataFrame(expanded_rows)
- 
+
+            # Calculate counts for different change types
+            added_count = 0
+            updated_count = 0
+            removed_count = 0
+            no_change_count = 0
+            
+            # Count based on Flag column and change logic
+            for _, row in final_df.iterrows():
+                flag = str(row.get('Flag', '')).lower()
+                change = row.get('Change', 0)
+                
+                if 'no change' in flag:
+                    no_change_count += 1
+                elif change > 0:  # Positive change indicates restock/add
+                    added_count += 1
+                elif change < 0:  # Negative change indicates sales/update
+                    updated_count += 1
+                else:
+                    no_change_count += 1
+
             # Insert Category column based on Product Type
             final_df['Category'] = final_df['Product Type'].apply(self.get_category)
- 
-            # Reorder columns
+
+            # Reorder columns without count columns
             desired_column_order = [
                 'Company Name', 'Product Name', 'Category', 'Product Type',
                 'Days on Shelf', 'Flag', 'Unit', 'Price', 'Discount Price Data', "Today's Quantity Total",'1d', '3d', '7d', '14d',
@@ -1154,11 +1174,42 @@ class DataProcessor:
             final_df = final_df.where(pd.notnull(final_df), None)
  
             print(f"final_df.columns :{final_df.columns}")
- 
+
+            # Create summary row with counts
+            summary_data = {
+                'Company Name': ['SUMMARY'],
+                'Product Name': [f"Added: {added_count} | Removed: {removed_count} | Updated: {updated_count} | No Change: {no_change_count}",],
+                'Category': [''],
+                'Product Type': [''],
+                'Days': [''],
+                'Flag': [''],
+                'Unit': [''],
+                'Price': [''],
+                'Discount Price Data': [''],
+                "Today's Quantity Total": [''],
+                '1d': [''],
+                '3d': [''],
+                '7d': [''],
+                '14d': [''],
+                'THC': [''],
+                'SKU': [''],
+                'Change': [''],
+                'Revenue': ['']
+            }
+            summary_df = pd.DataFrame(summary_data)
+            
+            # Add empty rows for spacing
+            empty_rows_data = {col: [''] for col in final_df.columns}
+            empty_rows_df = pd.DataFrame(empty_rows_data)
+            empty_rows_df = pd.concat([empty_rows_df] * 2, ignore_index=True)  # 2 empty rows
+            
+            # Combine: summary row + empty rows + actual data
+            final_df_with_summary = pd.concat([summary_df, empty_rows_df, final_df], ignore_index=True)
+
             with pd.ExcelWriter(current_inventory_path, engine='openpyxl') as writer:
-                final_df.to_excel(writer, sheet_name='Sheet1', index=False)
+                final_df_with_summary.to_excel(writer, sheet_name='Sheet1', index=False)
                 ws = writer.sheets['Sheet1']
-                col_idx = final_df.columns.get_loc('Revenue') + 1  # Excel is 1-based
+                col_idx = final_df_with_summary.columns.get_loc('Revenue') + 1  # Excel is 1-based
                 for row in ws.iter_rows(min_row=2, max_row=ws.max_row, min_col=col_idx, max_col=col_idx):
                     row[0].number_format = '$#,##0.00'
                 grouped_df.to_excel(writer, sheet_name='store', index=False)
@@ -1168,9 +1219,9 @@ class DataProcessor:
             # and mirror the same for the in-memory buffer:
             self.excel_buffer = BytesIO()
             with pd.ExcelWriter(self.excel_buffer, engine='openpyxl') as writer:
-                final_df.to_excel(writer, sheet_name='Sheet1', index=False)
+                final_df_with_summary.to_excel(writer, sheet_name='Sheet1', index=False)
                 ws = writer.sheets['Sheet1']
-                col_idx = final_df.columns.get_loc('Revenue') + 1
+                col_idx = final_df_with_summary.columns.get_loc('Revenue') + 1
                 for row in ws.iter_rows(min_row=2, max_row=ws.max_row, min_col=col_idx, max_col=col_idx):
                     row[0].number_format = '$#,##0.00'
                 grouped_df.to_excel(writer, sheet_name='store', index=False)
@@ -1179,8 +1230,8 @@ class DataProcessor:
             self.excel_buffer.seek(0)
 
            
-            # Upload final_df (Sheet1)
-            if mail_to_prod:
+            # Upload final_df (Sheet1) - DISABLED FOR TESTING
+            if False and mail_to_prod:  # Set to False to disable during testing
                 print('DB insert begin')
                 table_name = os.getenv('db_table_name')
                 main_table = f"{table_name}_main"
