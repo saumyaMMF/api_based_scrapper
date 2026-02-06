@@ -18567,5 +18567,27 @@
       "SKU": "moroccanpeaches-flower-preroll",
       "Days on Shelf": 8
     }
+  ],
+  "2026-02-06": [
+    {
+      "Product name": "Rhize | Moroccan Peaches Pre-roll",
+      "Category": "pre-rolls",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$15.00"
+      },
+      "Discount Price": {
+        "1g": "$15.00"
+      },
+      "THC": "22.8%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "1g": 2
+      },
+      "Internal Product Name": "Moroccan Peaches",
+      "Internal Product Type": "Preroll",
+      "SKU": "moroccanpeaches-flower-preroll",
+      "Days on Shelf": 9
+    }
   ]
 }

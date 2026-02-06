@@ -8964,5 +8964,127 @@
       "SKU": "multipack-flower-preroll-multipack",
       "Days on Shelf": 8
     }
+  ],
+  "2026-02-06": [
+    {
+      "Product name": "Melted Strawberries 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$68.40"
+      },
+      "Discount Price": {
+        "3.5g": "$68.40"
+      },
+      "THC": "32.6%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "meltedstrawberries-flower-jar",
+      "Days on Shelf": 5
+    },
+    {
+      "Product name": "Lavender Piff 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "3.5g": 6
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 10
+    },
+    {
+      "Product name": "Papaya Juice 3.5",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.34%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "3.5g": 10
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "papayajuice-flower-jar",
+      "Days on Shelf": 5
+    },
+    {
+      "Product name": "Berry Fizz 3.5g",
+      "Category": "Flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "26.25%",
+      "Quantity Available": 7,
+      "Quantity Per Option": {
+        "3.5g": 7
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "berryfizz-flower-jar",
+      "Days on Shelf": 5
+    },
+    {
+      "Product name": "Strawberry Guava 1g Preroll",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$18.00"
+      },
+      "Discount Price": {
+        "1g": "$18.00"
+      },
+      "THC": "26.11%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Preroll",
+      "SKU": "strawberryguava-flower-preroll",
+      "Days on Shelf": 5
+    },
+    {
+      "Product name": ".5g Preroll Multipack | 2 Melted Strawberries | 2 Black Maple | 3 Berry Fizz",
+      "Category": "PreRoll",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$66.00"
+      },
+      "Discount Price": {
+        "3.5g": "$66.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "3.5g": 4
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 9
+    }
   ]
 }

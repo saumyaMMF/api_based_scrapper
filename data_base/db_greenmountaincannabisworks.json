@@ -29590,5 +29590,247 @@
       "SKU": "berryfizz-flower-jar",
       "Days on Shelf": 4
     }
+  ],
+  "2026-02-06": [
+    {
+      "Product name": "Melted Strawberries Live Rosin",
+      "Category": "concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$86.40"
+      },
+      "Discount Price": {
+        "1g": "$72.00"
+      },
+      "THC": "600%",
+      "Quantity Available": 3,
+      "Quantity Per Option": {
+        "1g": 3
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "meltedstrawberries-rosin-jar-1",
+      "Days on Shelf": 5
+    },
+    {
+      "Product name": "Rhize Vape Pen",
+      "Category": "accessories",
+      "Brand": "Rhize",
+      "Price": {
+        "N/A": "$14.40"
+      },
+      "Discount Price": {
+        "N/A": "$12.00"
+      },
+      "THC": "",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "N/A": 9
+      },
+      "Internal Product Name": "Battery",
+      "Internal Product Type": "Accessory",
+      "SKU": "battery-accessory",
+      "Days on Shelf": 160
+    },
+    {
+      "Product name": "Sherb Cream Pie",
+      "Category": "pre-rolls",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$18.00"
+      },
+      "Discount Price": {
+        "1g": "$15.00"
+      },
+      "THC": "22.35%",
+      "Quantity Available": 22,
+      "Quantity Per Option": {
+        "1g": 22
+      },
+      "Internal Product Name": "Sherb Cream Pie",
+      "Internal Product Type": "Preroll",
+      "SKU": "sherbcreampie-flower-preroll",
+      "Days on Shelf": 5
+    },
+    {
+      "Product name": "Papaya Juice Live Rosin",
+      "Category": "concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$86.40"
+      },
+      "Discount Price": {
+        "1g": "$72.00"
+      },
+      "THC": "600%",
+      "Quantity Available": 3,
+      "Quantity Per Option": {
+        "1g": 3
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "papayajuice-rosin-jar-1",
+      "Days on Shelf": 5
+    },
+    {
+      "Product name": "Papaya Juice",
+      "Category": "flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {
+        "3.5g": "$50.00"
+      },
+      "THC": "28.3%",
+      "Quantity Available": 17,
+      "Quantity Per Option": {
+        "3.5g": 17
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "papayajuice-flower-jar",
+      "Days on Shelf": 5
+    },
+    {
+      "Product name": "Lavender Piff",
+      "Category": "pre-rolls",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$18.00"
+      },
+      "Discount Price": {
+        "1g": "$15.00"
+      },
+      "THC": "22.64%",
+      "Quantity Available": 11,
+      "Quantity Per Option": {
+        "1g": 11
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Preroll",
+      "SKU": "lavenderpiff-flower-preroll",
+      "Days on Shelf": 5
+    },
+    {
+      "Product name": "GMO Live Rosin Cartridge - Rhize",
+      "Category": "vaporizers",
+      "Brand": "Rhize",
+      "Price": {
+        ".5g": "$62.40"
+      },
+      "Discount Price": {
+        ".5g": "$52.00"
+      },
+      "THC": "357%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        ".5g": 2
+      },
+      "Internal Product Name": "GMO",
+      "Internal Product Type": "Cart",
+      "SKU": "gmo-rosin-cart",
+      "Days on Shelf": 5
+    },
+    {
+      "Product name": "G13 Skunk",
+      "Category": "flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {
+        "3.5g": "$50.00"
+      },
+      "THC": "29.16%",
+      "Quantity Available": 13,
+      "Quantity Per Option": {
+        "3.5g": 13
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "g13skunk-flower-jar",
+      "Days on Shelf": 5
+    },
+    {
+      "Product name": "Candied Oranges",
+      "Category": "flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$57.60"
+      },
+      "Discount Price": {
+        "3.5g": "$48.00"
+      },
+      "THC": "19.8%",
+      "Quantity Available": 14,
+      "Quantity Per Option": {
+        "3.5g": 14
+      },
+      "Internal Product Name": "Candied Oranges",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "candiedoranges-flower-jar",
+      "Days on Shelf": 5
+    },
+    {
+      "Product name": "Black Maple Live Rosin",
+      "Category": "concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$86.40"
+      },
+      "Discount Price": {
+        "1g": "$72.00"
+      },
+      "THC": "591%",
+      "Quantity Available": 3,
+      "Quantity Per Option": {
+        "1g": 3
+      },
+      "Internal Product Name": "Black Maple",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "blackmaple-rosin-jar-1",
+      "Days on Shelf": 5
+    },
+    {
+      "Product name": "Berry Fizz Live Rosin",
+      "Category": "concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$86.40"
+      },
+      "Discount Price": {
+        "1g": "$72.00"
+      },
+      "THC": "600%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "1g": 4
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "berryfizz-rosin-jar-1",
+      "Days on Shelf": 5
+    },
+    {
+      "Product name": "Berry Fizz",
+      "Category": "flower",
+      "Brand": "Rhize",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {
+        "3.5g": "$50.00"
+      },
+      "THC": "26.25%",
+      "Quantity Available": 17,
+      "Quantity Per Option": {
+        "3.5g": 17
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "berryfizz-flower-jar",
+      "Days on Shelf": 5
+    }
   ]
 }

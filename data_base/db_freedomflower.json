@@ -28919,5 +28919,107 @@
       "SKU": "strawguava3grosinbucket-rosin-jar-3",
       "Days on Shelf": 8
     }
+  ],
+  "2026-02-06": [
+    {
+      "Product name": "Strawberry Guava .5g Live Rosin Cart",
+      "Category": "Concentrate",
+      "Brand": "RHIZE",
+      "Price": {
+        "0.5g": "$72.00"
+      },
+      "Discount Price": {
+        "0.5g": "$72.00"
+      },
+      "THC": "THC 23%",
+      "Quantity Available": 7,
+      "Quantity Per Option": {
+        "0.5g": 7
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Cart",
+      "SKU": "strawberryguava-rosin-cart",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "Dulce De Uva 3g Live rosin",
+      "Category": "Concentrate",
+      "Brand": "RHIZE",
+      "Price": {
+        "3g": "$204.00"
+      },
+      "Discount Price": {
+        "3g": "$204.00"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 5,
+      "Quantity Per Option": {
+        "3g": 5
+      },
+      "Internal Product Name": "Dulce de Uva",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "dulcedeuva-rosin-jar-3",
+      "Days on Shelf": 28
+    },
+    {
+      "Product name": "Melted Strawberries 3g Rosin Bucket",
+      "Category": "Concentrate",
+      "Brand": "RHIZE",
+      "Price": {
+        "3g": "$204.00"
+      },
+      "Discount Price": {
+        "3g": "$204.00"
+      },
+      "THC": "60.0%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "3g": 4
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "meltedstrawberries-rosin-jar-3",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "HoneyBanana 3g Rosin Bucket",
+      "Category": "Concentrate",
+      "Brand": "RHIZE",
+      "Price": {
+        "3g": "$204.00"
+      },
+      "Discount Price": {
+        "3g": "$204.00"
+      },
+      "THC": "THC 18%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "3g": 2
+      },
+      "Internal Product Name": "",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "honeybanana3grosinbucket-rosin-jar-3",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "StrawGuava 3g Rosin Bucket",
+      "Category": "Concentrate",
+      "Brand": "RHIZE",
+      "Price": {
+        "3g": "$204.00"
+      },
+      "Discount Price": {
+        "3g": "$204.00"
+      },
+      "THC": "THC 18%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "3g": 2
+      },
+      "Internal Product Name": "",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "strawguava3grosinbucket-rosin-jar-3",
+      "Days on Shelf": 9
+    }
   ]
 }

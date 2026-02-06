@@ -107395,5 +107395,307 @@
       "SKU": "berryfizz-flower-jar",
       "Days on Shelf": 103
     }
+  ],
+  "2026-02-06": [
+    {
+      "Product name": "G13 Skunk | Rhize",
+      "Category": "flower",
+      "Brand": "Rhize",
+      "Price": {
+        "1/8oz": "$57.60"
+      },
+      "Discount Price": {
+        "1/8oz": "$48.00"
+      },
+      "THC": "29.16%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "1/8oz": 8
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "g13skunk-flower-jar",
+      "Days on Shelf": 6
+    },
+    {
+      "Product name": "Melted Strawberries | Rhize",
+      "Category": "flower",
+      "Brand": "Rhize",
+      "Price": {
+        "1/8oz": "$60.00"
+      },
+      "Discount Price": {
+        "1/8oz": "$50.00"
+      },
+      "THC": "32.61%",
+      "Quantity Available": 19,
+      "Quantity Per Option": {
+        "1/8oz": 19
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "meltedstrawberries-flower-jar",
+      "Days on Shelf": 6
+    },
+    {
+      "Product name": "Melted Stawberries | 1g Pre-roll | Rhize",
+      "Category": "pre-rolls",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$19.20"
+      },
+      "Discount Price": {
+        "1g": "$16.00"
+      },
+      "THC": "35.4%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "1g": 4
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Preroll",
+      "SKU": "meltedstrawberries-flower-preroll",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "The Hive | Rhize",
+      "Category": "flower",
+      "Brand": "Rhize",
+      "Price": {
+        "1/8oz": "$55.20"
+      },
+      "Discount Price": {
+        "1/8oz": "$46.00"
+      },
+      "THC": "24.52%",
+      "Quantity Available": 13,
+      "Quantity Per Option": {
+        "1/8oz": 13
+      },
+      "Internal Product Name": "The Hive",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "thehive-flower-jar",
+      "Days on Shelf": 50
+    },
+    {
+      "Product name": "Strawberry Guava | Rhize",
+      "Category": "flower",
+      "Brand": "Rhize",
+      "Price": {
+        "1/8oz": "$57.60"
+      },
+      "Discount Price": {
+        "1/8oz": "$48.00"
+      },
+      "THC": "28.6%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "1/8oz": 9
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "strawberryguava-flower-jar",
+      "Days on Shelf": 97
+    },
+    {
+      "Product name": "Strawberry Guava | 1g Pre-roll | Rhize",
+      "Category": "pre-rolls",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$16.80"
+      },
+      "Discount Price": {
+        "1g": "$14.00"
+      },
+      "THC": "28.6%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "1g": 6
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Preroll",
+      "SKU": "strawberryguava-flower-preroll",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "Sherb Cream Pie | 1g Pre-roll | Rhize",
+      "Category": "pre-rolls",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$14.40"
+      },
+      "Discount Price": {
+        "1g": "$12.00"
+      },
+      "THC": "21%",
+      "Quantity Available": 22,
+      "Quantity Per Option": {
+        "1g": 22
+      },
+      "Internal Product Name": "Sherb Cream Pie",
+      "Internal Product Type": "Preroll",
+      "SKU": "sherbcreampie-flower-preroll",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "Papaya Juice | 1g Pre-roll | Rhize",
+      "Category": "pre-rolls",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$16.80"
+      },
+      "Discount Price": {
+        "1g": "$14.00"
+      },
+      "THC": "30.2%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "1g": 6
+      },
+      "Internal Product Name": "Papaya Juice",
+      "Internal Product Type": "Preroll",
+      "SKU": "papayajuice-flower-preroll",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "Live Rosin - 1g | Rhize | Dulce de Uva",
+      "Category": "concentrate",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$84.00"
+      },
+      "Discount Price": {
+        "1g": "$70.00"
+      },
+      "THC": "60%",
+      "Quantity Available": 2,
+      "Quantity Per Option": {
+        "1g": 2
+      },
+      "Internal Product Name": "Dulce de Uva",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "dulcedeuva-rosin-jar-1",
+      "Days on Shelf": 7
+    },
+    {
+      "Product name": "Lavender Piff | Rhize",
+      "Category": "flower",
+      "Brand": "Rhize",
+      "Price": {
+        "1/8oz": "$55.20"
+      },
+      "Discount Price": {
+        "1/8oz": "$46.00"
+      },
+      "THC": "22.63%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1/8oz": 10
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 33
+    },
+    {
+      "Product name": "Lavender Piff | 1g Pre-roll | Rhize",
+      "Category": "pre-rolls",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$16.80"
+      },
+      "Discount Price": {
+        "1g": "$14.00"
+      },
+      "THC": "21.98%",
+      "Quantity Available": 25,
+      "Quantity Per Option": {
+        "1g": 25
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Preroll",
+      "SKU": "lavenderpiff-flower-preroll",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "GMO | 1g Pre-roll | Rhize",
+      "Category": "pre-rolls",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$16.80"
+      },
+      "Discount Price": {
+        "1g": "$14.00"
+      },
+      "THC": "31.23%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "1g": 9
+      },
+      "Internal Product Name": "GMO",
+      "Internal Product Type": "Preroll",
+      "SKU": "gmo-flower-preroll",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "Dulce de Uva | 1g Pre-roll | Rhize",
+      "Category": "pre-rolls",
+      "Brand": "Rhize",
+      "Price": {
+        "1g": "$16.80"
+      },
+      "Discount Price": {
+        "1g": "$14.00"
+      },
+      "THC": "25%",
+      "Quantity Available": 3,
+      "Quantity Per Option": {
+        "1g": 3
+      },
+      "Internal Product Name": "Dulce de Uva",
+      "Internal Product Type": "Preroll",
+      "SKU": "dulcedeuva-flower-preroll",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "Candied Oranges | Rhize",
+      "Category": "flower",
+      "Brand": "Rhize",
+      "Price": {
+        "1/8oz": "$55.20"
+      },
+      "Discount Price": {
+        "1/8oz": "$46.00"
+      },
+      "THC": "19.82%",
+      "Quantity Available": 11,
+      "Quantity Per Option": {
+        "1/8oz": 11
+      },
+      "Internal Product Name": "Candied Oranges",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "candiedoranges-flower-jar",
+      "Days on Shelf": 6
+    },
+    {
+      "Product name": "Berry Fizz | Rhize",
+      "Category": "flower",
+      "Brand": "Rhize",
+      "Price": {
+        "1/8oz": "$60.00"
+      },
+      "Discount Price": {
+        "1/8oz": "$50.00"
+      },
+      "THC": "26.1%",
+      "Quantity Available": 7,
+      "Quantity Per Option": {
+        "1/8oz": 7
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "berryfizz-flower-jar",
+      "Days on Shelf": 104
+    }
   ]
 }

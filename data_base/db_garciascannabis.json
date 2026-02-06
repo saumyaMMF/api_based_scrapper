@@ -89897,5 +89897,107 @@
       "SKU": "blackmaple-flower-preroll",
       "Days on Shelf": 8
     }
+  ],
+  "2026-02-06": [
+    {
+      "Product name": "Rhize MultiPack | 7x 0.5g Pre-Rolls",
+      "Category": "pre-rolls",
+      "Brand": "Rhize Cannabis Co",
+      "Price": {
+        "3.5g": "$45.00"
+      },
+      "Discount Price": {
+        "3.5g": "$45.00"
+      },
+      "THC": "28.08%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "3.5g": 4
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "Melted Strawberries | 2g Live Rosin",
+      "Category": "concentrate",
+      "Brand": "Rhize Cannabis Co",
+      "Price": {
+        "2g": "$90.00"
+      },
+      "Discount Price": {
+        "2g": "$90.00"
+      },
+      "THC": "60%",
+      "Quantity Available": 1,
+      "Quantity Per Option": {
+        "2g": 1
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "meltedstrawberries-rosin-jar-2",
+      "Days on Shelf": 29
+    },
+    {
+      "Product name": "GMO | 2g Live Rosin",
+      "Category": "concentrate",
+      "Brand": "Rhize Cannabis Co",
+      "Price": {
+        "2g": "$90.00"
+      },
+      "Discount Price": {
+        "2g": "$90.00"
+      },
+      "THC": "60%",
+      "Quantity Available": 1,
+      "Quantity Per Option": {
+        "2g": 1
+      },
+      "Internal Product Name": "GMO",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "gmo-rosin-jar-2",
+      "Days on Shelf": 17
+    },
+    {
+      "Product name": "Black Maple | 2g Live Rosin",
+      "Category": "concentrate",
+      "Brand": "Rhize Cannabis Co",
+      "Price": {
+        "2g": "$90.00"
+      },
+      "Discount Price": {
+        "2g": "$90.00"
+      },
+      "THC": "60%",
+      "Quantity Available": 3,
+      "Quantity Per Option": {
+        "2g": 3
+      },
+      "Internal Product Name": "Black Maple",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "blackmaple-rosin-jar-2",
+      "Days on Shelf": 17
+    },
+    {
+      "Product name": "Black Maple | 1g Pre-Roll",
+      "Category": "pre-rolls",
+      "Brand": "Rhize Cannabis Co",
+      "Price": {
+        "1g": "$13.00"
+      },
+      "Discount Price": {
+        "1g": "$13.00"
+      },
+      "THC": "24.6%",
+      "Quantity Available": 4,
+      "Quantity Per Option": {
+        "1g": 4
+      },
+      "Internal Product Name": "Black Maple",
+      "Internal Product Type": "Preroll",
+      "SKU": "blackmaple-flower-preroll",
+      "Days on Shelf": 9
+    }
   ]
 }

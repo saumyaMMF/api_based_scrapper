@@ -10808,5 +10808,67 @@
       "SKU": "meltedstrawberries-flower-jar",
       "Days on Shelf": 28
     }
+  ],
+  "2026-02-06": [
+    {
+      "Product name": "Melted Strawberries | Live Rosin Cart",
+      "Category": "vaporizers",
+      "Brand": "RHIZE",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {
+        ".5g": "$50.00"
+      },
+      "THC": "80.77%",
+      "Quantity Available": 3,
+      "Quantity Per Option": {
+        ".5g": 3
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Cart",
+      "SKU": "meltedstrawberries-rosin-cart",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "Strawberry Guava | Live Rosin Cart",
+      "Category": "vaporizers",
+      "Brand": "RHIZE",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {
+        ".5g": "$50.00"
+      },
+      "THC": "79.29%",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        ".5g": 8
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Cart",
+      "SKU": "strawberryguava-rosin-cart",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "Melted Strawberries",
+      "Category": "flower",
+      "Brand": "RHIZE",
+      "Price": {
+        "3.5g": "$60.00"
+      },
+      "Discount Price": {
+        "3.5g": "$50.00"
+      },
+      "THC": "30%",
+      "Quantity Available": 9,
+      "Quantity Per Option": {
+        "3.5g": 9
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "meltedstrawberries-flower-jar",
+      "Days on Shelf": 29
+    }
   ]
 }

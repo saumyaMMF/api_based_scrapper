@@ -77587,5 +77587,122 @@
       "SKU": "g13skunk-rosin-jar-1",
       "Days on Shelf": 8
     }
+  ],
+  "2026-02-06": [
+    {
+      "Product name": "Rhize Cannabis Company |Lavender Piff | Indoor | Bulk",
+      "Category": "flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$15.00",
+        "2g": "$30.00",
+        "1/8oz": "$50.00",
+        "1/4oz": "$100.00",
+        "1/2oz": "$200.00",
+        "1oz": "$400.00"
+      },
+      "Discount Price": {
+        "1g": "$15.00",
+        "2g": "$30.00",
+        "1/8oz": "$50.00",
+        "1/4oz": "$100.00",
+        "1/2oz": "$200.00",
+        "1oz": "$400.00"
+      },
+      "THC": "22.64%",
+      "Quantity Available": 111,
+      "Quantity Per Option": {
+        "1g": 25,
+        "2g": 25,
+        "1/8oz": 25,
+        "1/4oz": 21,
+        "1/2oz": 10,
+        "1oz": 5
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Bulk",
+      "SKU": "lavenderpiff-flower-bulk",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "Rhize Cannabis Company | Strawberry Guava | Live Rosin | Cartridge",
+      "Category": "vaporizers",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {
+        ".5g": "$60.00"
+      },
+      "THC": "79.29%",
+      "Quantity Available": 15,
+      "Quantity Per Option": {
+        ".5g": 15
+      },
+      "Internal Product Name": "Strawberry Guava",
+      "Internal Product Type": "Cart",
+      "SKU": "strawberryguava-rosin-cart",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "Rhize Cannabis Company | Sour Diesel  | Live Rosin | Concentrate Indica-Hybrid",
+      "Category": "concentrate",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$80.00"
+      },
+      "Discount Price": {
+        "1g": "$80.00"
+      },
+      "THC": "67.38%",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "1g": 6
+      },
+      "Internal Product Name": "Sour Diesel",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "sourdiesel-rosin-jar-1",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "Rhize Cannabis Company | Melted Strawberries | Live Rosin | Cartridge",
+      "Category": "vaporizers",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        ".5g": "$60.00"
+      },
+      "Discount Price": {
+        ".5g": "$60.00"
+      },
+      "THC": "80.77%",
+      "Quantity Available": 18,
+      "Quantity Per Option": {
+        ".5g": 18
+      },
+      "Internal Product Name": "Melted Strawberries",
+      "Internal Product Type": "Cart",
+      "SKU": "meltedstrawberries-rosin-cart",
+      "Days on Shelf": 9
+    },
+    {
+      "Product name": "Rhize Cannabis Company | G13 Skunk | Live Rosin | Concentrate Indica-Hybrid",
+      "Category": "concentrate",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$80.00"
+      },
+      "Discount Price": {
+        "1g": "$80.00"
+      },
+      "THC": "70.16%",
+      "Quantity Available": 10,
+      "Quantity Per Option": {
+        "1g": 10
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "g13skunk-rosin-jar-1",
+      "Days on Shelf": 9
+    }
   ]
 }

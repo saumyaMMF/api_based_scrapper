@@ -41052,5 +41052,183 @@
       "SKU": "berryfizz-flower-jar",
       "Days on Shelf": 2
     }
+  ],
+  "2026-02-06": [
+    {
+      "Product name": "Berry Fizz",
+      "Category": "flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1/8oz": "$50.00",
+        "1/4oz": "$100.00",
+        "1/2oz": "$160.00",
+        "1oz": "$320.00"
+      },
+      "Discount Price": {
+        "1/8oz": "$50.00",
+        "1/4oz": "$100.00",
+        "1/2oz": "$160.00",
+        "1oz": "$320.00"
+      },
+      "THC": "26.25%",
+      "Quantity Available": 38,
+      "Quantity Per Option": {
+        "1/8oz": 21,
+        "1/4oz": 10,
+        "1/2oz": 5,
+        "1oz": 2
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "berryfizz-flower-jar",
+      "Days on Shelf": 3
+    },
+    {
+      "Product name": "G13 Skunk",
+      "Category": "flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1/8oz": "$50.00",
+        "1/4oz": "$100.00",
+        "1/2oz": "$160.00",
+        "1oz": "$320.00"
+      },
+      "Discount Price": {
+        "1/8oz": "$50.00",
+        "1/4oz": "$100.00",
+        "1/2oz": "$160.00",
+        "1oz": "$320.00"
+      },
+      "THC": "29.16%",
+      "Quantity Available": 34,
+      "Quantity Per Option": {
+        "1/8oz": 19,
+        "1/4oz": 9,
+        "1/2oz": 4,
+        "1oz": 2
+      },
+      "Internal Product Name": "G13 Skunk",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "g13skunk-flower-jar",
+      "Days on Shelf": 3
+    },
+    {
+      "Product name": "Rhize - Multipack - 7 Half Pre-Rolls",
+      "Category": "pre-rolls",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1/8oz": "$50.00"
+      },
+      "Discount Price": {
+        "1/8oz": "$50.00"
+      },
+      "THC": "",
+      "Quantity Available": 15,
+      "Quantity Per Option": {
+        "1/8oz": 15
+      },
+      "Internal Product Name": "Multipack",
+      "Internal Product Type": "Preroll",
+      "SKU": "multipack-flower-preroll-multipack",
+      "Days on Shelf": 3
+    },
+    {
+      "Product name": "Lavender Piff",
+      "Category": "flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1/8oz": "$50.00",
+        "1/4oz": "$100.00",
+        "1/2oz": "$160.00",
+        "1oz": "$320.00"
+      },
+      "Discount Price": {
+        "1/8oz": "$50.00",
+        "1/4oz": "$100.00",
+        "1/2oz": "$160.00",
+        "1oz": "$320.00"
+      },
+      "THC": "22.6%",
+      "Quantity Available": 19,
+      "Quantity Per Option": {
+        "1/8oz": 11,
+        "1/4oz": 5,
+        "1/2oz": 2,
+        "1oz": 1
+      },
+      "Internal Product Name": "Lavender Piff",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "lavenderpiff-flower-jar",
+      "Days on Shelf": 29
+    },
+    {
+      "Product name": "GMO Live Rosin",
+      "Category": "concentrate",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1g": "$70.00"
+      },
+      "Discount Price": {
+        "1g": "$70.00"
+      },
+      "THC": "",
+      "Quantity Available": 6,
+      "Quantity Per Option": {
+        "1g": 6
+      },
+      "Internal Product Name": "GMO",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "gmo-rosin-jar-1",
+      "Days on Shelf": 69
+    },
+    {
+      "Product name": "Candied Oranges",
+      "Category": "flower",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "1/8oz": "$50.00",
+        "1/4oz": "$100.00",
+        "1/2oz": "$160.00",
+        "1oz": "$320.00"
+      },
+      "Discount Price": {
+        "1/8oz": "$50.00",
+        "1/4oz": "$100.00",
+        "1/2oz": "$160.00",
+        "1oz": "$320.00"
+      },
+      "THC": "19.8%",
+      "Quantity Available": 34,
+      "Quantity Per Option": {
+        "1/8oz": 19,
+        "1/4oz": 9,
+        "1/2oz": 4,
+        "1oz": 2
+      },
+      "Internal Product Name": "Candied Oranges",
+      "Internal Product Type": "Flower Jar",
+      "SKU": "candiedoranges-flower-jar",
+      "Days on Shelf": 3
+    },
+    {
+      "Product name": "Berry Fizz Live Rosin Bucket",
+      "Category": "concentrate",
+      "Brand": "Rhize Cannabis Company",
+      "Price": {
+        "2g": "$120.00"
+      },
+      "Discount Price": {
+        "2g": "$120.00"
+      },
+      "THC": "",
+      "Quantity Available": 8,
+      "Quantity Per Option": {
+        "2g": 8
+      },
+      "Internal Product Name": "Berry Fizz",
+      "Internal Product Type": "Rosin Jar",
+      "SKU": "berryfizz-rosin-jar-2",
+      "Days on Shelf": 2
+    }
   ]
 }
