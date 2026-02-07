@@ -1173,38 +1173,41 @@ class DataProcessor:
             # Replace remaining NaN
             final_df = final_df.where(pd.notnull(final_df), None)
  
+            # Create custom headers with counts
+            custom_headers = list(final_df.columns)
+            total_products = len(final_df)
+            
+            # Add counts to the first few headers
+            if len(custom_headers) >= 5:
+                custom_headers[0] = f"Company Name\n(Total Add: {added_count})"
+                custom_headers[1] = f"Product Name\n(Total Update: {updated_count})"
+                custom_headers[2] = f"Category\n(Total Removed: {removed_count})"
+                custom_headers[3] = f"Product Type\n(Total No Change: {no_change_count})"
+                custom_headers[4] = f"Days\n(Total Products: {total_products})"
+
             print(f"final_df.columns :{final_df.columns}")
 
-            # Create summary row with counts
-            summary_data = {
-                'Company Name': ['SUMMARY'],
-                'Product Name': [f"Added: {added_count} | Removed: {removed_count} | Updated: {updated_count} | No Change: {no_change_count}",],
-                'Category': [''],
-                'Product Type': [''],
-                'Days': [''],
-                'Flag': [''],
-                'Unit': [''],
-                'Price': [''],
-                'Discount Price Data': [''],
-                "Today's Quantity Total": [''],
-                '1d': [''],
-                '3d': [''],
-                '7d': [''],
-                '14d': [''],
-                'THC': [''],
-                'SKU': [''],
-                'Change': [''],
-                'Revenue': ['']
-            }
-            summary_df = pd.DataFrame(summary_data)
-            
-            # Add empty rows for spacing
-            empty_rows_data = {col: [''] for col in final_df.columns}
-            empty_rows_df = pd.DataFrame(empty_rows_data)
-            empty_rows_df = pd.concat([empty_rows_df] * 2, ignore_index=True)  # 2 empty rows
-            
-            # Combine: summary row + empty rows + actual data
-            final_df_with_summary = pd.concat([summary_df, empty_rows_df, final_df], ignore_index=True)
+            # Create summary row with product details
+            summary_row = {}
+            for col in final_df.columns:
+                if col == 'Company Name':
+                    summary_row[col] = f"PRODUCT SUMMARY"
+                elif col == 'Product Name':
+                    summary_row[col] = f"Total Products: {total_products}"
+                elif col == 'Category':
+                    summary_row[col] = f"Added: {added_count}"
+                elif col == 'Product Type' or col == 'Type':
+                    summary_row[col] = f"Updated: {updated_count}"
+                elif col == 'Days' or col == 'Days on Shelf':
+                    summary_row[col] = f"Removed: {removed_count}"
+                elif col == 'Flag':
+                    summary_row[col] = f"No Change: {no_change_count}"
+                else:
+                    summary_row[col] = ""
+
+            # Add summary row at the beginning
+            summary_df = pd.DataFrame([summary_row])
+            final_df_with_summary = pd.concat([summary_df, final_df], ignore_index=True)
 
             with pd.ExcelWriter(current_inventory_path, engine='openpyxl') as writer:
                 final_df_with_summary.to_excel(writer, sheet_name='Sheet1', index=False)
@@ -1230,8 +1233,8 @@ class DataProcessor:
             self.excel_buffer.seek(0)
 
            
-            # Upload final_df (Sheet1) - DISABLED FOR TESTING
-            if False and mail_to_prod:  # Set to False to disable during testing
+            # Upload final_df (Sheet1)
+            if mail_to_prod:
                 print('DB insert begin')
                 table_name = os.getenv('db_table_name')
                 main_table = f"{table_name}_main"
